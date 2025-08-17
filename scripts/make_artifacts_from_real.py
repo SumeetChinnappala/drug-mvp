@@ -1,106 +1,296 @@
-﻿# scripts/make_artifacts_from_real.py
-import json, time
+# scripts/make_artifacts_from_real.py
+# v1 builder: parse BindingDB PDSP Ki, write all app + validation artifacts.
+# Inputs  : data/BindingDB_PDSPKi_202508_tsv.zip  (TSV inside the zip)
+# Outputs : artifacts/{candidates.csv,edges.csv,val_preds.csv,metrics.json}
+#           artifacts/validation/{summary.json,calibration.csv,pred_dist.png}
+
+import io, json, re
+from datetime import datetime
 from pathlib import Path
-import numpy as np, pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from zipfile import ZipFile
+
+import numpy as np
+import pandas as pd
+
+# Headless plotting for servers
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score, average_precision_score, brier_score_loss
+from sklearn.metrics import (
+    roc_auc_score,
+    average_precision_score,
+    brier_score_loss,
+    confusion_matrix,
+)
+from sklearn.model_selection import train_test_split
 
-DATA = Path("data/real"); ART = Path("artifacts"); ART.mkdir(exist_ok=True, parents=True)
+HERE = Path(__file__).resolve().parent.parent
+ZIP_PATH = HERE / "data" / "BindingDB_PDSPKi_202508_tsv.zip"
+ART = HERE / "artifacts"
+VAL = ART / "validation"
+ART.mkdir(parents=True, exist_ok=True)
+VAL.mkdir(parents=True, exist_ok=True)
 
-ge = pd.read_csv(DATA/"gene_embeddings.csv")
-ce = pd.read_csv(DATA/"cell_embeddings.csv")
-dc = pd.read_csv(DATA/"drug_catalog.csv")
-tr = pd.read_csv(DATA/"train_triples.csv")
+# -------------------------- helpers --------------------------
 
-gcols = [c for c in ge.columns if c.startswith("g")]
-ccols = [c for c in ce.columns if c.startswith("c")]
+def pick_col(cols, candidates):
+    low = {c.lower(): c for c in cols}
+    for name in candidates:
+        if name.lower() in low:
+            return low[name.lower()]
+    return None
 
-df = tr.merge(ge, on="gene").merge(ce, on="cell_id")
-X = df[gcols+ccols].to_numpy(np.float32)
-y = df["label"].astype(np.float32).to_numpy()
-meta = df[["gene","cell_id","drug_id","disease","de_logfc"]].copy()
+_unit_pat = re.compile(r"^\s*([<>≈~]?\s*)?([0-9]*\.?[0-9]+(?:[eE][+-]?\d+)?)\s*([munpkμ]?M|nM|uM|pM|fM|mM)?\s*$")
 
-# Split (robust to small sets)
-strat = (y>0.5).astype(int) if (y.min()==0 and y.max()==1 and len(np.unique(y))>1) else None
-test_size = 0.2 if len(y)>=30 else 0.5 if len(y)>=10 else 0.34
-Xtr,Xva,ytr,yva = train_test_split(X,y,test_size=test_size,random_state=42,stratify=strat)
+def to_nM(val):
+    """Parse a Ki-like value into nM."""
+    if pd.isna(val):
+        return np.nan
+    if isinstance(val, (int, float)):
+        return float(val) if val > 0 else np.nan
+    s = str(val).strip()
+    if not s:
+        return np.nan
+    m = _unit_pat.match(s.replace("μ", "u"))
+    if not m:
+        # bare number => assume M
+        try:
+            return float(s) * 1e9
+        except:
+            return np.nan
+    num = float(m.group(2))
+    unit = (m.group(3) or "").lower()
+    mult = (
+        1.0 if unit in ("nm",) else
+        1e3 if unit in ("um",) else
+        1e-3 if unit in ("pm",) else
+        1e-6 if unit in ("fm",) else
+        1e6 if unit in ("mm",) else
+        1e9 if unit in ("m",) else
+        1.0
+    )
+    nm = num * mult
+    return nm if (nm > 0 and np.isfinite(nm)) else np.nan
 
-sc = StandardScaler().fit(Xtr)
-Xtr = sc.transform(Xtr).astype(np.float32)
-Xva = sc.transform(Xva).astype(np.float32)
+def ece_score(y_true, y_prob, n_bins=10):
+    y_true = np.asarray(y_true).astype(float)
+    y_prob = np.clip(np.asarray(y_prob).astype(float), 1e-9, 1-1e-9)
+    bins = np.linspace(0, 1, n_bins + 1)
+    idx = np.digitize(y_prob, bins) - 1
+    ece = 0.0
+    rows = []
+    for b in range(n_bins):
+        mask = idx == b
+        if not mask.any():
+            rows.append((np.nan, np.nan, 0))
+            continue
+        conf = y_prob[mask].mean()
+        acc = y_true[mask].mean()
+        w = mask.mean()
+        ece += w * abs(acc - conf)
+        rows.append((acc, conf, mask.sum()))
+    calib = pd.DataFrame(rows, columns=["prob_true", "prob_pred", "n"])
+    return float(ece), calib
 
-# Fast model
-lr = LogisticRegression(max_iter=2000)
-lr.fit(Xtr, ytr.astype(int))
-p_val = lr.predict_proba(Xva)[:,1]
+# -------------------------- pipeline --------------------------
 
-# Metrics (guard)
-def safe(metric, *args):
-    try: return float(metric(*args))
-    except Exception: return float("nan")
-auc   = safe(roc_auc_score, yva, p_val)
-ap    = safe(average_precision_score, yva, p_val)
-brier = safe(brier_score_loss, yva, p_val)
+def load_pdspki():
+    assert ZIP_PATH.exists(), f"Missing {ZIP_PATH}"
+    with ZipFile(ZIP_PATH) as z:
+        tsv_name = next((n for n in z.namelist() if n.lower().endswith(".tsv")), None)
+        assert tsv_name, "No .tsv found inside PDSP Ki zip"
+        with z.open(tsv_name) as f:
+            df = pd.read_csv(io.TextIOWrapper(f, encoding="utf-8", errors="ignore"),
+                             sep="\t", low_memory=False)
 
-# Simple ECE
-def ece(y,p,bins=10):
-    y=np.asarray(y); p=np.asarray(p)
-    ids = np.clip((p*bins).astype(int), 0, bins-1)
-    acc=[]; conf=[]; w=[]
-    for b in range(bins):
-        m = ids==b
-        if m.any():
-            acc.append(y[m].mean()); conf.append(p[m].mean()); w.append(m.mean())
-    if not w: return float("nan")
-    return float(np.average(np.abs(np.array(acc)-np.array(conf)), weights=np.array(w)))
-ECE = ece(yva, p_val)
+    col_cid  = pick_col(df.columns, ["PubChem CID", "CID", "Ligand PubChem CID"])
+    col_db   = pick_col(df.columns, ["DrugBank ID of Ligand", "DrugBank ID"])
+    col_name = pick_col(df.columns, ["Ligand Name", "Ligand", "Drug Name"])
+    col_uni  = pick_col(df.columns, ["UniProt (Target) Primary ID", "Uniprot", "UniProt"])
+    col_ki   = pick_col(df.columns, ["Ki (nM)", "Ki", "Ki (nM) (Mean)", "Ki (mean)"]) \
+               or pick_col(df.columns, ["IC50 (nM)", "IC50"]) \
+               or pick_col(df.columns, ["Kd (nM)", "Kd"])
 
-# Save val preds (non-empty, with headers)
-pd.DataFrame({
-    "y_true": yva,
-    "y_prob_cal": p_val,
-    "y_prob_raw": p_val,
-    "logit": np.log(np.clip(p_val,1e-8,1-1e-8))-np.log(np.clip(1-p_val,1e-8,1-1e-8)),
-    "y_prob": p_val
-}).to_csv(ART/"val_preds.csv", index=False)
+    keep = df
+    if col_uni: keep = keep[keep[col_uni].notna()]
+    if col_ki:  keep = keep[keep[col_ki].notna()]
+    keep = keep.copy()
 
-# Save metrics
-(ART/"metrics.json").write_text(json.dumps({
-    "AUC": auc, "AP": ap, "Brier": brier, "ECE": ECE,
-    "calibration": {"type":"none"},
-    "n_train": int(len(ytr)), "n_val": int(len(yva)),
-    "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-}, indent=2))
+    def mk_drug_id(row):
+        cid = str(row[col_cid]).strip() if col_cid and not pd.isna(row[col_cid]) else ""
+        db  = str(row[col_db]).strip()  if col_db  and not pd.isna(row[col_db])  else ""
+        if cid and cid.lower() not in ("nan", "none", "") and cid != "0":
+            first = re.split(r"[;,\s]+", cid)[0]
+            if first.isdigit():
+                return first  # PubChem CID (string)
+        if db and db.lower() not in ("nan", "none", ""):
+            return re.split(r"[;,\s]+", db)[0]  # DrugBank ID
+        return None
 
-# Score ALL rows → edges & candidates
-p_all = lr.predict_proba(sc.transform(X))[:,1]
-df_all = meta.copy(); df_all["prob"] = p_all
-if "disease" in df_all.columns:
-    df_all = df_all[df_all["disease"]==1]
+    keep["drug_id"]   = keep.apply(mk_drug_id, axis=1)
+    keep["drug_name"] = keep[col_name].astype(str) if col_name else np.nan
+    keep["gene"]      = keep[col_uni].astype(str).str.strip() if col_uni else np.nan
+    keep["Ki_nM"]     = keep[col_ki].map(to_nM) if col_ki else np.nan
 
-grp = df_all.groupby(["drug_id","gene"])["prob"].mean().reset_index(name="weight")
-if "de_logfc" in meta.columns:
-    dir_df = meta.groupby(["drug_id","gene"])["de_logfc"].mean().reset_index(name="de_mean")
-    grp = grp.merge(dir_df, on=["drug_id","gene"], how="left")
-    grp["direction"] = np.where(grp["de_mean"]>=0, "up", "down"); grp.drop(columns=["de_mean"], inplace=True)
-else:
-    grp["direction"] = "n/a"
-grp["source"] = "sklearn_lr_prob_mean"
-top = grp.sort_values(["drug_id","weight"], ascending=[True,False]).groupby("drug_id").head(100).reset_index(drop=True)
-top.to_csv(ART/"edges.csv", index=False)
+    keep = keep[keep["drug_id"].notna() & keep["gene"].notna() & keep["Ki_nM"].notna()]
+    keep = keep[keep["Ki_nM"] > 0]
 
-agg = grp.groupby("drug_id")["weight"].sum().reset_index(name="net_strength")
-bet = grp.groupby("drug_id")["weight"].std().fillna(0.0).reset_index(name="net_betweenness")
-ranked = (dc.merge(agg, on="drug_id", how="left").merge(bet, on="drug_id", how="left"))
-ranked[["net_strength","net_betweenness"]] = ranked[["net_strength","net_betweenness"]].fillna(0.0)
-ranked["phase_bonus"] = ranked.get("clinical_phase",0).fillna(0).astype(float)*0.05
-ranked["candidate_score"] = ranked["net_strength"] + 0.5*ranked["net_betweenness"] + ranked["phase_bonus"]
-ranked["rationale_business"] = "Signals in disease contexts; potential repurpose/fast-follow."
-ranked["rationale_stat"]     = "Sklearn LR; edges = mean prob per gene (top-k)."
-ranked["rationale_bio"]      = "High-probability genes match direction of effect."
-ranked["rationale_reg"]      = "If approved/late phase, consider 505(b)(2) route."
-ranked.to_csv(ART/"candidates.csv", index=False)
+    # pKi: pKi = -log10(Ki [M]) = -(log10(Ki_nM) - 9) = 9 - log10(Ki_nM)
+    keep["pKi"] = 9.0 - np.log10(keep["Ki_nM"])
 
-print("✅ wrote artifacts: metrics.json, val_preds.csv, edges.csv, candidates.csv")
+    # deduplicate best (max pKi) per (drug_id, gene)
+    keep = keep.sort_values("pKi", ascending=False).drop_duplicates(["drug_id", "gene"])
+    return keep[["drug_id", "drug_name", "gene", "Ki_nM", "pKi"]]
+
+def build_edges_and_candidates(df, topN=50):
+    # normalize pKi within each drug to [0,1] => weight
+    def norm_group(g):
+        p = g["pKi"].values
+        if len(p) == 0:
+            g["weight"] = 0.0
+            return g
+        lo, hi = np.nanpercentile(p, 5), np.nanpercentile(p, 95)
+        w = np.zeros_like(p, float) if hi <= lo else np.clip((p - lo) / (hi - lo), 0, 1)
+        g["weight"] = w
+        return g
+
+    edges = df.groupby("drug_id", group_keys=False).apply(norm_group)
+    edges["direction"] = np.where(edges["pKi"] >= edges["pKi"].median(), 1, -1)
+    edges["source"]    = "BindingDB PDSP Ki"
+
+    # candidates
+    agg = edges.groupby("drug_id").agg(
+        net_strength=("weight", "mean"),
+        num_targets=("gene", "nunique"),
+        drug_name=("drug_name", "first"),
+    ).reset_index()
+
+    cnt = agg["num_targets"].astype(float).values
+    cnt_norm = (cnt - cnt.min()) / (cnt.max() - cnt.min() + 1e-9)
+    agg["net_betweenness"] = cnt_norm
+    agg["candidate_score"] = 0.7 * agg["net_strength"] + 0.3 * agg["net_betweenness"]
+
+    # choose topN drugs for edges to keep UI snappy
+    agg = agg.sort_values("candidate_score", ascending=False)
+    top_drugs = set(agg["drug_id"].head(topN))
+    edges = edges[edges["drug_id"].isin(top_drugs)]
+
+    return edges[["drug_id", "gene", "weight", "direction", "source"]], agg[
+        ["drug_id", "drug_name", "candidate_score", "net_strength", "net_betweenness"]
+    ]
+
+def build_valpreds_and_metrics(edges):
+    # positives: observed pairs
+    pos = edges[["drug_id", "gene", "weight"]].copy()
+    pos["y_true"] = 1
+
+    # negatives: per drug, sample unseen genes
+    rng = np.random.default_rng(7)
+    genes_all = pos["gene"].unique()
+    neg_rows = []
+    for d, gdf in pos.groupby("drug_id"):
+        seen = set(gdf["gene"])
+        cand = [g for g in genes_all if g not in seen]
+        if not cand:
+            continue
+        k = min(len(seen), len(cand))
+        pick = rng.choice(cand, size=k, replace=False)
+        for g in pick:
+            neg_rows.append((d, g, 0.0, 0))
+    neg = pd.DataFrame(neg_rows, columns=["drug_id", "gene", "weight", "y_true"])
+
+    df = pd.concat([pos, neg], ignore_index=True)
+
+    # simple 1-feature classifier (weight)
+    X = df[["weight"]].values
+    y = df["y_true"].values
+    X_tr, X_te, y_tr, y_te = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+
+    lr = LogisticRegression(solver="lbfgs")
+    lr.fit(X_tr, y_tr)
+    y_prob = lr.predict_proba(X_te)[:, 1]
+
+    # metrics
+    auc = roc_auc_score(y_te, y_prob)
+    ap  = average_precision_score(y_te, y_prob)
+    acc = float(((y_prob >= 0.5).astype(int) == y_te).mean())
+    brier = brier_score_loss(y_te, y_prob)
+    ece, calib = ece_score(y_te, y_prob, n_bins=10)
+
+    # write artifacts used by UI
+    pd.DataFrame({"y_true": y_te, "y_prob": y_prob}).to_csv(ART / "val_preds.csv", index=False)
+    (ART / "metrics.json").write_text(json.dumps({
+        "AUC": float(auc),
+        "AP": float(ap),
+        "acc@0.5": float(acc),
+        "Brier": float(brier),
+        "ECE": float(ece),
+        "run_id": f"pdspki-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+    }, indent=2))
+
+    # write validation bundle for Patch 1 panel
+    calib.to_csv(VAL / "calibration.csv", index=False)
+    try:
+        plt.figure()
+        plt.hist(y_prob, bins=30)
+        plt.xlabel("Predicted probability")
+        plt.ylabel("Count")
+        plt.title("Prediction distribution")
+        plt.tight_layout()
+        plt.savefig(VAL / "pred_dist.png", dpi=150)
+        plt.close()
+    except Exception:
+        # fine if plotting isn't available; app doesn't require the PNG
+        pass
+
+    # confusion summary for summary.json
+    y_hat = (y_prob >= 0.5).astype(int)
+    tn, fp, fn, tp = confusion_matrix(y_te, y_hat, labels=[0, 1]).ravel()
+    vsummary = {
+        "version": "v1",
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "class_balance": {"positives": int(y_te.sum()), "negatives": int((1 - y_te).sum())},
+        "confusion": {"tn": int(tn), "fp": int(fp), "fn": int(fn), "tp": int(tp)},
+        "links": [
+            "artifacts/metrics.json",
+            "artifacts/val_preds.csv",
+            "artifacts/validation/calibration.csv",
+            "artifacts/validation/pred_dist.png",
+        ],
+    }
+    (VAL / "summary.json").write_text(json.dumps(vsummary, indent=2))
+
+def main():
+    print(">> Loading PDSP Ki …")
+    df = load_pdspki()
+    if len(df) < 100:
+        raise RuntimeError(f"Too few PDSP Ki rows parsed ({len(df)}).")
+    print(f"   rows: {len(df):,}  drugs: {df['drug_id'].nunique():,}  genes: {df['gene'].nunique():,}")
+
+    print(">> Building edges & candidates …")
+    edges, cands = build_edges_and_candidates(df, topN=50)
+    edges.to_csv(ART / "edges.csv", index=False)
+    cands.to_csv(ART / "candidates.csv", index=False)
+
+    print(">> Building validation & metrics …")
+    build_valpreds_and_metrics(edges)
+
+    print("== DONE ==")
+    for p in [
+        ART / "candidates.csv",
+        ART / "edges.csv",
+        ART / "val_preds.csv",
+        ART / "metrics.json",
+        VAL / "summary.json",
+        VAL / "calibration.csv",
+        VAL / "pred_dist.png",
+    ]:
+        print(f"  - {p.relative_to(HERE)}  exists={p.exists()} size={p.stat().st_size if p.exists() else 0}")
+
+if __name__ == "__main__":
+    main()
