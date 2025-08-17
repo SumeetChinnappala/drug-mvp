@@ -121,6 +121,60 @@ if p_preds.exists():
         st.warning(f"val_preds.csv present but could not be parsed: {e}")
 else:
     st.info("Add **artifacts/val_preds.csv** to enable the reliability diagram.")
+# --- Validation bundle (optional: summary.json + calibration.csv) ---
+vdir = ART / "validation"
+has_summary = (vdir / "summary.json").exists()
+has_calib = (vdir / "calibration.csv").exists()
+
+if has_summary or has_calib:
+    st.markdown("### Validation bundle")
+
+    c_left, c_right = st.columns(2)
+
+    # summary.json
+    with c_left:
+        if has_summary:
+            try:
+                vsummary = json.loads((vdir / "summary.json").read_text())
+                st.caption("summary.json")
+                # show common keys nicely if present; else raw dict
+                common = ("version", "timestamp", "class_balance", "confusion")
+                if any(k in vsummary for k in common):
+                    for k in common:
+                        if k in vsummary:
+                            st.write(f"**{k}**:", vsummary[k])
+                # always show links list if present
+                if "links" in vsummary:
+                    st.write("**links**:", vsummary["links"])
+                # fallback: expandable full JSON
+                with st.expander("Full summary.json"):
+                    st.json(vsummary)
+            except Exception as e:
+                st.warning(f"summary.json present but could not be parsed: {e}")
+        else:
+            st.info("Add **artifacts/validation/summary.json** for a quick run summary.")
+
+    # calibration.csv (binned calibration curve)
+    with c_right:
+        if has_calib:
+            try:
+                calib = pd.read_csv(vdir / "calibration.csv")
+                needed = {"prob_true", "prob_pred"}
+                if needed.issubset(calib.columns):
+                    fig2 = plt.figure()
+                    plt.plot([0, 1], [0, 1], linestyle="--")
+                    plt.plot(calib["prob_pred"], calib["prob_true"], marker="o")
+                    plt.xlabel("Predicted (bin mean)")
+                    plt.ylabel("Observed")
+                    plt.title("Calibration (binned)")
+                    st.pyplot(fig2)
+                    st.dataframe(calib, use_container_width=True)
+                else:
+                    st.info("**calibration.csv** should have columns `prob_true, prob_pred`.")
+            except Exception as e:
+                st.warning(f"calibration.csv present but could not be parsed: {e}")
+        else:
+            st.info("Add **artifacts/validation/calibration.csv** to plot binned calibration.")
 
 # --- DoE helper ---
 st.markdown("### Export a mini DoE plan")
