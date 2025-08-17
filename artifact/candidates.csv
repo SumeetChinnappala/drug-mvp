@@ -1,0 +1,3 @@
+drug_id,drug_name,approved,clinical_phase,net_strength,net_betweenness,phase_bonus,candidate_score,rationale_business,rationale_stat,rationale_bio,rationale_reg
+DRUG001,Compound-001,0,2,1.4,0.25,0.10,1.625,"Impacts diseased contexts; potential repurpose.","Prototype scoring; calibration next.","Top genes in diseased contexts.","505(b)(2) may apply."
+DRUG002,Compound-002,1,4,1.1,0.40,0.20,1.500,"Existing safety data; market-ready if efficacy holds.","Good AP/AUC on val.","Targets disease-relevant pathways.","Late-phase repurpose path."
