@@ -1,1 +1,1001 @@
-
+drug_id,drug_name,approved,clinical_phase
+CID10001227,7-(Spiroindano)Oxymorphone::7-spiroindanyloxymorphone::SIOM,0,0
+CID10022859,"8-Acenaphthen-1-yl-1-phenyl-1,3,8-triaza-spiro[4.5]decan-4-one::CHEMBL281274::Ro65-6570",0,0
+CID10033203,"(R)-2-[(S)-2-Amino-3-(4-hydroxy-2,6-dimethyl-phenyl)-propionylamino]-5-guanidino-pentanoic acid [(S)-1-(2-carbamoyl-ethylcarbamoyl)-2-phenyl-ethyl]-amide::(S)-4-((S)-2-{(R)-2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-propionylamino}-3-phenyl-propionylamino)-4-{(S)-1-[(S)-1-(carbamoylmethyl-carbamoyl)-2-methyl-propylcarbamoyl]-2-methyl-propylcarbamoyl}-butyric acid::(S)-5-((S)-1-((S)-1-(2-amino-2-oxoethylamino)-3-methyl-1-oxobutan-2-ylamino)-3-methyl-1-oxobutan-2-ylamino)-4-((S)-2-((R)-2-((S)-2-amino-3-(4-hydroxyphenyl)propanamido)propanamido)-3-phenylpropanamido)-5-oxopentanoic acid::4-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-propionylamino}-3-phenyl-propionylamino)-4-{1-[1-(carbamoylmethyl-carbamoyl)-2-methyl-propylcarbamoyl]-2-methyl-propylcarbamoyl}-butyric acid::4-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-propionylamino}-3-phenyl-propionylamino)-4-{1-[1-(carbamoylmethyl-carbamoyl)-2-methyl-propylcarbamoyl]-2-methyl-propylcarbamoyl}-butyric acid (deltorphin B)::CHEMBL20226::DELTORPHIN-II::Tyr-D-Ala-Phe-Glu-Val-Val-Gly-NH2::Tyr-D-Ala-Phe-Glu-Val-Val-GlyNH2",0,0
+CID10035301,5-(piperidin-4-yl)isothiazol-3-ol::5-Piperidin-4-yl-isothiazol-3-ol::CHEMBL109209::Thio-4-PIOL,0,0
+CID10042146,LY 302679::LY-302679,0,0
+CID100812,"2-(4-Methoxy-phenyl)-2,5-dihydro-pyrazolo[4,3-c]quinolin-3-one (CGS 9895)::CGS 9895::CHEMBL296335",0,0
+CID10097960,"1-(2,2-diphenyl-benzo[1,3]dioxole-5-sulfonyl)-4-(4-fluoro-phenyl)-1,2,3,6-tetrahydro-pyridine::CAS_10097960::NSC_10097960",0,0
+CID10101700,3-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-propionylamino}-3-phenyl-propionylamino)-N-{1-[1-(carbamoylmethyl-carbamoyl)-2-methyl-propylcarbamoyl]-2-methyl-propyl}-succinamic acid::CHEMBL337898::Deltorphin I,0,0
+CID10171,"(6aR,9R)-5-Bromo-7-methyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid diethylamide::5-Bromo-7-methyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid diethylamide::CHEMBL274384::LSD,2-Bromo",0,0
+CID10176764,"(1R,10S)-9-oxa-4,13-diazatetracyclo[11.2.1.0^{1,10}.0^{3,8}]hexadeca-3,5,7-triene::CHEMBL187927::SSR591813",0,0
+CID10219795,CAS_105182-45-4::Fluparoxan::NSC_72036,0,0
+CID10224207,"2-((S)-2-benzyl-3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)acetic acid::CAS_5488548::NSC_5488548",0,0
+CID10237,"(R)-6-((S)-6-Methyl-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-6H-furo[3',4':3,4]benzo[1,2-d][1,3]dioxol-8-one::(R)-6-((S)-6-methyl-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)isobenzofuro[5,4-d][1,3]dioxol-8(6H)-one::(bicuculline) 6-Methyl-5-(8-oxo-6,8-dihydro-furo[3',4':3,4]benzo[1,2-d][1,3]dioxol-6-yl)-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-6-ium::6-(6-Methyl-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-6H-furo[3',4':3,4]benzo[1,2-d][1,3]dioxol-8-one::6-(6-Methyl-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-6H-furo[3',4':3,4]benzo[1,2-d][1,3]dioxol-8-one (Bicuculline)::6-(6-Methyl-5,6,7,8-tetrahydro-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-6H-furo[3',4':3,4]benzo[1,2-d][1,3]dioxol-8-one(bicuculline)::Bicuculline,(+)::CHEMBL417990::bicuculline",0,0
+CID10249573,(R)-4-Methyl-1-(2-(1-(naphthalene-1-sulfonyl)-pyrrolidin-2-yl)-ethyl)-piperidine(10)::(R)-4-Methyl-1-{2-[1-(naphthalene-1-sulfonyl)-pyrrolidin-2-yl]-ethyl}-piperidine::4-Methyl-1-{2-[(R)-1-(naphthalene-1-sulfonyl)-pyrrolidin-2-yl]-ethyl}-piperidine::CHEMBL94984,0,0
+CID10252438,"4-[(S)-((2R,5S)-4-Allyl-2,5-dimethyl-piperazin-1-yl)-(3-hydroxy-phenyl)-methyl]-N,N-diethyl-benzamide::BW373U86::CHEMBL69052",0,0
+CID10322880,"CAS_115077::NSC_115077::WIN 44,441(-)",0,0
+CID10339796,"TMQ, 5,8-Difluoro",0,0
+CID10372019,"2-[[(2R,3S)-2-[[4-[(2-Oxo-2,3-dihydro-1H-benzimidazole)-1-yl]piperidino]carbonylamino]-3-(1H-indole-3-yl)butyryl]amino]-6-aminohexanoic acid tert-butyl ester::L-054,522::L-054522",0,0
+CID10381810,"8-Chloro-11-(4-methyl-piperazin-1-yl)-dibenzo[b,f][1,4]oxazepine::8-chloro-11-(4-methylpiperazin-1-yl)dibenzo[b,f][1,4]oxazepine::CHEMBL7828::Isoloxapine",0,0
+CID10385240,LY 320954,0,0
+CID10389213,A-317920::CHEMBL361355::Furan-2-carboxylic acid ((R)-2-{4-[3-(4-cyclopropanecarbonyl-phenoxy)-propyl]-piperazin-1-yl}-1-methyl-2-oxo-ethyl)-amide,0,0
+CID10442840,S18616,0,0
+CID10470490,"(2R,6S)-1-Methyl-2,6-diphenethyl-piperidine::(2S,6R)-1-Methyl-2,6-diphenethyl-piperidine::CHEMBL1085811::CHEMBL333465::Lobelane::cis-N-methyl-2,6-diphenethylpiperidine",0,0
+CID104787,"(4S,7S,13S)-13-[(2S)-2-amino-3-(4-hydroxyphenyl)propanamido]-7-benzyl-3,3,14,14-tetramethyl-6,9,12-trioxo-1,2-dithia-5,8,11-triazacyclotetradecane-4-carboxylic acid::CHEMBL31421::DPDPE::DPDPE-Cl::DPDPE-OH::Enkephalin, [Tyrosyl-2,6-3H(N)]- (2-D-Penicillamine, 5-D-Penicillamine)::[3H]DPDPE",0,0
+CID104850,"5-(4-chlorophenyl)-1-(2,4-dichlorophenyl)-4-methyl-N-(piperidin-1-yl)-1H-pyrazole-3-carboxamide::Acomplia::CHEMBL111::CHEMBL558598::RIMONABANT HYDROCHLORIDE::Rimonabant::SR 141716A::SR141716::SR141716A::[3H]Rimonabant::[3H]SR141716A",0,0
+CID10486131,CHEMBL217379::DYNORPHIN(1-8)-OH::Tyr-Gly-Gly-Phe-Leu-Arg-Arg-Ile-OH,0,0
+CID104916,"2-Phenyl-2,3a-dihydro-pyrazolo[4,3-c]quinolin-3-one(CGS 8216)::2-Phenyl-2,5-dihydro-pyrazolo[4,3-c]quinolin-3-one::2-Phenyl-2,5-dihydro-pyrazolo[4,3-c]quinolin-3-one (CGS 8216)::2-Phenyl-2,5-dihydro-pyrazolo[4,3-c]quinolin-3-one(CGS 8216)::2-Phenyl-2,5-dihydro-pyrazolo[4,3-c]quinolin-3-one(CGS-8216)::2-phenyl-2H-pyrazolo[4,3-c]quinolin-3(5H)-one::CGS 8216, 1::CGS-8216::CHEMBL19732",0,0
+CID104999,CAS_104999::DMCM::NSC_104999,0,0
+CID105078,"Beta CCE::CHEMBL454606::cid_105078::ethyl 9H-pyrido[3,4-b]indole-3-carboxylate",0,0
+CID105104,"N-methyl-2-phenyl-N-[(5R,7S,8S)-7-(pyrrolidin-1-yl)-1-oxaspiro[4.5]decan-8-yl]acetamide::N-methyl-N-(7-(1-pyrrolidinyl)-1-oxaspiro(4,5)dec-8-yl)benzeneacetamide::U-69593::U69,593::[3H]U69593",0,0
+CID105432,"(+/-)2-(2,5-Dimethoxy-4-nitro-phenyl)-1-methyl-ethylamine::(-)2-(2,5-Dimethoxy-4-nitro-phenyl)-1-methyl-ethylamine::2-(2,5-Dimethoxy-4-nitro-phenyl)-1-methyl-ethylamine::2-(2,5-Dimethoxy-4-nitro-phenyl)-1-methyl-ethylamine((R)-(-)-DON)::2-(2,5-Dimethoxy-4-nitro-phenyl)-1-methyl-ethylamine(DON)::CHEMBL8301::DON",0,0
+CID10573876,(R)-1-(2-(1-(3-bromo-benzenesulfonyl)-pyrrolidin-2-yl)-ethyl)-4-methyl piperidine,0,0
+CID10657292,(S)-Phenyl-(S)-piperidin-2-yl-acetic acid methyl ester; hydrochloride::CHEMBL542556::METHYLPHENIDATE,0,0
+CID10748995,H-PHE-(R)-GLY-GLY-PHE-THR-GLY-ALA-ARG-LYS-SER-ALA-ARG-LYS-NH2::Nphe,0,0
+CID107704,"Beta CCM::CHEMBL453066::Methyl Beta-carboline-3 carboxylate::methyl 9H-pyrido[3,4-b]indole-3-carboxylate",0,0
+CID107780,"CHEMBL15928::GR 127935::GR 127935 hydrochloride hydrate::MLS002153332::N-[4-methoxy-3-(4-methyl-1-piperazinyl)phenyl]-4-[2-methyl-4-(5-methyl-1,2,4-oxadiazol-3-yl)phenyl]benzamide;hydrochloride::N-[4-methoxy-3-(4-methylpiperazin-1-yl)phenyl]-4-[2-methyl-4-(5-methyl-1,2,4-oxadiazol-3-yl)phenyl]benzamide;hydrochloride::N-[4-methoxy-3-(4-methylpiperazino)phenyl]-4-[2-methyl-4-(5-methyl-1,2,4-oxadiazol-3-yl)phenyl]benzamide;hydrochloride::SMR001230745::cid_11497466",0,0
+CID107786,"CAS_62258::Cathinone, (-)::NSC_62258",0,0
+CID107847,2-{2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-3-hydroxy-propionylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoylamino}-3-hydroxy-butyric acid::CHEMBL124283::DSLET::DSLET-OH::Tyr-D-Ser-Gly-Phe-Leu-Thr,0,0
+CID107867,"(AF-DX 116) 11-[2-(2-Diethylaminomethyl-piperidin-1-yl)-acetyl]-5,11-dihydro-benzo[e]pyrido[3,2-b][1,4]diazepin-6-one::11-[2-(2-Diethylaminomethyl-piperidin-1-yl)-acetyl]-5,11-dihydro-benzo[e]pyrido[3,2-b][1,4]diazepin-6-one::2-Diethylaminomethyl-1-[2-oxo-2-(6-oxo-5,6-dihydro-benzo[e]pyrido[3,2-b][1,4]diazepin-11-yl)-ethyl]-piperidinium::5-{2-[2-(2-Dipropylamino-ethyl)-piperidin-1-yl]-acetyl}-5,10-dihydro-dibenzo[b,e][1,4]diazepin-11-one::AF-DX 116::AF-DX 116,(+/-)::CHEMBL17045::Otenzepad",0,0
+CID107950,"3-Methyl-6-(3-trifluoromethyl-phenyl)-[1,2,4]triazolo[4,3-b]pyridazine::CHEMBL13662::CI-218872::CL 218872::CL218,872::v3-Methyl-6-(3-trifluoromethyl-phenyl)-[1,2,4]triazolo[4,3-b]pyridazine",0,0
+CID107992,"2-chloro-6-piperazin-1-ylpyrazine::6'-Chloro-3,4,5,6-tetrahydro-2H-[1,2']bipyrazinyl::6'-Chloro-3,4,5,6-tetrahydro-2H-[1,2']bipyrazinyl(MK-212)::CHEMBL269521::L-630,571::MK 212::MK-212",0,0
+CID108029,"5-Methoxy-3-(1,2,3,6-tetrahydro-pyridin-4-yl)-1H-indole(RU-24969)::CAS_108028::CHEMBL18785::NSC_108028::RU 24969",0,0
+CID108030,CGS 9896::CHEMBL20042,0,0
+CID10811059,4-[4-((R)-2-Isochroman-1-yl-ethyl)-piperazin-1-yl]-benzenesulfonamide::CHEMBL81649::U-101387,0,0
+CID108182,"(zacopride)4-Amino-N-(1-aza-bicyclo[2.2.2]oct-3-yl)-5-chloro-2-methoxy-benzamide::4-Amino-N-(1-aza-bicyclo[2.2.2]oct-3-yl)-5-chloro-2-methoxy-benzamide::4-Amino-N-(1-aza-bicyclo[2.2.2]oct-3-yl)-5-chloro-2-methoxy-benzamide (Zacopride)::4-Amino-N-(1-aza-bicyclo[2.2.2]oct-3-yl)-5-chloro-2-methoxy-benzamide(zacopride)::CHEMBL18041::HTR5A4-Amino-N-(1-aza-bicyclo[2.2.2]oct-3-yl)-5-chloro-2-methoxy-benzamide::ZACOPRIDE::ZACOPRIDE,R::ZACOPRIDE,RS::ZACOPRIDE,S",0,0
+CID10835110,"(R)-1-(2-(1-(3,4-Dichloro-benzene sulfonyl)-pyrrolidin-2-yl)-ethyl)-4-methyl piperidine",0,0
+CID109,CAS_109::L-cysteine sulfinic acid::NSC_109,0,0
+CID11153198,LY 458545::LY-458545,0,0
+CID11199813,LY 457691,0,0
+CID11238212,ATC 0065::ATC0065::CAS_510732-84-0,0,0
+CID11249042,LY 525327::LY-525327,0,0
+CID11251755,"H-c(Cys3-Phe6-Phe7-DTrp8-Lys9-Thr10-Phe11-Cys14)-OH::des-AA 1,2,4,5,12,13[D-Trp8]-SS (ODT-8)",0,0
+CID11472190,"(2R,6S)-1-Methyl-2,6-bis-((E)-styryl)-piperidine::CHEMBL372435::mesotransdiene",0,0
+CID114743,"4-(3,4-Dichloro-phenyl)-1,2,3,4-tetrahydro-naphthalen-1-ylamine, HCl::CHEMBL40733::Desmethylsertraline",0,0
+CID11496202,"CAS_11496202::N-benzyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-N,3-dimethylbenzofuran-2-carboxamide::NSC_11496202",0,0
+CID1150,1H-indole-3-ethanamine::2-(1H-indol-3-yl)ethanamine::2-(3-indolyl)ethylamine::CHEMBL6640::tryptamine,0,0
+CID115205,"ATP, Bz::CAS_81790-82-1::NSC_0",0,0
+CID115237,"3-(2-(4-(6-fluorobenzo[d]isoxazol-3-yl)piperidin-1-yl)ethyl)-9-hydroxy-2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one::9-OH-risperidone::9-hydroxy risperidone::CHEMBL1621::Invega::PALIPERIDONE",0,0
+CID11531745,"CAS_868359-05-1::N-[4-(2-BROMO-4,5-DIFLUOROPHENOXY)PHENYL]-L-ASPARAGINE::WAY 213613",0,0
+CID115348,"2-Iodomelatonin::CHEMBL289233::Melatonin,2-Iodo",0,0
+CID11616374,WAY 213394::WAY-213394,0,0
+CID11638552,(R)-2-((R)-(4-chloro-2-methoxyphenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(phenyl)methyl)morpholine::CAS_11638552::CAS_25009937::CAS_44449794::NSC_11638552::NSC_25009937::NSC_44449794::rac-syn-2-((4-chloro-2-methoxyphenoxy)(phenyl)methyl)morpholine,0,0
+CID11757797,NNC 11-1585,0,0
+CID11804285,CTAP-NH2,0,0
+CID1181,"({[({[5-(2,4-dioxo-1,2,3,4-tetrahydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid::1-(3,4-dihydroxy-5-triphosphoryloxymethyltetrahydro-2-furanyl)-1,2,3,4-tetrahydro-2,4-pyrimidinedione::5-azidouridine-5'-triphosphate derivative::UTP::Uridine triphosphate (UTP)",0,0
+CID119,"4-amino-n-[2,3-3H]butyric acid::4-aminobutanoic acid::Aminalon::CHEMBL96::GABA::Gamma-Aminobutyric acid::[3H]GABA::cid_119",0,0
+CID119357,AF-DX 384::CAS_119356::CHEMBL279453::NSC_119356,0,0
+CID119376,3H-GR113808::CHEMBL518682::GR 113808::[3H] GR 113808::[3H]GR113808,0,0
+CID119380,(S)-1-Methyl-2-(3-methyl-isoxazol-5-yl)-pyrrolidinium::(S)-3-methyl-5-(1-methylpyrrolidin-2-yl)isoxazole::3-Methyl-5-((S)-1-methyl-pyrrolidin-2-yl)-isoxazole::ABT-418::CHEMBL274525,0,0
+CID119461,AH-6809::CAS_33458-93-4::NSC_119461,0,0
+CID11956130,UR-AK24::UR-AK57,0,0
+CID11957615,"1,1-diethyl-3-[(8beta)-6-methyl-9,10-didehydroergolin-8-yl]urea::3,3-diethyl-1-[(4R,7R)-6-methyl-6,11-diazatetracyclo[7.6.1.0^{2,7}.0^{12,16}]hexadeca-1(15),2,9,12(16),13-pentaen-4-yl]urea::8R-lisuride::LISURIDE",0,0
+CID1204,"()-2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(+)-2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(+)-epibatidine::(-)-2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(1R,2R,4S)-epibatidine::(2R)-2-(6-chloropyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane hydrochloride::(2R,4S)-2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(2R,4S)-2-(6-Iodo-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(2R,4S)-2-(6-chloropyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(R)-2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::(R)-2-(6-Chloro-pyridin-3-yl)-7-methyl-7-aza-bicyclo[2.2.1]heptane::2-(6-Chloro-pyridin-3-yl)-5-methyl-7-aza-bicyclo[2.2.1]heptane::2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane (epibatidine)::2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane(+/-) epibatidine::2-(6-Chloro-pyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane(Epibatidine)::2-(6-Chloro-pyridin-3-yl)-7-azonia-bicyclo[2.2.1]heptane::2-(6-chloropyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::2-Pyridin-3-yl-7-aza-bicyclo[2.2.1]heptane::CHEMBL6623::EPIBATIDINE::Epibatidine, (+/-)::Epibatidine-(+)::Epibatidine-(-)::exo-2-(6-chloropyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane::rac-(2R)-2-(6-chloropyridin-3-yl)-7-aza-bicyclo[2.2.1]heptane",0,0
+CID1206,(R)Methyl-(1-methyl-2-phenyl-ethyl)-amine::METHAMPHETAMINE::METHAMPHETAMINE (+)::METHAMPHETAMINE (-)::Methyl-(1-methyl-2-phenyl-ethyl)-amine::Methyl-(1-methyl-2-phenyl-ethyl)-amine(methamphetamine),0,0
+CID1211,CAS_57-94-3::NSC_6000::d-Tubocurarine,0,0
+CID121591,CAS_29915-38-6::NSC_121591::TAPS,0,0
+CID121829,CAS_106133-20-4::NSC_60147::Tamsulosin,0,0
+CID121881,CAS_121881::NSC_121881::SB204070,0,0
+CID1220,"7-(dipropylamino)-5,6,7,8-tetrahydronaphthalen-1-ol::8-Hydroxy-2-(di-n-propylamino)tetralin::8-OH-DPAT::8-OH-DPAT,(+)::8-OH-DPAT,(-)::8-hydroxy-N,N-dipropylaminotetralin::CHEMBL1788118::CHEMBL505765::CHEMBL56::DPAT::US10562853, Compound 8-OH-DPAT::[3H]-8-OH-DPAT::cid_1220",0,0
+CID1221,"(R,S)-alpha-amino-3-hydroxy-5-methyl-4-isooxazole-propionic acid::(RS)-2-amino-3-(3-hydroxy-5-methylisoxazol-4-yl)-propionicacid::2-Amino-3-(3-hydroxy-5-methyl-isoxazol-4-yl)-propionic acid::2-Amino-3-(3-hydroxy-5-methyl-isoxazol-4-yl)-propionic acid(DL-AMPA)::2-amino-3-(3-hydroxy-5-methyl-4-isoxazolyl)-propionic acid::2-amino-3-(5-methyl-3-oxo-2,3-dihydroisoxazol-4-yl)propanoic acid::2-ammonio-3-(3-hydroxy-5-methylisoxazol-4-yl)propanoate::AMPA::CHEMBL13378",0,0
+CID122162,CAS_117946-91-5::Luzindole::NSC_122162,0,0
+CID1222,"(+-)-MCPG::(R,S)-alpha-Methyl-4-carboxyphenylglycine::4-(1-Amino-1-carboxy-ethyl)-benzoic acid::4-(1-Amino-1-carboxy-ethyl)-benzoic acid(S-M4CPG)::CHEMBL299683::MCPG",0,0
+CID12224034,"TMQ, R-(+)::US11001595, Compound TMQ",0,0
+CID122252,CHEMBL424660::N-methyl-3-(1-naphthyloxy)-3-(2-thienyl)propan-1-amine::N-methyl-3-(naphthalen-1-yloxy)-3-(2-thienyl)propan-1-amine::duloxetine,0,0
+CID1223,"6-Ethyl-3-(1-hydroxy-cyclopropylmethyl)-11,11-dimethyl-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::BREMAZOCINE(-)::Bremazocine::CHEMBL350384",0,0
+CID1224,"BUTACLAMOL::CAS_51152-91-1::NSC_37459::US11147820, Compound Butaclamol",0,0
+CID1229,"1-(4-iodo-2,5-dimethoxyphenyl)propan-2-amine::CHEMBL6616::DOI::DOI,(+)::DOI,(-)::[125I]2,5-dimethoxy-4-iodoamphetamine::[125I]4-iodo-2,5-dimethoxyphenylisopropylamine::[125I]DOI",0,0
+CID12313112,"4-allyl-(13R,14S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol:hydrocholride(Nalorphine)::4-allyl-(1S,13R,14S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol; Hydrochloride(Nalorphine)::4-allyl-(1S,13R,14S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diolhydrochloride(Nalorphine hydrochloride)::4-allyl-(5R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol ; hydrochloride(Nalorphine hydrochloride)::CHEMBL553080::NALORPHINE - HCI",0,0
+CID12314605,"(S-isomer)7-[3,5-Dihydroxy-2-(3-hydroxy-oct-1-enyl)-cyclopentyl]-hept-5-enoic acid::(Z)-7-[(1R,3R,5S)-3,5-Dihydroxy-2-((E)-(S)-3-hydroxy-oct-1-enyl)-cyclopentyl]-hept-5-enoic acid::7-[3,5-Dihydroxy-2-(3-hydroxy-oct-1-enyl)-cyclopentyl]-hept-5-enoic acid::CHEMBL12114::PGF2Alpha::Prostaglandin F2alpha7-[3,5-Dihydroxy-2-(3-hydroxy-oct-1-enyl)-cyclopentyl]-hept-5-enoic acid",0,0
+CID1233,Amino-(3-hydroxy-isoxazol-5-yl)-acetic acid(Ibotenic acid)::CAS_2552-55-8::CHEMBL284895::Ibotenate::Ibotenic acid::NSC_1233,0,0
+CID123619,"5-Chloro-3-(4-methanesulfonyl-phenyl)-6''-methyl-[2,3'']bipyridinyl::5-Chloro-3-(4-methanesulfonyl-phenyl)-6'-methyl-[2,3']bipyridinyl::5-chloro-2-(6-methylpyridin-3-yl)-3-(4-(methylsulfonyl)phenyl)pyridine::5-chloro-6'-methyl-3-[4-(methylsulfonyl)phenyl]-2,3'-bipyridine::CHEMBL416146::ETORICOXIB",0,0
+CID123662,Beta CCP::CAS_123662::NSC_123662,0,0
+CID1238,"1-(3-chloro-5,6-dihydrobenzo[b][1]benzothiepin-5-yl)-4-methyl-piperazine;maleate::1-(8-chloro-10,11-dihydrodibenzo[b,f]thiepin-10-yl)-4-methylpiperazine::1-{6-chloro-2-thiatricyclo[9.4.0.0^{3,8}]pentadeca-1(15),3(8),4,6,11,13-hexaen-9-yl}-4-methylpiperazine::CHEMBL64249::CLOROTEPINE (+)::CLOROTEPINE(-)::Clothepin::OCTOCLOTHEPIN,(+)::OCTOCLOTHEPIN,(-)::Octoclothepin::Octoclothepine",0,0
+CID123990,CAS_123990::NSC_123990::Suberyldicholine,0,0
+CID124226,CAS_113010-69-8::HHD::hexahydrodifenidol,0,0
+CID12441,"(S)-11-methoxy-7-methyl-6,7,7a,8-tetrahydro-5H-benzo[g][1,3]dioxolo[4',5':4,5]benzo[1,2,3-de]quinolin-12-ol::11-Methoxy-7-methyl-6,7,7a,8-tetrahydro-5H-benzo[g][1,3]dioxolo[4',5':4,5]benzo[1,2,3-de]quinolin-12-ol (Bulbocapnine)::Bulbocapnine::CHEMBL157912",0,0
+CID124435,(R)-Hexbutinol::(S)-Hexbutinol::CAS_2054312::CAS_2054314::NSC_2054312::NSC_2054314,0,0
+CID125017,"CAS_386750-22-7::Desvenlafaxine::NSC_6918664::O-Desmethylvenlafaxine::US9944618, Compound ID No. 181",0,0
+CID125246,"(+/-)-2-DIPROPYLAMINO- 6,7-DIHYDROXY-1,2,3,4-TETRAHYDRONAPHTHALENE::ADTN DIPROPYL 6,7::CAS_62421-17-4::CHEMBL15887::dp-ADTN",0,0
+CID1257,CAS_55397::LY-171555::NSC_55397::QUINPIROLE,0,0
+CID126731,"CHEMBL33415::Melatonin,2-Bromo::N-[2-(2-Bromo-5-methoxy-1H-indol-3-yl)-ethyl]-acetamide::N-[2-(2-Bromo-5-methoxy-1H-indol-3-yl)-ethyl]-acetamide(2-Bromomelatonin)",0,0
+CID126769,SB 200646::SB200646a,0,0
+CID127096,CAS_127096::Hydroxynefazodone::NSC_127096,0,0
+CID127894,CHEMBL14935::LY 293558::LY-293558,0,0
+CID127912,CHEMBL537481::Glaxo 1192U90,0,0
+CID127993,"5,7-dibromo-9H-pyrido[3,4-b]indol-6-ol::7-bromo-eudistomin D::CHEMBL272185",0,0
+CID12835,"2-(5-Methoxy-1H-indol-3-yl)-ethanol (5-methoxytryptamine)::CHEMBL14485::tryptophol, 5-Methoxy",0,0
+CID128563,"(2S,4aR,6aR,7R,9S,10aS,10bR)-9-(acetyloxy)-2-(furan-3-yl)dodecahydro-6a,10b-dimethyl-4,10-dioxo-2H-naphtho-[2,1-c]pyran-7-carboxylic acid methyl ester::(2S,4aR,6aR,7R,9S,10aS,10bR)-methyl 9-(acetylthio)-2-(furan-3-yl)-6a,10b-dimethyl-4,10-dioxo-dodecahydro-1H-benzo[f]isochromene-7-carboxylate::(2S,4aR,6aR,7R,9S,10aS,10bR)-methyl 9-acetoxy-2-(furan-3-yl)-6a,10b-dimethyl-4,10-dioxo-dodecahydro-1H-benzo[f]isochromene-7-carboxylate::(3S,4aR,4bS,6S,8R,8aR,10aR)-6-Acetoxy-3-furan-3-yl-4a,8a-dimethyl-1,5-dioxo-dodecahydro-2-oxa-phenanthrene-8-carboxylic acid methyl ester::2S,4aR,6a(R,7R,9S,10aS,10bR)-9-(acetyloxy)-2-(furan-3-yl)dodecahydro-6a,10b-dimethyl-4,10-dioxo-2H-naphtho[2,1-c]pyran-7-carboxylic acid methyl ester::CHEMBL445332::Salvinorin A::Salvonorin A::salvinorin-A",0,0
+CID128658,"CAS_128658::NSC_128658::TMQ, (+/-)-8-Fluoro",0,0
+CID1288,(-)-Indolactam V::(-)-Indolactam V (low PS)::CAS_105000::NSC_105000,0,0
+CID12895728,l-norfenfluramine,0,0
+CID129710,"7-Chloro-3-(5-isopropyl-[1,2,4]oxadiazol-3-yl)-5-methyl-4,5-dihydro-2,5,10b-triaza-benzo[e]azulen-6-one::CHEMBL307202::FG 8205",0,0
+CID129776,"Luzindole,5-Methoxy",0,0
+CID129989,AQ-RA 741::CAS_129989::NSC_129989,0,0
+CID13049254,CAS_5283157::HETE-20::NSC_5283157,0,0
+CID13105142,CAS_3086456::MK 678::NSC_3086456,0,0
+CID1316,"1,1-Dimethyl-4-phenyl-piperazin-1-ium::CHEMBL134752::CHEMBL47814::DMPP::cid_5911",0,0
+CID132552,CP 122288::CP-122288::N-Methyl-3-[[(2R)-1-methyl-2-pyrrolidinyl]methyl]-1H-indole-5-methanesulfonamide,0,0
+CID132749,CAS_146033-02-5::CHEMBL155358::NSC_132748::SC-51089,0,0
+CID1329,"1,3-dipropyl-8-cyclopentylxanthine::8-cyclopentyl-1,3-dipropyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione::CHEMBL183::DPCPX::PD116948::[3H]DPCPX",0,0
+CID132947,CAS_132947::NSC_132947::TRIPITRAMINE,0,0
+CID133038,"Fluorocarazolol,(R)::Fluorocarazolol,(S)",0,0
+CID133633,"1-((1H-indol-3-yl)methyl)-4-(4-chlorophenyl)piperidin-4-ol::3-[4-(4-chlorophenyl)-4-hydroxypiperidinyl]methylindole::4-(4-Chloro-phenyl)-1-(1H-indol-3-ylmethyl)-piperidin-4-ol::CHEMBL445102::L-741626::L741,626",0,0
+CID13366823,CAS_94079-80-8::CICAPROST::NSC_72023,0,0
+CID1342,1-NP::1-Naphthalen-1-yl-piperazine::4-Naphthalen-1-yl-piperazin-1-ium::CHEMBL277120,0,0
+CID134505,CAS_134505::L-homocysteine thiolactone::NSC_134505,0,0
+CID13493,CHEMBL312040::Etonitazene::{2-[2-(4-Ethoxy-benzyl)-5-nitro-benzoimidazol-1-yl]-ethyl}-diethyl-amine,0,0
+CID13532635,CAS_60325-46-4::NSC_43251::SULPROSTONE,0,0
+CID1355,1-(3-chlorophenyl)piperazine::CHEMBL478::m-Chlorophenylpiperazine::mCPP,0,0
+CID13686246,CAS_118476-87-2::Dermorphin::NSC_125954,0,0
+CID13730966,GR 63799,0,0
+CID13781100,"CHEMBL172266::M-154::[2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethyl]-dimethyl-amine",0,0
+CID13781102,"N,N,N-trimethyl-1-(4-bromo-2,5-dimethoxyphenyl)-2-aminopropane::QDOB",0,0
+CID1383884,"3-(3-carbamoylphenyl)phenyl N-cyclohexylcarbamate::CHEMBL184238::URB 597::URB-597::URB597::US9187413, 1a (URB597)",0,0
+CID13858266,"PP31-36, HUMAN",0,0
+CID13878025,LY 86057::LY86057,0,0
+CID13922235,"CAS_132-66-1::NPA-11-OH-R,(-)",0,0
+CID14096625,CAS_115368::NSC_115368::Perospirone,0,0
+CID14280302,LTB4-3-aminopropylamide,0,0
+CID14464640,AP2A::CAS_0::NSC_0,0,0
+CID14720895,BIM 23023::BIM-23023::D-Phe-L-Cys(1)-L-Tyr-D-Trp-L-Lys-L-Abu-L-Cys(1)-L-Thr-NH2,0,0
+CID14987,"(7-Methyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinolin-9-yl)-methanol::CHEMBL160976::CHEMBL39947::LYSERGOL::cid_14987",0,0
+CID15387,CAS_3575-80-2::MELPERONE::NSC_15387,0,0
+CID15389743,S32504 (+),0,0
+CID153996,"1-{2-[(R)-3-(3,4-Dichloro-phenyl)-1-(3,4,5-trimethoxy-benzoyl)-pyrrolidin-3-yl]-ethyl}-4-phenyl-piperidine-4-carboxylic acid amide; hydrochloride::CHEMBL539021::MDL 103,392A racemate",0,0
+CID154315,(S)-mianserin::Lerivon::MIANSERIN::MIANSERIN (+)::MIANSERIN (-)::Tolvon,0,0
+CID1548943,CAS_404-86-4::Capsaicin::NSC_2548,0,0
+CID1548968,Fluoxetine-R-(-),0,0
+CID1549781,"(-)-cytisine::(1R,9R)-7,11-diazatricyclo[7.3.1.0~2,7~]trideca-2,4-dien-6-one::(1S,9R)-7,11-diazatricyclo[7.3.1.0~2,7~]trideca-2,4-dien-6-one::1,2,3,4,5,6-Hexahydro-1,5-methano-pyrido[1,2-a][1,5]diazocin-8-one::1,2,3,4,5,6-Hexahydro-1,5-methano-pyrido[1,2-a][1,5]diazocin-8-one (cytisine)::CHEMBL47039::ChEMBL_66244::Cytisine-(-)::Cytisine1,2,3,4,5,6-Hexahydro-1,5-methano-pyrido[1,2-a][1,5]diazocin-8-one::cytisine",0,0
+CID155346,CAS_155346::CYANOPINDOLOL::CYANOPINDOLOL(+/-)::NSC_155346,0,0
+CID155798,"CAS_54562::NSC_54562::Quinpirole,(+)",0,0
+CID15614389,"(R)-3-(1,1-Dimethyl-heptyl)-9-hydroxymethyl-6,6-dimethyl-6a,7,10,10a-tetrahydro-6H-benzo[c]chromen-1-ol::3-(1,1-Dimethyl-heptyl)-9-hydroxymethyl-6,6-dimethyl-6a,7,10,10a-tetrahydro-6H-benzo[c]chromen-1-ol::CHEMBL432107::HU-210",0,0
+CID156314,"5-CT,DP::CAS_156314::DP-5-CT::NN-DIPROP-5-CT::NSC_156314",0,0
+CID156615,(2R)-1-(1H-imidazol-5-yl)propan-2-amine::(R)-alpha-Methylhistamine::Alpha-Methylhistamine-R::Alpha-Methylhistane-R::CHEMBL268229::R-alpha-methylhistamine::RAMH,0,0
+CID1574,"2-Me 5-HT::2-Methyl-5-hydroxytryptamine::2-methyl-5-HT::2-methylserotonin::3-(2-aminoethyl)-2-methyl-1H-indol-5-ol::5-HT,2-Me::CHEMBL266591",0,0
+CID1576,"CAS_1576::Methcathinone, (-)::NSC_1576",0,0
+CID15991674,"CAS_15991674::N-benzyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_15991674",0,0
+CID15993,"2'-deoxyadenosine 5'-(tetrahydrogen triphosphate)::ATP,2&#39;-deoxy::CHEMBL335538::dATP",0,0
+CID15998061,"CAS_15998061::N-(2-ethoxybenzyl)-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_15998061",0,0
+CID15998383,"CAS_15998383::N-(2-methoxybenzyl)-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_15998383",0,0
+CID15998702,"CAS_15998702::N-cyclopentyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_15998702",0,0
+CID16040907,1-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)-3-(2-methoxyphenyl)urea::CAS_16040907::NSC_16040907,0,0
+CID16041090,"1-(2,4-dimethoxyphenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041090::NSC_16041090",0,0
+CID16041091,1-(3-fluorobenzyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041091::NSC_16041091,0,0
+CID16041092,"1-(3,4-difluorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041092::NSC_16041092",0,0
+CID16041263,1-(2-chlorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041263::NSC_16041263,0,0
+CID16041264,1-(3-chlorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041264::NSC_16041264,0,0
+CID16041265,"1-(2,6-dichlorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041265::NSC_16041265",0,0
+CID16041449,"1-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)-3-(2,4,6-trichlorophenyl)urea::CAS_16041449::NSC_16041449",0,0
+CID16041451,1-(5-chloro-2-methoxyphenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041451::NSC_16041451,0,0
+CID16041628,"1-(2,4-difluorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041628::NSC_16041628",0,0
+CID16041629,"1-(2,5-difluorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041629::NSC_16041629",0,0
+CID16041630,"1-(2,6-difluorophenyl)-3-(4-(4-(2-isopropoxyphenyl)piperazin-1-yl)cyclohexyl)urea::CAS_16041630::NSC_16041630",0,0
+CID16104,"2-Chloro-11-(4-methyl-piperazin-1-yl)-5H-dibenzo[b,e][1,4]diazepine::2-Chloro-11-(4-methyl-piperazin-1-yl)-5H-dibenzo[b,e][1,4]diazepine(isoclozapine)::CHEMBL415300::ISOCLOZAPINE",0,0
+CID16106,"6-(4-Methyl-piperazin-1-yl)-11H-dibenzo[b,e]azepine::CHEMBL340801::Perlapine",0,0
+CID16129706,15-28-Somatostatin-28::CAS_38916-34-6::CB6417646::Somatostatin-14,0,0
+CID16132180,"(2S,3S)-2-((S)-2-((S)-2-((S)-1-(2-((S)-2-((S)-2-((S)-2-(2-((S)-2-((S)-2-((S)-4-amino-2-((S)-2-((2S,3R)-2-((S)-2-(2-aminoacetamido)-3-(1H-indol-3-yl)propanamido)-3-hydroxybutanamido)-4-methylpentanamido)-4-oxobutanamido)-3-hydroxypropanamido)propanamido)acetamido)-3-(4-hydroxyphenyl)propanamido)-4-methylpentanamido)-4-methylpentanamido)acetyl)pyrrolidine-2-carboxamido)-3-(1H-imidazol-5-yl)propanamido)propanamido)-3-methylpentanoic acid::CHEMBL499980::Galanin (1-16)::Galanin (1-16), porcine::Galanin (1-16), rat",0,0
+CID16133799,BIM 23056::CAS_150155-61-6::D-Phe-Phe-Tyr-D-Trp-Lys-Val-Phe-D-Nal-NH2::DC-25-20,0,0
+CID16133821,CHEMBL604990::GWTLNSAGYLLGPPPALALA-CONH2::M40,0,0
+CID1614,"(+/-)2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine::(-)2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine::(R)-(-)-2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine::(S)-(+)-2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine::2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine::2-Benzo[1,3]dioxol-5-yl-1-methyl-ethylamine((R)-(-)-MDA)::3,4-methylenedioxyamphetamine::CHEMBL6731::MDA::MDA, (R,S)::MDA,R(-)::Tenamfetamine::methylenedioxyamphetamine",0,0
+CID16144003,Beta-Endorphin,0,0
+CID1615,"(RS)-3,4-(methylenedioxy)methamphetamine::1-(1,3-Benzodioxol-5-yl)-N-methyl-2-propanamine::1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine::3,4-methylenedioxymethamphetamine::CHEMBL43048::DL-(3,4-Methylenedioxy)methamphetamine::MDMA::N,alpha-dimethyl-1,3-benzodioxole-5-ethanamine::N-Methyl-3,4-methylenedioxyamphetamine",0,0
+CID162180,CAS_144025-14-9::Desmethylcitalopram,0,0
+CID16362,"1-(1-(4,4-bis(4-fluorophenyl)butyl)piperidin-4-yl)-1H-benzo[d]imidazol-2(3H)-one::1-(1-{3-[Bis-(4-fluoro-phenyl)-amino]-propyl}-piperidin-4-yl)-1,3-dihydro-benzoimidazol-2-one::1-(1-{3-[Bis-(4-fluoro-phenyl)-amino]-propyl}-piperidin-4-yl)-1,3-dihydro-benzoimidazol-2-one(Pimozide)::1-{1-[4,4-Bis-(4-fluoro-phenyl)-butyl]-piperidin-4-yl}-1,3-dihydro-benzoimidazol-2-one::1-{1-[4,4-Bis-(4-fluoro-phenyl)-butyl]-piperidin-4-yl}-1,3-dihydro-benzoimidazol-2-one(Pimozide)::CHEMBL1423::MCN-JR-6238::N-benzyl-N-(3-isobutoxy-2-(pyrrolidin-1-yl)propyl)benzenamine::NCGC00015802::Orap::PIMOZIDE1-{1-[4,4-BIS-(4-FLUORO-PHENYL)-BUTYL]-PIPERIDIN-4-YL}-1,3-DIHYDRO-BENZOIMIDAZOL-2-ONE::Pimozide::R-6238",0,0
+CID163889,CAS_163889::CHEMBL355370::I-ABOPX::NSC_163889,0,0
+CID1676,"3-Propyl-3,7-dihydro-purine-2,6-dione::3-Propyl-3,7-dihydro-purine-2,6-dione(enprofylline)::3-Propylxanthine (enprofylline)::CHEMBL279898::ENPROFYLLINE",0,0
+CID169317,"1,3-Dipropyl-3,7-dihydro-purine-2,6-dione::1,3-Dipropylxanthine::CAS_169317::CHEMBL157655::CPX::NSC_169317",0,0
+CID172469,CHEMBL572528::CIBACRON BLUE::Cibacron Blue 3Ga,0,0
+CID1734,"4-DAMP::4-Diphenylacetoxy-1,1-dimethyl-piperidinium; iodide::Acetic acid 4-[(4-acetoxy-phenyl)-pyridin-2-yl-methyl]-phenyl ester::CHEMBL168067::CHEMBL76897",0,0
+CID176407,"4-(2-{[5-amino-2-(furan-2-yl)-[1,2,4]triazolo[1,5-a][1,3,5]triazin-7-yl]amino}ethyl)phenol::CHEMBL113142::ZM 241385::ZM241385::[3H]-ZM241385",0,0
+CID176408,"2-(furan-2-yl)-7-phenethyl-7H-pyrazolo[4,3-e][1,2,4]triazolo[1,5-c]pyrimidin-5-amine::2-Furan-2-yl-7-phenethyl-7H-pyrazolo[4,3-e][1,2,4]triazolo[1,5-c]pyrimidin-5-ylamine::2-Furan-2-yl-7-phenethyl-7H-pyrazolo[4,3-e][1,2,4]triazolo[1,5-c]pyrimidin-5-ylamine(SCH 58261)::CHEMBL17127::SCH-58261::SCH58261::US11440916, HZ10126",0,0
+CID177491,(S)-2-amino-4-sulfobutanoic acid::CHEMBL230951::L-2-amino-4-sulfobutyric acid::L-Homocysteate::L-homocysteic acid,0,0
+CID1809,"3-(2-aminoethyl)-1H-indole-5-carboxamide::5-CT::5-CT,DP::5-carboxamidotryptamine::CHEMBL1256863::CHEMBL18840::[3H]-5-CT::[3H]-5-Carboxamide tryptamine::[3H]-5-Carboxyamidotryptamine::[3H]-5-carboxamidotryptamine",0,0
+CID1832,"2-(5-methoxy-1H-indol-3-yl)-N,N-dimethyl-ethanamine::2-(5-methoxy-1H-indol-3-yl)-N,N-dimethylethanamine::2-(5-methoxy-1H-indol-3-yl)ethyl-dimethyl-amine::3-(2-DIMETHYLAMINOETHYL)-5-METHOXYINDOLE::CHEMBL7257::MLS000069438::Methoxydimethyltryptamines::SMR000059066::WO2023019367, Compound 5-MeO-DMT::cid_1832",0,0
+CID1833,"2-(5-methoxy-1H-indol-3-yl)ethanamine::5-MT::5-Methoxytryptamine hydrochloride::CAS_66-83-1::tryptamine, 5-Methoxy",0,0
+CID18361914,L017811::Ro 600869,0,0
+CID18433653,12-Deoxyphorbol 13-phenylacetate::CAS_105100::NSC_105100,0,0
+CID18516642,CAS_170493-63-7::NSC_3045228::Ro 600332,0,0
+CID1858,"CHEMBL34730::N-[2-(6-Chloro-5-methoxy-1H-indol-3-yl)-ethyl]-acetamide::N-[2-(6-Chloro-5-methoxy-1H-indol-3-yl)-ethyl]-acetamide(6-Chloromelatonin)::melatonin, 6-Chloro",0,0
+CID185861,D-homocysteic acid,0,0
+CID1864,"Melatonin,6-Hydroxy::melatonin, 6-Hydroxy",0,0
+CID187,"2-acetoxyethyl(trimethyl)ammonium;bromide::2-acetoxyethyl(trimethyl)ammonium;perchlorate::CHEMBL667::US10667515, Compound ACh::[2-(acetyloxy)ethyl]trimethylazanium::acetylcholine::acetylcholine chloride::cid_6060",0,0
+CID18971832,CAS_5311097::LY 344864::NSC_5311097,0,0
+CID19023747,"Luzindole,N-propanoyl::N 0889::N-0889::N-[2-(2-Benzyl-1H-indol-3-yl)ethyl]propionamide",0,0
+CID19023749,N 0891::N-0891::N-[2-[2-(4-Methylbenzyl)-1H-indol-3-yl]ethyl]acetamide,0,0
+CID195276,"Melatonin,2-Chloro",0,0
+CID196968,4-(4-fluoronaphthalen-1-yl)-6-isopropylpyrimidin-2-amine::CHEMBL473186::RS-127445,0,0
+CID19791602,"(R)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)propanoic acid::(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)propanoic acid::CAS_44453801::CAS_44453822::NSC_44453801::NSC_44453822",0,0
+CID19874223,CAS_124393-85-7::SHX::silahexocyclium,0,0
+CID2028,"ATP,Gamma S::CAS_440317::NSC_440317",0,0
+CID20516612,Beta C N A::CAS_115070::NSC_115070,0,0
+CID2083,"4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol::Levalbuterol::Proventil::Salbutamol::Salbutamol,(+/-)::albuterol",0,0
+CID2119,"ALPRENOLOL,(+)::ALPRENOLOL,(-)::Alfeprol::Alpheprol::Alprenolol::CHEMBL266195::{2-hydroxy-3-[2-(prop-2-en-1-yl)phenoxy]propyl}(propan-2-yl)amine",0,0
+CID213046,CAS_441351-20-8::Lurasidone::SM 13496,0,0
+CID21310426,"5-(4-chloro-3-methylphenyl)-1-[(4-methylphenyl)methyl]-N-[(1S)-1,3,3-trimethylbicyclo[2.2.1]heptan-2-yl]-1H-pyrazole-3-carboxamide::N-(1,3,3-trimethylbicyclo(2.2.1)heptan-2-yl)-5-(4-chloro-3-methylphenyl)-1-(4-methylbenzyl)pyrazole-3-carboxamide::SR 144528::SR-144528::SR144528",0,0
+CID21514163,CAS_749-13-3::TRIFLUORPERIDOL,0,0
+CID2153,"1,3-dimethyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione::1,3-dimethyl-7H-purine-2,6-dione::Afonilum::Aminophyllin::Aminophylline::CHEMBL190::Cardophyllin::Euphylline::Theophy-lline::Theophylline::Theophylline (1,3-dimethylxanthine)",0,0
+CID2159,"Amisulpride::CAS_71675-85-9::NSC_2159::US10167256, Amisulpride::US10259786, Amisulpride",0,0
+CID2160,"10,11-dihydro-5-(gamma-dimethylaminopropylidene)-5H-dibenzo(a,d)cycloheptene::10,11-dihydro-N,N-dimethyl-5H-dibenzo(a,d)heptalene-Delta(5),gamma-propylamine::3-(10,11-dihydro-5H-dibenzo(a,d)cyclohepten-5-ylidene)-N,N-dimethyl-1-propanamine::3-(10,11-dihydro-5H-dibenzo[a,d][7]annulen-5-ylidene)-N,N-dimethylpropan-1-amine::3-(10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5-ylidene)-N,N-dimethylpropan-1-amine::5-(3-dimethylaminopropylidene)-10,11-dihydro-5H-dibenzo(a,d)cycloheptatriene::5-(3-dimethylaminopropylidene)-10,11-dihydro-5H-dibenzo(a,d)cycloheptene::5-(gamma-dimethylaminopropylidene)-5H-dibenzo[a,d][1,4]cycloheptadiene::AMITRIPTYLINE::Amitriptylin::CHEMBL629",0,0
+CID2170,"13-chloro-10-(piperazin-1-yl)-2-oxa-9-azatricyclo[9.4.0.0^{3,8}]pentadeca-1(11),3,5,7,9,12,14-heptaene::2-chloro-11-piperazin-1-yldibenzo[b,f][1,4]oxazepine::Amoxapine::Asendin::CHEMBL1113::Demolox",0,0
+CID21722,CAS_5560-72-5::IPRINDOLE::NSC_21722,0,0
+CID21772,CAS_15686-37-0::butriptyline,0,0
+CID219050,"3-(4-(3,6-dihydro-4-phenyl-1(2H)-pyridinyl)butyl)-1H-indol-5-ol::3-[4-(4-phenyl-3,6-dihydro-2H-pyridin-1-yl)butyl]-1H-indol-5-ol::3-[4-(4-phenyl-3,6-dihydropyridin-1(2H)-yl)butyl]-1H-indol-5-ol::CHEMBL431367::roxindole",0,0
+CID21982952,AMESERGIDE::CAS_121588-75-8::NSC_60740,0,0
+CID2207,"2-Amino-4-phosphono-butyric acid::2-Amino-4-phosphono-butyric acid (AP4)::4-Amino Phosphonobutyrate::CHEMBL285843::GlcN-6-P synthase inhibitor, 1 (racemic mixture)::L-AP4",0,0
+CID22407,"CAS_485-35-8::Cytisine::Cytisine-(-)::NSC_22407::US11667638, Example Cytisine",0,0
+CID22422463,"5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methyl-N-phenethylbenzofuran-2-carboxamide::CAS_22422463::NSC_22422463",0,0
+CID22422464,"CAS_22422464::N-(2-chlorobenzyl)-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_22422464",0,0
+CID22422466,"CAS_22422466::N-(4-fluorobenzyl)-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_22422466",0,0
+CID22475020,"(R)-[2-(2,4-dichloro-phenyl)-6-fluoro-2-(4-fluoro-phenyl)-benzo[1,3]dioxol-5-yl]-morpholin-4-yl-methanone::(S)-[2-(2,4-dichloro-phenyl)-6-fluoro-2-(4-fluoro-phenyl)-benzo[1,3]dioxol-5-yl]-morpholin-4-yl-methanone::CAS_22475020::CAS_24828562::CAS_24828563::NSC_22475020::NSC_24828562::NSC_24828563::[2-(2,4-dichloro-phenyl)-6-fluoro-2-(4-fluoro-phenyl)-benzo[1,3]dioxol-5-yl]-morpholin-4-yl-methanone",0,0
+CID2249,2-{4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl}acetamide::Artrenolol::Atenolol::CHEMBL24::Tenormin::Tenormine,0,0
+CID22849992,"CHEMBL25074::N-(5-Chloro-7-methyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinolin-9-yl)-2,2-dimethyl-propionamide::SDZ-208-912::SDZ-HDC-912",0,0
+CID22935685,"ATP,TNP::CAS_644357::NSC_644357",0,0
+CID22991950,Lithocholylcholine,0,0
+CID23196931,CAS_5311297::Montelukast::NSC_5311297,0,0
+CID2344,BENZTROPINE::CAS_132-17-2::CHEMBL116590::NSC_2344,0,0
+CID23757284,"(2S,3S,4R,5R)-5-(6-amino-2-((S)-3-hydroxy-3-phenylprop-1-ynyl)-9H-purin-9-yl)-N-ethyl-3,4-dihydroxy-tetrahydrofuran-2-carboxamide::6R, (R)-PHPNECA::CHEMBL224874",0,0
+CID23786508,LY 334362,0,0
+CID23786511,N 0890::N-0890::N-[2-[2-(4-Methoxybenzyl)-1H-indol-3-yl]ethyl]acetamide,0,0
+CID2381,1-(bicyclo[2.2.1]hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol::BIPERIDEN::CHEMBL1101::alpha-5-norbornen-2-yl-alpha-phenyl-1-piperidinepropanol::alpha-bicyclo[2.2.1]hept-5-en-2-yl-alpha-phenyl-1-piperidinepropanol,0,0
+CID23815475,LY 335102,0,0
+CID23844143,D-homocysteine sulfinic acid,0,0
+CID23844146,"2-[4-(2,3-Dimethyl-1H-imidazolium-1-yl)-2-butynyl]isoxazolidin-3-one iodide",0,0
+CID23844155,"(+/-)2-(4-Fluoro-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::2-(4-Fluoro-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::2-(4-Fluoro-2,5-dimethoxy-phenyl)-1-methyl-ethylamine(DOF)::CHEMBL267526::DOF",0,0
+CID2388,AP5A::CAS_440210::NSC_440210,0,0
+CID23897,"3-Ethyl-2-methyl-5-morpholin-4-ylmethyl-1,5,6,7-tetrahydro-indol-4-one::3-Ethyl-2-methyl-5-morpholin-4-ylmethyl-1,5,6,7-tetrahydro-indol-4-one ( Molindone)::CHEMBL460::MOLINDONE::Moban",0,0
+CID23900142,2-[4-(2-Methyl-1H-imidazol-1-yl)-2-butynyl]isoxazolidin-3-one sesquifumarate::CAS_0::NSC_0,0,0
+CID23900148,CHEMBL8336::DOCN,0,0
+CID23928168,"TMQ, 3&#39;-Amino",0,0
+CID23928186,1-[2-(5-Methoxy-1H-indol-3-yl)ethyl]pyrrolidin-2-one::GR 135533,0,0
+CID23983764,3-[4-(2-Methyl-1H-imidazol-1-yl)-2-butynyl]oxyisoxazole sesquifumarate,0,0
+CID23983771,"1-(4-acetyl-2,5-dimethoxyphenyl)-2-aminopropane::DOAc",0,0
+CID24011719,LY 334359,0,0
+CID24039384,CHEMBL274589::DOBz,0,0
+CID2405,Bisoprolol::Bisoprolol fumarate::Concor::[2-hydroxy-3-(4-{[2-(propan-2-yloxy)ethoxy]methyl}phenoxy)propyl](propan-2-yl)amine,0,0
+CID24094169,"TMQ, 3&#39;-Nitro",0,0
+CID24121316,LY 320950,0,0
+CID24199,CAS_115-63-9::Hexocyclium,0,0
+CID2437,BRL 37344::CAS_2437::NSC_2437,0,0
+CID2448,BROMPERIDOL::Bromoperidol::CAS_2448::NSC_2448,0,0
+CID2477,"(buspirone) 8-[4-(4-Pyrimidin-2-yl-piperazin-1-yl)-butyl]-8-aza-spiro[4.5]decane-7,9-dione::8-[4-(4-Pyrimidin-2-yl-piperazin-1-yl)-butyl]-8-aza-spiro[4.5]decane-7,9-dione : (Hydrochloride)::8-[4-(4-Pyrimidin-2-yl-piperazin-1-yl)-butyl]-8-aza-spiro[4.5]decane-7,9-dione; Hydrochloride(Buspirone)::8-[4-(4-pyrimidin-2-yl-piperazin-1-yl)-butyl]-8-aza-spiro[4.5]decane-7,9-dione::BUSPAR::BUSPIRONE::CHEMBL49::US10562853, Compound Buspirone",0,0
+CID24840389,"6-((4-methoxyphenylsulfonyl)methyl)-N,N-dipropyl-1,2,3,4-tetrahydronaphthalen-2-amine::CHEMBL334529::GR-218231::GR218231::[6-(4-Methoxy-benzenesulfonylmethyl)-1,2,3,4-tetrahydro-naphthalen-2-yl]-dipropyl-amine",0,0
+CID24848996,LY 466195::LY-466195,0,0
+CID25075991,DYNORPHIN B-OH::Dynorphin B (1-13),0,0
+CID25075996,BDBM50241435::Dynorphin A (1-13)::YGGFLRRXRPKLK,0,0
+CID2512,CAS_54746::Cabergoline::NSC_54746,0,0
+CID25126776,"4-methyl-(1S,5R,13R,14S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-triene-10,14-diol(DHM)::CHEMBL1281::DIHYDROMORPHINE",0,0
+CID25149427,UR-AK67,0,0
+CID25149429,UR-AK59,0,0
+CID25149515,UR-AK64,0,0
+CID25149706,UR-AK68,0,0
+CID25149811,UR-AK22,0,0
+CID25263218,"3-(10H-phenothiazin-10-ylmethyl)-1-azabicyclo[2.2.2]octan-1-ium::Mequitazine::ZINC01567421, 6",0,0
+CID2554,"5H-dibenzo[b,f]azepine-5-carboxamide::CARBAMAZEPINE::CARBATROL::CHEMBL108::DIBENZO[B,F]AZEPINE-5-CARBOXYLIC ACID AMIDE(CARBAMAZEPINE)::EPITOL::EQUETRO::G-32883::TEGRETOL::TEGRETOL-XR::TERIL::US9138393, Carbamazepine::US9144538, Carbamazepine",0,0
+CID25701,"L-Cysteic acid, 8::L-cysteic acid",0,0
+CID2585,CHEMBL723::Carvedilol::Coreg::Dilatrend::Eucardic::[3-(9H-carbazol-4-yloxy)-2-hydroxypropyl][2-(2-methoxyphenoxy)ethyl]amine,0,0
+CID260803,CAS_260803::NAS::NSC_260803,0,0
+CID26644,"(14beta)-17-(cyclopropylmethyl)-18-(1-hydroxy-1-methylethyl)-6-methoxy-18,19-dihydro-4,5-epoxy-6,14-ethenomorphinan-3-ol::(1S,2R,6S)-3-(cyclopropylmethyl)-16-(2-hydroxypropan-2-yl)-15-methoxy-13-oxa-3-azahexacyclo[13.2.2.1^{2,8}.0^{1,6}.0^{6,14}.0^{7,12}]icosa-7,9,11-trien-11-ol::CHEMBL24995::Diprenorphine::[3H]-diprenorphine",0,0
+CID2685,2-hydroxy-5-{2-[(2-hydroxy-3-{4-[1-methyl-4-(trifluoromethyl)-1H-imidazol-2-yl]phenoxy}propyl)amino]ethoxy}benzamide; methanesulfonic acid::CGP 20712-A::CGP-20712A::cid_2685,0,0
+CID2687,"4-[3-(tert-butylamino)-2-hydroxypropoxy]-2,3-dihydro-1H-1,3-benzodiazol-2-one hydrochloride::CGP 12177::CGP-12177::CGP12177::[3H]CGP 12177",0,0
+CID2689,"4-(4-Methyl-piperazin-1-yl)-7-trifluoromethyl-pyrrolo[1,2-a]quinoxaline::CAS_109028-10-6::CGS 12066B::CHEMBL27403::NSC_123945",0,0
+CID2690,"9-Chloro-2-furan-2-yl-[1,2,4]triazolo[1,5-c]quinazolin-5-ylamine::9-Chloro-2-furan-2-yl-[1,2,4]triazolo[1,5-c]quinazolin-5-ylamine(CGS 15943)::9-Chloro-[1,2,4]triazolo[1,5-c]quinazolin-5-ylamine(CGS 15943)::9-chloro-2-(2-furanyl)-1,2,4-triazolo[1.5-c]quinazolin-5-amine::9-chloro-2-(furan-2-yl)-[1,2,4]triazolo[1,5-c]quinazolin-5-amine::CGS-15943::CHEMBL16687::CHEMBL268431::Nonnucleoside analog, 4",0,0
+CID2725,"1-(p-chlorophenyl)-1-(2-pyridyl)-3-N,N-dimethylpropylamine::1-(p-chlorophenyl)-1-(2-pyridyl)-3-dimethylaminopropane::3-(p-chlorophenyl)-3-(2-pyridyl)-N,N-dimethylpropylamine::5-HT,N-ACETYL::CHEMBL505::CHLORPHENIRAMINE::CHLORPHENIRAMINE MALEATE::Polaramin::Polaramine::Polaronil::[3H]Chlorphenamine::[3H]Chlorpheniramine::chlorophenylpyridamine::chlorphenamine::clorfeniramina::d-Chlorpheniramine::gamma-(4-chlorophenyl)-N,N-dimethyl-2-pyridinepropanamine::gamma-(4-chlorophenyl)-gamma-(2-pyridyl)propyldimethylamine",0,0
+CID2726,"(chloropromazine) [3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine::(chlorpromazine)[3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine::1-(2-Allyl-phenoxy)-3-isopropylamino-propan-2-ol::1N,1N-dimethyl-3-(2-chloro-10H-10-phenothiazinyl)-1-propanamine::3-(2-chloro-10H-phenothiazin-10-yl)-N,N-dimethylpropan-1-amine::CHEMBL71::CHLORPROMAZINE::CHLORPROMAZINE HIBENZATE::CHLORPROMAZINE HYDROCHLORIDE::CHLORPROMAZINE PHENOLPHTHALINATE::CHLORPROMAZINE TANNATE::Chlorpromazine;[3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine::PROMAPAR::SONAZINE::THORAZINE::[3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine (chlor-promazine)::[3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine( Chlorpromazine)::[3-(2-Chloro-phenothiazin-10-yl)-propyl]-dimethyl-amine(clorpromazine)::chloropromazine::med.21724, Compound 15",0,0
+CID2756,"(Cimetidine) N-Methyl-N''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-guanidine,cyanide::(Cimetidine)N-methyl-N-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethyl]cyanomethyliminomethanediamine::(cimetidine) N-methyl-N-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethyl]cyanoiminomethanediamine::1-cyano-2-methyl-3-(2-((5-methyl-1H-imidazol-4-yl)methylthio)ethyl)guanidine::1-cyano-2-methyl-3-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]sulfanyl}ethyl)guanidine::2-Chloro-5-(1-hydroxy-3-oxo-2,3-dihydro-1H-isoindol-1-yl)-benzenesulfonamide(Cimetidine)::2-Methyl-8-phenethyl-imidazo[1,2-a]pyridine-3-carboxylic acid methyl ester(cimetidine)::2-methylamino-2-[2-(4-methyl-1H-5-imidazolylmethylsulfanyl)ethylamino]-(E)-1-imino cyanide::2-methylamino-2-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethylamino]-(Z)-1-imino cyanide(cimetidine)::; N''''''''-cyano-N-methyl-N''''-(2-(((5-methyl-1H-imidazol-4-yl)methyl)thio)-ethyl)guanidine::CHEMBL30::Cimetidine::Eureceptor::N''''''''''''''''-cyano-N-methyl-N''''''''-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]thio}ethyl)guanidine::N''''''''-cyano-N-methyl-N''''-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]-lambda~4~-sulfanyl}ethyl)guanidine::N''''''''-cyano-N-methyl-N''''-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]thio}ethyl)guanidine::N''''''''-cyano-N-methyl-N''''-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]thio}ethyl)guanidine (Cimetidine)::N''''''''-cyano-N-methyl-N''''-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]thio}ethyl)guanidine(cimetidine)::N''''''''-cyano-N-methyl-N''''-({[(5-methyl-1H-imidazol-4-yl)methyl]thio}methyl)guanidine(cimetidine)::N-Cyano-N''''-methyl-N''''''''-(2-(((5-methyl-1H-imidazol-4-yl) methyl)thio)ethyl)guanidine(Cimetidine)::N-Methyl-N''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-N''''''''-Cyano-guanidine::N-Methyl-N''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-N''''''''-cyano-guanidine(Cimetidine)::N-Methyl-N''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-cyanoguanidine(cimetidine)::N-cyanomethyl-N''''-methyl-N''''''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-guanidine ( Cimetidine)::N-methyl-N''''-cyano-N''''''''-[2-(5-methyl-1H-imidazol-4-ylmethylsulfanyl)-ethyl]-guanidine::N-methyl-N-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethyl]-1-cyanoiminomethanediamine::N-methyl-N-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethyl]cyanoiminomethanediamine (cimetidine)::N-methyl-N-[2-(5-methyl-1H-4-imidazolylmethylsulfanyl)ethyl]imino(-N-cyano)methanediaminem::N-tert-Butyl-N''''-[4-(1H-imidazol-4-yl)-phenyl]-formamidine(cimetidine)::Tagamet::Tagamet HB::Tagamet hb 200::cemitidine",0,0
+CID2766326,1-(3-(4-(piperidin-1-ylmethyl)phenoxy)propyl)piperidine::1-(4-(3-(piperidin-1-yl)propoxy)benzyl)piperidine::1-[3-(4-hexahydro-1-pyridinylmethylphenoxy)propyl]hexahydropyridine::1-[4-(3-hexahydro-1-pyridinylpropoxy)benzyl]hexahydropyridine::CHEMBL129542::JNJ-5207852,0,0
+CID2769,"4-Amino-5-chloro-N-{1-[3-(4-fluoro-phenoxy)-propyl]-3-methoxy-piperidin-4-yl}-2-methoxy-benzamide::4-amino-5-chloro-N-(1-(3-(4-fluorophenoxy)propyl)-3-methoxypiperidin-4-yl)-2-methoxybenzamide::CHEMBL560739::CISAPRIDE::PROPULSID::US10167299, Cisapride::US10800776, Example Cisapride::US9221790, Cisapride::cid_5311047",0,0
+CID2771,"1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile::CHEMBL549::CITALOPRAM::CITALOPRAM HYDROBROMIDE::Escitalopram::[3H]Citalopram::[3H]Cytalopram::[3H]Escitalopram::[3H]Lexapro",0,0
+CID2790,Clobenpropit::N''-[(4-chlorophenyl)methyl]{[3-(1H-imidazol-5-yl)propyl]sulfanyl}methanimidamide::VUF 9153::VUF-9153::VUF9153,0,0
+CID2801,"3-(2-chloranyl-5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethyl-propan-1-amine;hydrochloride::3-(2-chloro-5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethyl-1-propanamine;hydrochloride::3-(2-chloro-5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine;hydrochloride::3-(2-chloro-5,6-dihydrobenzo[b][1]benzazepin-11-yl)propyl-dimethyl-amine;hydrochloride::CHLORIMIPRAMINE::CLOMIPRAMINE::CLOMIPRAMINE HYDROCHLORIDE::CLOMIPRIMINE::MLS000028511::SMR000058295::cid_68539::med.21724, Compound Clomipramine",0,0
+CID2802,"1,3-dihydro-7-nitro-5-(2-chlorophenyl)-2H-1,4.benzodiazepin-2-one::5-(2-chlorophenyl)-7-nitro-1,3-dihydro-2H-1,4-benzodiazepin-2-one::5-(o-chlorophenyl)-7-nitro-1,3-dihydro-2H-1,4-benzodiazepin-2-one::CHEMBL452::CLONAZEPAM",0,0
+CID2803,"2-(2,6-dichloroanilino)-1,3-diazacyclopentene-(2)::2-(2,6-dichloroanilino)-2-imidazoline::CLONIDINE::N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine::clonidine (amino form)",0,0
+CID281723,CAS_5462505::NSC_5462505::heterocodeine,0,0
+CID2818,"6-chloro-10-(4-methylpiperazin-1-yl)-2,9-diazatricyclo[9.4.0.0^{3,8}]pentadeca-1,3(8),4,6,10,12,14-heptaene::CLOZARIL::Clozapine::Leponex::US10259786, Clozapine",0,0
+CID2820,CAS_2820::N-DESMETHYLCLOZAPINE::NSC_2820,0,0
+CID2826,CAS_50-36-2::COCAINE::NSC_446220,0,0
+CID2828,CAS_29485-83-4::CODEINE SULFATE::Codeine::NSC_223652,0,0
+CID28693,"(phenylmethyl) N-[[(6aR,9S,10aR)-4,7-dimethyl-6,6a,8,9,10,10a-hexahydroindolo[4,3-fg]quinoline-9-yl]methyl]carbamate::CHEMBL19215::METERGOLINE::MLS000069437::N-[[(6aR,9S,10aR)-4,7-dimethyl-6,6a,8,9,10,10a-hexahydroindolo[4,3-fg]quinoline-9-yl]methyl]carbamic acid (phenylmethyl) ester::N-[[(6aR,9S,10aR)-4,7-dimethyl-6,6a,8,9,10,10a-hexahydroindolo[4,3-fg]quinoline-9-yl]methyl]carbamic acid benzyl ester::SMR000059050::benzyl N-[[(6aR,9S,10aR)-4,7-dimethyl-6,6a,8,9,10,10a-hexahydroindolo[4,3-fg]quinoline-9-yl]methyl]carbamate::cid_28693",0,0
+CID2913,"1-Methyl-4-(5H-dibenzo(a,d)cycloheptenylidene)piperidine::1-methyl-4-(5-dibenzo(a,e)cycloheptatrienylidene)piperidine::4-(5-dibenzo(a,d)cyclohepten-5-ylidine)-1-methylpiperidine::4-(5H-dibenzo(a,d)cyclohepten-5-ylidene)-1-methylpiperidine::4-(5H-dibenzo[a,d][7]annulen-5-ylidene)-1-methylpiperidine4-(5H-dibenzo[a,d]cyclohepten-5-ylidene)-1-methylpiperidine::5-(1-methylpiperidylidene-4)-5H-dibenzo(a,d)cyclopheptene::CHEMBL516::CYPROHEPTADINE",0,0
+CID2978,"CAS_1972-08-3::NSC_16078::THC, delta 9::US9416103, &#916;9-THC",0,0
+CID2995,"3-(10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)-N-methylpropan-1-amine::5-(gamma-methylaminopropyl)iminodibenzyl::CHEMBL72::DESIPRAMINE HYDROCHLORIDE::DMI::Desipramin::Desipramine::Desmethylimipramine::N-(3-methylaminopropyl)iminobibenzyl::US9944618, Compound ID No. 174::demethylimipramine::monodemethylimipramine::norimipramine",0,0
+CID3001055,CHEMBL512::Ranitidine::ZANTAC::dimethyl[(5-{[(2-{[(E)-1-(methylamino)-2-nitroethenyl]amino}ethyl)sulfanyl]methyl}furan-2-yl)methyl]amine,0,0
+CID3007,1-Phenylpropan-2-amin::1-phenyl-2-aminopropane::1-phenylpropan-2-amine::AMP ASPARTATE::AMPHETAMINE::AMPHETAMINE SULFATE::Amfetamine::Amphetamin::DEXTROAMP SACCHARATE::alpha-methylbenzeneethaneamine::alpha-methylphenylethylamine::amfetaminum::beta-Phenylisopropylamin::beta-aminopropylbenzene::beta-phenylisopropylamine::desoxynorephedrine,0,0
+CID3012003,"(3R,4S)-3-(4-Methoxy-phenoxymethyl)-1-methyl-4-phenyl-piperidine::3-(4-Methoxy-phenoxymethyl)-1-methyl-4-phenyl-piperidine(femoxetine)::CHEMBL94739::Femoxetine",0,0
+CID3016,"CHEMBL12::DIAZEPAM::US9271961, Diazepam",0,0
+CID3018920,"8-M-ADOT::CHEMBL53015::N-(8-Methoxy-1,2,3,4-tetrahydro-naphthalen-2-yl)-acetamide",0,0
+CID3022645,"(R)-2-((R)-(2-ethoxyphenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(2-ethoxyphenoxy)(phenyl)methyl)morpholine::2-((2-ethoxyphenoxy)(phenyl)methyl)morpholine::2-[(2-Ethoxy-phenoxy)-phenyl-methyl]-morpholine::2-[2-ethoxyphenoxy(phenyl)methyl]-1,4-oxazinane::CHEMBL14370::REBOXETINE::rac-syn-2-((2-ethoxyphenoxy)(phenyl)methyl)morpholine",0,0
+CID3032915,1-[4-(1H-imidazol-5-yl)butyl]-3-methylthiourea::Burimamide::CHEMBL12160,0,0
+CID3033769,"(S)-3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::(S)-3,5-dichloro-N-((1-ethylpyrrolidin-2-yl)methyl)-2-hydroxy-6-methoxybenzamide::(S)3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::3,5-Dichloro-N-((S)-1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide (raclopride)::3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide(Raclopride)::CHEMBL8809::RACLOPRIDE::Raclopride;3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide",0,0
+CID3034416,CAS_105618-26-6::NSC_3034416::Nor-BNI,0,0
+CID3034754,"(21R)-22-(cyclopropylmethyl)-14-oxa-11,22-diazaheptacyclo[13.9.1.0^{1,13}.0^{2,21}.0^{4,12}.0^{5,10}.0^{19,25}]pentacosa-4(12),5,7,9,15,17,19(25)-heptaene-2,16-diol::(8R)-7-(cyclopropylmethyl)-5,6,7,8,14,14b-hexahydro-4,8-methano[1]benzofuro[2,3-a]pyrido[4,3-b]carbazole-1,8a(9H)-diol::NALTRINDOLE::[3H]-naltrindole",0,0
+CID3034816,"(-)-2-(3-Furylmethyl)-5,9-diethyl-2&#39;-hydroxy-6,7-benzomorphan::CAS_56649-76-4::Mr2266",0,0
+CID3035746,CHEMBL1237146::CHEMBL498770::Iodophenpropit::{[3-(1H-imidazol-5-yl)propyl]sulfanyl}-N''-[2-(4-iodophenyl)ethyl]methanimidamide,0,0
+CID3035842,4-(1H-imidazol-4-ylmethyl)piperidine::4-(1H-imidazol-5-ylmethyl)piperidine::Immepip,0,0
+CID3035905,"CHEMBL260374::N-cyclohexyl-4-(1H-imidazol-5-yl)piperidine-1-carbothioamide::Thioperamide::US11622967, Compound Thioperamide",0,0
+CID3036864,"8-Chloro-3-methyl-5-phenyl-2,3,4,5-tetrahydro-1H-benzo[d]azepin-7-ol(SCH 23390)::CAS_87134-87-0::CHEMBL2158641::CHEMBL62::SCH 23388::SCH 23390::SCH 23390 (R-enantiomer)::SCH 23390,R(+)",0,0
+CID3043477,CAS_3043476::Galantide (M15)::NSC_3043476,0,0
+CID3052762,"4-Amino-5-chloro-2,3-dihydro-benzofuran-7-carboxylic acid [1-(3-methoxy-propyl)-piperidin-4-yl]-amide::CHEMBL117287::PRUCALOPRIDE::US9663465, prucalopride",0,0
+CID3058751,(S)-Norfluoxetine::CHEMBL465123::NORFLUOXETINE,0,0
+CID3077,CHEMBL12344::Dimaprit::[3-(carbamimidoylsulfanyl)propyl]dimethylamine,0,0
+CID3086599,"(CGS21680) 3-(4-{2-[6-Amino-9-(5-ethylcarbamoylmethyl-3,4-dihydroxy-tetrahydro-furan-2-yl)-9H-purin-2-ylamino]-ethyl}-phenyl)-propionic acid::2-[4-(2-carboxyethyl)-phenethylamino]-5''''-N-ethylcarboxamidoadenosine::2-[4-(2-carboxyethyl)phenethylamino]-5''''-N-ethylcarboxamidoadenosine::2-p-(2-carboxyethyl)phenethylamino-5''''-N-ethylcarboxamidoadenosine::3-(4-(2-(6-amino-9-((2R,3R,4S,5S)-5-(ethylcarbamoyl)-3,4-dihydroxy-tetrahydrofuran-2-yl)-9H-purin-2-ylamino)ethyl)phenyl)propanoic acid::3-(4-(2-(6-amino-9-((2R,3R,4S,5S)-5-(ethylcarbamoyl)-3,4-dihydroxytetrahydrofuran-2-yl)-9H-purin-2-ylamino)ethyl)phenyl)propanoic acid::3-(4-{2-[6-Amino-9-((2R,3R,4S,5S)-5-ethylcarbamoyl-3,4-dihydroxy-tetrahydro-furan-2-yl)-9H-purin-2-ylamino]-ethyl}-phenyl)-propionic acid::CGS 21680::CGS-21680::CHEMBL331372::[3H]-CGS 21680",0,0
+CID3100,"(2-Benzhydryloxy-ethyl)-dimethyl-amine::2-(benzhydryloxy)-N,N-dimethylethanamine::2-(diphenylmethoxy)-N,N-dimethylethanamine::Antitussive::Beldin::Belix::Benadryl::Benylin::CHEMBL657::DIMENHYDRINATE::DIPHENHYDRAMINE::Dibenil::Diphen::Hydramine::N-[2-(BENZHYDRYLOXY)ETHYL]-N,N-DIMETHYLAMINE::Silphen::US9138431, DIPHENHYDRAMINE (Benadryl)::US9333199, DIPHENHYDRAMINE (Benadryl)",0,0
+CID31016,"(+/-)1-Methyl-2-(3,4,5-trimethoxy-phenyl)-ethylamine::1-Methyl-2-(3,4,5-trimethoxy-phenyl)-ethylamine::CHEMBL30336::TMA",0,0
+CID31101,BROMOCRIPTINE::Bromocriptine+ (GTP+)::Bromocriptine+ (GTP-),0,0
+CID3140,CAS_2379-57-9::DNQX::NSC_3140,0,0
+CID3168,"1-(1-(4-(4-fluorophenyl)-4-oxobutyl)-1,2,3,6-tetrahydropyridin-4-yl)-1H-benzo[d]imidazol-2(3H)-one::1-{1-[4-(4-Chloro-phenyl)-4-oxo-butyl]-1,2,3,6-tetrahydro-pyridin-4-yl}-1,3-dihydro-benzoimidazol-2-one(Droperidol)::1-{1-[4-(4-Fluoro-phenyl)-4-oxo-butyl]-1,2,3,6-tetrahydro-pyridin-4-yl}-1,3-dihydro-benzoimidazol-2-one::1-{1-[4-(4-fluorophenyl)-4-oxobutyl]-1,2,3,6-tetrahydro-4-pyridinyl}-2,3-dihydro-1H-benzo[d]imidazol-2-one::CHEMBL1108::DROPERIDOL::Inapsine::McN-JR-4749::R-4749",0,0
+CID3250,CAS_60-79-7::ERGONOVINE::NSC_104873,0,0
+CID3251,CAS_113-15-5::ERGOTAMINE::NSC_3251,0,0
+CID3277600,CAS_3277600::NSC_3277600::SB204741,0,0
+CID327764,A-304121,0,0
+CID3292447,CAS_3292447::NSC_3292447::SB 216641,0,0
+CID33032,(2S)-2-aminopentanedioic acid::(S)-Glu::D-Glutamate::Glutamate::L-Glu::L-Glutamate::L-Glutamic acid::L-[14C(U)]glutamate::L-gluatmate,0,0
+CID3337,CAS_16105-77-4::Fenfluramine::Fenfluramine (+)::Fenfluramine (-)::NSC_3337::d-Fenfluramine,0,0
+CID3340785,"CAS_3340785::NSC_3340785::azepan-1-yl(5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-yl)methanone",0,0
+CID3343,"5-(1-hydroxy-2-(1-(4-hydroxyphenyl)propan-2-ylamino)ethyl)benzene-1,3-diol::5-{1-Hydroxy-2-[2-(4-hydroxy-phenyl)-1-methyl-ethylamino]-ethyl}-benzene-1,3-diol::CHEMBL32800::FENOTEROL",0,0
+CID3345,4-(4-Chloro-benzyl)-2-(1-methyl-azepan-4-yl)-2H-phthalazin-1-one::CHEMBL596::Duragesic-100::Duragesic-12::Duragesic-25::Duragesic-50::Duragesic-75::FENTANYL::FENTANYL CITRATE::FENTANYL-HCl::Fentanyl-100::Fentanyl-12::Fentanyl-25::Fentanyl-50::Fentanyl-75::Fentora::Innovar::Ionsys::N-(1-Phenethyl-piperidin-4-yl)-N-phenyl-propionamide::N-(1-Phenethyl-piperidin-4-yl)-N-phenyl-propionamide(Fentanyl)::N-(1-phenethylpiperidin-4-yl)-N-phenylpropionamide,0,0
+CID3372,"2-[4-[3-[2-(trifluoromethyl)-10-phenothiazinyl]propyl]-1-piperazinyl]ethanol;hydrochloride::2-[4-[3-[2-(trifluoromethyl)phenothiazin-10-yl]propyl]piperazin-1-yl]ethanol;hydrochloride::2-[4-[3-[2-(trifluoromethyl)phenothiazin-10-yl]propyl]piperazino]ethanol;hydrochloride::FLUPHENAZINE::FLUPHENAZINE HYDROCHLORIDE::MLS001076508::SMR000058411::cid_3372::cid_6602611::med.21724, Compound 17",0,0
+CID3373,"Anexate::CHEMBL407::FLUMAZENIL::Ro15-1788::Romazicon::[3H]Ro15-1788::ethyl 12-fluoro-8-methyl-9-oxo-2,4,8-triazatricyclo[8.4.0.0^{2,6}]tetradeca-1(14),3,5,10,12-pentaene-5-carboxylate",0,0
+CID3378093,"11'-Methyl-5-[[2'-methyl-4'-(5-methyl-1,2,4-oxadiazol-3-yl)biphenyl-4-yl]carbonyl]-2,3,6,7-tetrahydrospiro[furo-[2,3-f]indole-3,4'-piperidine](SB-224289)::4-[2-methyl-4-(5-methyl-1,2,4-oxadiazol-3-yl)phenyl]phenyl-1'-methylspiro[3,5,6,7-tetrahydro-2H-furo[2,3-f]indole-3,4'-(hexahydropyridine)]-5-ylmethanone::CHEMBL281350::SB-224289::[2'-Methyl-4'-(5-methyl-[1,2,4]oxadiazol-3-yl)-biphenyl-4-yl]-[3-(1-methyl-piperidine)-2,3,6,7-tetrahydro-1-oxa-5-aza-s-indacen-5-yl]-methanone",0,0
+CID3379236,"CAS_3379236::N-cyclohexyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_3379236",0,0
+CID3380,"5-(2-fluorophenyl)-1-methyl-7-nitro-2,3-dihydro-1H-1,4-benzodiazepin-2-one::CHEMBL13280::Flunitrazepam::[3H]Rohypnol::[3H]flunitrazepam",0,0
+CID3386,"CHEMBL1201082::CHEMBL41::Fluoxetin::Fluoxetine::Prozac::US9120771, Fluoxetine::cid_62857",0,0
+CID3396,"8-[4,4-bis(4-fluorophenyl)butyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one::CHEMBL46516::FLUSPIRILENE::NCGC00015424::cid_3396::med.21724, Compound Fluspirilene::spiropiperidine analogue, 1",0,0
+CID3410,CAS_73573-87-2::Formoterol::NSC_3083544,0,0
+CID3448,CAS_64603-91-4::NSC_3448::THIP,0,0
+CID3455,"1-{2-[bis(4-fluorophenyl)methoxy]ethyl}-4-(3-phenylpropyl)piperazine::CHEMBL153260::CHEMBL281594::CHEMBL542933::CHEMBL543876::GBR 12909::GBR-12909::NCGC00015300::US9944618, Compound ID No. 175::Vanoxerine",0,0
+CID3467177,"Luzindole,N-pentanoyl",0,0
+CID3559,"4-[4-(4-Chloro-phenyl)-4-hydroxy-piperidin-1-yl]-1-(4-fluoro-phenyl)-butan-1-one;propionate(HCl)::4-[4-(4-chlorophenyl)-4-hydroxypiperidin-1-yl]-1-(4-fluorophenyl)butan-1-one::CHEMBL54::CHEMBL545608::Haloperidol::Haloperidol, 1",0,0
+CID3597695,CAS_5311315::NF279::NSC_5311315,0,0
+CID3602,CAS_98299-40-2::HHSiD::NSC_3602::hexahydrosiladifenidol,0,0
+CID3644637,CAS_181632-25-7::CHEMBL14563::SB 242084,0,0
+CID36511,(SP)Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2::Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met NH2::Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2::Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2(Substance P)::Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2.(Substance P)::Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-amine::ArgProLysProGlnGlnPhePheGlyLeuMet::CHEMBL235363::H-Arg-Pro-Lys-Pro-Gln-Gln-Phe-D-Phe-Gly-Leu-Met-NH2::H-Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2(Substance P)::Substance P::Substance P (Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-MetNH2)::Substance P analogue::tachykinin substance P (SP),0,0
+CID3654103,4-(3-CHLOROPHENYL)-ALPHA-(DIPHENYLMETHYL)-1-PIPERAZINEETHANOL HYDROCHLORIDE::BRL 15572,0,0
+CID3661,"ATR::ATROPINE::Atropine,(-)::CAS_51-55-8::CHEMBL195::NSC_3661::US9333195, ATROPINE",0,0
+CID3668,"3,4-Dihydroxy-5-[6-(3-iodo-benzylamino)-purin-9-yl]-tetrahydro-furan-2-carboxylic acid methylamide::3,4-dihydroxy-5-(6-{[(3-iodophenyl)methyl]amino}-9H-purin-9-yl)-N-methyloxolane-2-carboxamide::IB-MECA",0,0
+CID36735,Dopamine + GPP(NH)p::GPP(NH)P(+)::GPP(NH)p(-)::Guanylyl imidodiphosphate,0,0
+CID3675,CHEMBL1089::Nardil::PHENELZINE::Phenethyl-hydrazine,0,0
+CID3682,"1-[(7-methyl-2,3-dihydro-1H-inden-4-yl)oxy]-3-(propan-2-ylamino)butan-2-ol::ICI 118,551::ICI 118551",0,0
+CID3692,2-(3H-imidazol-4-yl)ethylsulfanylmethanimidamide::CHEMBL19439::CHEMBL544911::Imetit::{[2-(1H-imidazol-4-yl)ethyl]sulfanyl}methanimidamide,0,0
+CID3693566,"N-[5-[5-(2,4-Dioxo-1,3,8-triazaspiro[4.5]decan-8-yl)-1-oxopentyl]-2,4-dimethoxyphenyl]-4-(trifluoromethyl)benzenesulfonamide::RS-102221",0,0
+CID3696,CHEMBL11::IMIPRAMINE HYDROCHLORIDE::IMIPRAMINE PAMOATE::Imipramin,0,0
+CID3715,"2-{1-[(4-chlorophenyl)carbonyl]-5-methoxy-2-methyl-1H-indol-3-yl}acetic acid::CHEMBL6::Indocin::Indomethacin::US11478464, Compound Indomethacin::US9271961, Indomethacin::indometacin",0,0
+CID3723424,K117,0,0
+CID37459,"(+)-3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[4,5]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol::(+)-butaclamol::(+/-)-3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[4,5]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol::(S)-(-)-3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[6,7]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol::3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[4,5]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol::3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[4,5]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol ((+)-butaclamol)::3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[4,5]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol((+)-butaclamol)::3-(tert-butyl)-(3S,4aS,13bS)-2,3,4,4a,8,9,13b,14-octahydro-1H-benzo[6,7]cyclohepta[de]pyrido[2,1-a]isoquinolin-3-ol(Butaclamol)::BUTACLAMOL::BUTACLAMOL, (-)::BUTACLAMOL,(+)::BUTACLAMOL,d-::CHEMBL8514::d-Butaclamol",0,0
+CID3746,CAS_22254-24-6::Ipratropium::NSC_3746,0,0
+CID3748,CHEMBL92401::Euphozid::Iprazid::Iproniazid,0,0
+CID37632,Adinazolam::CAS_37115-32-5::NSC_37632,0,0
+CID3779,"4-[1-hydroxy-2-(isopropylamino)ethyl]pyrocatechol;hydrochloride::4-[1-hydroxy-2-(propan-2-ylamino)ethyl]benzene-1,2-diol::4-{1-hydroxy-2-[(propan-2-yl)amino]ethyl}benzene-1,2-diol, 2::CHEMBL434::ISOPROTERONOL::Isoprenaline::Isoproterenol::Isoproterenol (-)::Isoproterenol,(+)::Isoproterenol-l::Norisodrine::Novodrin",0,0
+CID379651,"6H-Pyrido[2,3-b][1,4]benzodiazepin-6-one,11-[2-[2-[(diethylamino)methyl]-1-piperidinyl]acetyl]-5,11-dihydro-, (+)-::AF-DX 250::CAS_121029-35-4",0,0
+CID3820,"14-bromo-8,18-diazatetracyclo[9.7.0.0^{2,7}.0^{12,17}]octadeca-1(11),2,4,6,12(17),13,15-heptaen-9-one::9-bromopaullone::CHEMBL296586::Kenpaullone::NSC 664704::Paullone Analog 5::cid_3820",0,0
+CID38207,CAS_39022-39-4::Oxaprotiline,0,0
+CID3822,"3-(2-(4-(4-Fluorobenzoyl)piperidinol)ethyl)-2,4(1H,3H)-quinazolinedione::3-(2-{4-[(4-fluorophenyl)carbonyl]piperidin-1-yl}ethyl)-1,2,3,4-tetrahydroquinazoline-2,4-dione::CHEMBL1628637::CHEMBL51::Ketanserin::R-41,468::R-41-468::R41,468::[3H]-Ketanserin",0,0
+CID3838,CHEMBL130321::Isoquinoline-5-sulfonic acid 4-[2-[(isoquinoline-5-sulfonyl)-methyl-amino]-3-oxo-3-(4-phenyl-piperazin-1-yl)-propyl]-phenyl ester::KN-62,0,0
+CID3943541,"4-Methyl-8-{4-methyl-3-[3-(3-{3-[2-methyl-5-(4,6,8-trisulfo-naphthalen-1-ylcarbamoyl)-phenylcarbamoyl]-phenyl}-ureido)-benzoylamino]-benzoylamino}-naphthalene-1,3,5-trisulfonic acid; hexa-kis Sodium salt::5,5',5''-[1,3,6-naphthalenetriyltris(sulfonylimino)]tris[1,3-benzenesulfonate analogue::CHEMBL265502::SURAMIN HEXASODIUM::Suramin sodium::suramin::suramin Na",0,0
+CID3945,"2-(6-(2-hydroxy-2-phenylethyl)-1-methylpiperidin-2-yl)-1-phenylethanone::2-[6-(2-Hydroxy-2-phenyl-ethyl)-1-methyl-piperidin-2-yl]-1-phenyl-ethanone::2-[6-(2-Hydroxy-2-phenyl-ethyl)-1-methyl-piperidin-2-yl]-1-phenyl-ethanone (lobeline)::CHEMBL15476::Lobeline::Lobeline, (-)::Lobeline,Alpha",0,0
+CID3947,"CAS_23047-25-8::Lofepramine::NSC_3947::US8629135, SW-06",0,0
+CID3964,"13-chloro-10-(4-methylpiperazin-1-yl)-2-oxa-9-azatricyclo[9.4.0.0^{3,8}]pentadeca-1(11),3,5,7,9,12,14-heptaene::2-chloro-11-(4-methylpiperazin-1-yl)dibenzo[b,f][1,4]oxazepine::8-chloro-6-(4-methylpiperazino)benzo[b][1,4]benzoxazepine;succinic acid::CHEMBL831::CL71,563::Cloxazepine::Loxapine",0,0
+CID3972,CAS_60634-51-7::LY 53857::NSC_107989,0,0
+CID3976006,"4-P-PDOT::CHEMBL285718::N-(4-Phenyl-1,2,3,4-tetrahydro-naphthalen-2-yl)-propionamide::N-(4-phenyl-1,2,3,4-tetrahydronaphthalen-2-yl)propionamide",0,0
+CID3981,CAS_50-37-3::LSD::NSC_3981,0,0
+CID4011,CHEMBL21731::Dibencycladine::Ludiomil::maprotiline,0,0
+CID4018512,"CHEMBL15060::Melatonin,2-Phenyl::N-[2-(5-Methoxy-2-phenyl-1H-indol-3-yl)-ethyl]-acetamide",0,0
+CID4020,"42-548::5-(4-Chloro-phenyl)-2,5-dihydro-3H-imidazo[2,1-a]isoindol-5-ol::5-(4-chlorophenyl)-3,5-dihydro-2H-imidazo[2,1-a]isoindol-5-ol::5-Thiophen-2-yl-2,3,5,6-tetrahydro-imidazo[2,1-a]isoquinolin-5-ol::CHEMBL781::MAZINDOL::Mazanor::Sanorex::mazindole",0,0
+CID4032,"(+)Methyl-(2,3,3-trimethyl-bicyclo[2.2.1]hept-2-yl)-amine::(+/-)Methyl-(2,3,3-trimethyl-bicyclo[2.2.1]hept-2-yl)-amine::(-)Methyl-(2,3,3-trimethyl-bicyclo[2.2.1]hept-2-yl)-amine::CHEMBL267936::MECAMYLAMINE::Methyl-(2,3,3-trimethyl-bicyclo[2.2.1]hept-2-yl)-amine::Methyl-(2,3,3-trimethyl-bicyclo[2.2.1]hept-2-yl)-amine(Mecamylamine)",0,0
+CID40539,"(2S)-2-amino-3-(3,5-dioxo-1,2,4-oxadiazolidin-2-yl)propanoic acid::2-amino-3-(3,5-dioxo[1,2,4]oxadiazolidin-2-yl)propionic acid::CHEMBL279956::Quisqualate::Quisqualate, L::quisqualic acid",0,0
+CID4055807,"CAS_4055807::N-benzyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-N-ethyl-3-methylbenzofuran-2-carboxamide::NSC_4055807",0,0
+CID40589,CAS_52942-31-1::Etoperidone::NSC_40589,0,0
+CID4067466,CAS_115245::Lithocholylglycine::NSC_115245,0,0
+CID4078,10-(2-(1-methylpiperidin-2-yl)ethyl)-2-(methylsulfinyl)-10H-phenothiazine::2-Methanesulfinyl-10-[2-(1-methyl-piperidin-2-yl)-ethyl]-10H-phenothiazine::CHEMBL1088::MESORIDAZINE::NC-123::Serentil::TPS-23,0,0
+CID4090,CAS_17692-51-2::METERGOLINE::NSC_28693,0,0
+CID4095,"(+/-)-Methadone::CAS_5967-73-7::METHADONE::Methadone-HCL,(-)::NSC_22266",0,0
+CID4106,"METHIOTHEPIN::MLS000859918::Methiothepin mesylate salt::SMR000326779::cid_3039995::mesylic acid;1-methyl-4-[3-(methylthio)-5,6-dihydrobenzo[b][1]benzothiepin-5-yl]piperazine::methanesulfonic acid;1-methyl-4-(3-methylsulfanyl-5,6-dihydrobenzo[b][1]benzothiepin-5-yl)piperazine::methanesulfonic acid;1-methyl-4-[3-(methylthio)-5,6-dihydrobenzo[b][1]benzothiepin-5-yl]piperazine",0,0
+CID4108,"CHEMBL27673::CHEMBL500996::METHOCTRAMINE::N,N''-Bis-[6-(2-methoxy-benzylamino)-hexyl]-octane-1,8-diamine::N1,N8-bis(6-(2-methoxybenzylamino)hexyl)octane-1,8-diamine",0,0
+CID41376,2-[3-(1H-imidazol-5-yl)propyl]-1-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]sulfanyl}ethyl)guanidine::2-[3-(1H-imidazol-5-yl)propyl]-3-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]sulfanyl}ethyl)guanidine::Impromidine,0,0
+CID4140,CAS_8226::METHYLERGONOVINE::NSC_8226,0,0
+CID41693,"2-hydroxypropane-1,2,3-tricarboxylic acid;N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)-4-piperidinyl]-N-phenylpropanamide::2-hydroxypropane-1,2,3-tricarboxylic acid;N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)piperidin-4-yl]-N-phenylpropanamide::MLS002320668::N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)piperidin-4-yl]-N-phenyl-propanamide;2-oxidanylpropane-1,2,3-tricarboxylic acid::SMR001338814::SUFENTANIL::Sufentanil citrate::Sufentanyl::cid_65494::citric acid;N-[4-(methoxymethyl)-1-[2-(2-thienyl)ethyl]-4-piperidyl]-N-phenyl-propionamide",0,0
+CID4171,"(2R,3R)-2,3-dihydroxysuccinic acid;1-(isopropylamino)-3-[4-(2-methoxyethyl)phenoxy]propan-2-ol::Betalok::CHEMBL13::Metoprolol::Spesicor::Spesikor::metoprolol tartrate::{2-hydroxy-3-[4-(2-methoxyethyl)phenoxy]propyl}(propan-2-yl)amine",0,0
+CID4179055,AP6A::CAS_123694::NSC_123694,0,0
+CID4184,"MIANSERIN HYDROCHLORIDE::SMR000058472::MLS000069681::2-methyl-1,2,3,4,10,14b-hexahydrodibenzo[c,f]pyrazino[1,2-a]azepine::cid_68551",0,0
+CID4205,"(+/-)-12-Methyl-1,2,3,4,9,13b-hexahydro-2,4a,5-triaza-tribenzo[a,c,e]cycloheptene::2-methyl-1,2,3,4,9,13b-hexahydro-2,4a,5-triaza-tribenzo[a,c,e]cycloheptene::CHEMBL654::MIRTAZAPINE::ORG 3770::REMERON",0,0
+CID4249,CAS_1050-79-9::MOPERONE::NSC_4249,0,0
+CID4253,CAS_23552-18-3::Morphine::NSC_5980,0,0
+CID4266,"5-(aminomethyl)-1,2-oxazol-3-ol::Agarin::CHEMBL273481::Muscimol::Pantherine",0,0
+CID4271604,K376,0,0
+CID4284525,5-MCA-NAT::5-methoxycarbonylamino-N-acetyltryptamine::CHEMBL504585::methyl 3-(2-acetamidoethyl)-1H-indol-5-ylcarbamate,0,0
+CID4284720,BW-723C86::CAS_5311036::NSC_5311036,0,0
+CID4296,1-(3-(trifluoromethyl)phenyl)piperazine::1-(3-Trifluoromethyl-phenyl)-piperazine::1-(3-Trifluoromethyl-phenyl)-piperazine(TFMPP)::CHEMBL274866::TFMPP,0,0
+CID430245,NORMORPHINE,0,0
+CID4375,CAS_4375::FG 7142::NSC_4375,0,0
+CID43815,"(3S,4R)-3-[(1,3-benzodioxol-5-yloxy)methyl]-4-(4-fluorophenyl)piperidine::(3S,4R)-3-[(2H-1,3-benzodioxol-5-yloxy)methyl]-4-(4-fluorophenyl)piperidine::CHEMBL490::PAROXETINE::US09969700, Paroxetine::US9944618, Compound ID No. 182::[3H]Paroxetine",0,0
+CID440945,"5-HT,a-Me::5-HT,omega-N-Me",0,0
+CID441278,"(+)-PENTAZOCINE::(-)-pentazocine::(2R,6R,11R)-6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::(6R,11S)-6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol(Pentazocine)::CHEMBL560::PENTAZOCINE (+)::PENTAZOCINE (-)::Pentazocine::Pentazocine,(+/-)::Talacen::Talwin::US10231963, Table B.8::US10736890, Compound TABLE B.8::US11534436, Compound Table B.8::US9656961, Example 00125::rel-(2R,6R,11R)-6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol",0,0
+CID44208891,1-[3-(5-Methoxy-1H-indol-3-yl)piperidino]ethanone::GR 128107,0,0
+CID44208902,"CAS_5311373::L-796,778::NSC_5311373",0,0
+CID44208909,CAS_80558-61-8::M&B-28767::NSC_119139,0,0
+CID44213772,"5-[6-Amino-2-(3-hydroxy-3-phenyl-prop-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-[6-amino-2-(3-hydroxy-3-phenylprop-1-yn-1-yl)-9H-purin-9-yl]-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide::6, PHPNECA::R,S-PHPNECA",0,0
+CID4422,CAS_119501::NALMEFENE-HCl::NSC_119501::nalmefene,0,0
+CID4425,CAS_465-65-6::NALOXONE::NSC_10064::Naloxone(-),0,0
+CID44265170,"1-(4-hexyl-2,5-dimethoxyphenyl)propan-2-amine::2-(4-Hexyl-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::CHEMBL268890::DOHx",0,0
+CID44270249,CHEMBL414254::H-DNal-cyclo[Cys-Tyr-DTrp-Lys-Val-DCys]-Thr-NH2::H-DNal-cyclo[DCys-Tyr-DTrp-Lys-Val-Cys]-Thr-NH2::Lanreotide,0,0
+CID44270284,BIM 23268::CHEMBL263606::H-cyclo[DCys-Phe-Phe-DTrp-Lys-Thr-Phe-DCys]-NH2,0,0
+CID44270290,BIM 23050::CHEMBL413535::cyclo[NMeDAla-Tyr-DTrp-Lys-Val-Phe],0,0
+CID44272242,"50285557::7-Methyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinoline-9-carboxylic acid ((2R,5S,10bS)-5-benzyl-10b-hydroxy-2-methyl-3,6-dioxo-octahydro-oxazolo[3,2-a]pyrrolo[2,1-c]pyrazin-2-yl)-amide::DHE",0,0
+CID44273397,"(6S,11R)-3-Cyclopropylmethyl-6-ethyl-8-hydroxy-11-methyl-3,4,5,6-tetrahydro-2H-2,6-methano-benzo[d]azocin-1-one::(6S,11R)-3-Cyclopropylmethyl-9-hydroxy-6,11-dimethyl-3,4,5,6-tetrahydro-2H-2,6-methano-benzo[d]azocin-1-one::3-Cyclopropylmethyl-6-ethyl-8-hydroxy-11-methyl-3,4,5,6-tetrahydro-2H-2,6-methano-benzo[d]azocin-1-one::3-Cyclopropylmethyl-6-ethyl-8-hydroxy-11-methyl-3,4,5,6-tetrahydro-2H-2,6-methano-benzo[d]azocin-1-one (ethylketocyclazocine)::3-Cyclopropylmethyl-6-ethyl-8-hydroxy-11-methyl-3,4,5,6-tetrahydro-2H-2,6-methano-benzo[d]azocin-1-one(Ethylketazocine, EKC)::CHEMBL279968::EKC::EKC(-)",0,0
+CID4428,CAS_27943::NALTREXONE-HCl::NSC_27943::Naltrexone,0,0
+CID44281569,7-Cyano-3-hydroxy-6-nitro-quinoxalin-2-ol anion::CNQX,0,0
+CID44282843,"2-substituted NECA derivatives, 11::5-(6-Amino-2-thiazol-2-ylethynyl-purin-9-yl)-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-{6-amino-2-[2-(1,3-thiazol-2-yl)ethynyl]-9H-purin-9-yl}-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide",0,0
+CID44282851,"2-substituted NECA derivatives, 3::5-[6-Amino-2-(5-phenyl-pent-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-[6-amino-2-(5-phenylpent-1-yn-1-yl)-9H-purin-9-yl]-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide",0,0
+CID44282861,"2-substituted NECA derivatives, 10::5-(6-Amino-2-furan-2-ylethynyl-purin-9-yl)-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-{6-amino-2-[2-(furan-2-yl)ethynyl]-9H-purin-9-yl}-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide",0,0
+CID44282897,"5-(6-Amino-2-phenylethynyl-purin-9-yl)-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-[6-amino-2-(2-phenylethynyl)-9H-purin-9-yl]-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide::9, PENECA",0,0
+CID44282899,"2-substituted NECA derivatives, 14::3-{4-[6-Amino-9-(5-ethylcarbamoyl-3,4-dihydroxy-tetrahydro-furan-2-yl)-9H-purin-2-ylethynyl]-phenyl}-propionic acid",0,0
+CID44283027,"2-substituted NECA derivatives, 13::5-[6-Amino-2-(4-carbamoyl-phenylethynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::5-{6-amino-2-[2-(4-carbamoylphenyl)ethynyl]-9H-purin-9-yl}-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide",0,0
+CID44284806,7-(3-(2-ethyl-N-phenylhydrazinecarboxamide)-7-oxa-bicyclo[2.2.1]hept-2-yl)-hept-5-enoic acid::CHEMBL286330::SQ 29548::SQ-29548,0,0
+CID44288922,"CHEMBL438945::H-YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY-NH2::NPY::NPY, human::NPY, human, rat::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro- Ala-Glu-Asp-Met-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His- Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2 (NPY)::human Neuropeptide Y",0,0
+CID44291156,Ala-Gly-c(Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys)-OH::Ala-Gly-c-[Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys](SRIF-14)::CHEMBL411836::H-Ala-Gly-Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys-OH (Disulfide bridge: 3-14)::H-Ala-Gly-c[Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys]-OH::SOMATOSTATIN::SRIF-14::SRIF14::Somatostatin receptor ligand::Somatostatin-14::somatostatin(H-Ala-Gly-Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys-OH),0,0
+CID44292742,"2-substituted NECA derivatives, 5::5-[6-Amino-2-(3-hydroxy-but-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide",0,0
+CID44292847,"2-substituted NECA derivatives, 7::5-[6-Amino-2-(3-hydroxy-3-phenyl-but-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide",0,0
+CID44292964,"2-substituted NECA derivatives, 12::5-(6-Amino-2-cyclohex-1-enylethynyl-purin-9-yl)-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide",0,0
+CID44292969,"2-substituted NECA derivatives, 2::5-[6-Amino-2-(5-cyano-pent-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide",0,0
+CID44293364,"2-substituted NECA derivatives, 4::5-[6-Amino-2-(4-hydroxy-pent-1-ynyl)-purin-9-yl]-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide",0,0
+CID44299913,"(6,7-Dihydroxy-1,2,3,4-tetrahydro-naphthalen-2-yl)-dimethyl-ammonium::TL99",0,0
+CID44302812,"(3R,4R,4aS,8aR)-4-[(E)-2-((2S,6S)-1,6-Dimethyl-piperidin-2-yl)-vinyl]-3-methyl-decahydro-naphtho[2,3-c]furan-1-one::CHEMBL59421::HIMBACINE",0,0
+CID44303660,"10-(4-Amino-butyl)-19-(2-amino-3-phenyl-propionylamino)-16-(4-hydroxy-benzyl)-7-(1-hydroxy-ethyl)-13-(1H-indol-3-ylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentaaza-cycloicosane-4-carboxylic acid (2-hydroxy-1-hydroxymethyl-propyl)-amide::CHEMBL265525::octreotide-Tyr3",0,0
+CID44303980,"7-{(1R,3R)-3-Hydroxy-2-[(E)-(S)-4-hydroxy-4-(1-propyl-cyclobutyl)-but-1-enyl]-5-oxo-cyclopentyl}-heptanoic acid methyl ester::BUTAPROST::Butaprost (Methyl Ester)::CHEMBL432522",0,0
+CID44306310,(R)-4-Hydroxy-1-(1-methyl-1H-indole-3-carbonyl)-pyrrolidine-2-carboxylic acid [(R)-1-(benzyl-methyl-carbamoyl)-2-naphthalen-2-yl-ethyl]-amide::CHEMBL303548::FK 888,0,0
+CID44307679,"3,5-Dichloro-N-[3-(3,4-dichloro-phenyl)-2-methoxyimino-5-(3-methylcarbamoylmethyl-2-oxo-[1,4']bipiperidinyl-1'-yl)-pentyl]-N-ethyl-benzamide::CHEMBL66332::SCH 206272",0,0
+CID44309096,"(5S,8R,11R,14R,17R,19aR)-11-(4-Amino-butyl)-17-benzyl-5-(4-hydroxy-benzyl)-14-(1-hydroxy-ethyl)-8-(1H-indol-3-ylmethyl)-tetradecahydro-3a,6,9,12,15,18-hexaaza-cyclopentacyclooctadecene-4,7,10,13,16,19-hexaone::CHEMBL406471::L-363,377::L-363377",0,0
+CID4431,"2-{4-[4-(2-Methoxy-phenyl)-piperazin-1-yl]-butyl}-isoindole-1,3-dione::CAS_107966::CHEMBL126632::CHEMBL8618::NAN-190::NSC_107966",0,0
+CID44311013,(Z)-7-[(S)-6-((E)-(S)-3-Hydroxy-oct-1-enyl)-2-oxa-bicyclo[2.2.1]hept-5-yl]-hept-5-enoic acid::7-[6-(3-Hydroxy-oct-1-enyl)-2-oxa-bicyclo[2.2.1]hept-5-yl]-hept-5-enoic acid::CHEMBL73010::U-46619::U46619,0,0
+CID44311916,"10-(4-Amino-butyl)-19-(2-amino-3-phenyl-propionylamino)-16-benzyl-7-(1-hydroxy-ethyl)-13-(1H-indol-3-ylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentaaza-cycloicosane-4-carboxylic acid (2-hydroxy-1-hydroxymethyl-propyl)-amide::CHEMBL405598::SMS 201-995::octreotide",0,0
+CID44316520,CHEMBL406014::CTOP::D-Phe-Cys-Tyr-D-Trp-Orn-Thr-Pen-Thr-NH2(CTOP),0,0
+CID44329583,"(2S,3R,5R)-5-[6-amino-2-(hex-1-yn-1-yl)-9H-purin-9-yl]-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide::1, HENECA::5-(6-Amino-2-hex-1-ynyl-purin-9-yl)-3,4-dihydroxy-tetrahydro-furan-2-carboxylic acid ethylamide::HE-NECA::HENECA",0,0
+CID443363,(S)-2-[(S)-2-(2-{2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methylsulfanyl-butyric acid::([Met]-enkephalin)2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methylsulfanyl-butyric acid([Met]-enkephalin::2-[(S)-2-(2-{2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-1-oxo-3-phenyl-propylamino]-4-methylsulfanyl-butyric acid::2-[1-[1-amino-2-(4-hydroxyphenyl)-(1S)-ethylcarboxamidomethylcarboxamidomethylcarboxamido]-2-phenyl-(1S)-ethylcarboxamido]-4-methylsulfanyl-(2S)-butanoic acid::2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methylsulfanyl-butyric acid::CHEMBL13786::H-Tyr-Gly-Gly-Phe-Met-OH::Met5-Enkephalin::[Met5]-enkephalin::met-enkephalin,0,0
+CID443389,"5-Methylsulfanyl-6-trifluoromethyl-2,3-dihydro-indole-1-carboxylic acid pyridin-3-ylamide::CHEMBL276140::SB 221284",0,0
+CID443408,"2-[3-cyclopropylmethyl-11-hydroxy-15-methoxy-(1S,2R,6S,14R,15R,16R)-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7,9,11-trien-16-yl]-2-propanol::2-[3-cyclopropylmethyl-11-hydroxy-15-methoxy-(1S,2R,6S,14R,15R,16R)-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7,9,11-trien-16-yl]-2-propanol(diprenorphine)::2-[3-cyclopropylmethyl-11-hydroxy-15-methoxy-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7(12),8,10-trien-16-yl]-2-propanol::CHEMBL281786::DIPRENORPHINE-HCl::Diprenorphine",0,0
+CID44342909,"CAS_81858-94-8::PYY, porcine",0,0
+CID44354684,"(12R,13aR)-12-Methoxy-1,4,5,6,9,11,12,13-octahydro-8H-pyrano[4',3':3,4]pyrido[2,1-i]indol-2-one::CHEMBL335712::Dihydro-Beta-erythroidine",0,0
+CID44369694,"15-benzyl-4-cyclopropylmethyl-10,17-dihydroxy-(1S,13R,15R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7,9,11(18)-trien-14-one::BNTX",0,0
+CID44373084,6-Methyl-N-cyclohexylergoline-8-beta-carboxamide::LY 193525::LY-193525,0,0
+CID44375783,CHEMBL163808::PL017::Tyr-Pro-D-(NMe)Phe-D-Pro-NH2,0,0
+CID44377662,CHEMBL438401::D-Trp8 SST-14::SOMATOSTATIN::SRIF-D-Trp8,0,0
+CID443951,"1,1-Diethyl-3-(7-methyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinolin-9-yl)-urea::CHEMBL73151::Terguride",0,0
+CID444,"2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one::BUPROPION::BUPROPION HYDROCHLORIDE::CHEMBL894::US9944618, Compound ID No. 176",0,0
+CID4440,CHEMBL1278::N-methyl-2-(3-(1-methylpiperiden-4-yl)indole-5-yl)ethanesulfonamide::N-methyl-2-[3-(1-methyl-4-piperidyl)-1H-indol-5-yl]-ethanesulfonamide::N-methyl-2-[3-(1-methylpiperidin-4-yl)-1H-indol-5-yl]ethanesulfonamide::NARATRIPTAN,0,0
+CID444031,"2-{1-[2-(2,3-Dihydro-benzofuran-5-yl)-ethyl]-pyrrolidin-3-yl}-2,2-diphenyl-acetamide (Darifenacin)::CHEMBL1346::DARIFENACIN::DARIFENACIN HYDROBROMIDE::Enablex",0,0
+CID44414890,CHEMBL378753::NalBzOH,0,0
+CID44449911,CAS_44449911::NSC_44449911::rac-syn-2-((4-chloro-2-ethoxyphenoxy)(phenyl)methyl)morpholine,0,0
+CID44449944,CAS_44449944::NSC_44449944::rac-syn-2-((3-chloro-2-ethoxyphenoxy)(phenyl)methyl)morpholine,0,0
+CID44450419,4-(4-methoxyphenyl)-1-phenyl-3-(2-(phenylsulfonyl)ethyl)azetidin-2-one::CAS_44450419::NSC_44450419,0,0
+CID44457461,"2,4,9-trimethyl-4,9-dihydro-2,4,7,9-tetraaza-fluorene-1,3-dione::CAS_44457461::NSC_44457461",0,0
+CID44457466,"2,5,9-trimethyl-4,9-dihydro-2,4,5,9-tetraaza-fluorene-1,3-dione::CAS_44457466::NSC_44457466",0,0
+CID44457469,"2,4-dimethyl-4,9-dihydro-2,4,5,9-tetraaza-fluorene-1,3-dione::CAS_44457469::NSC_44457469",0,0
+CID44457473,"2,4-dimethyl-4,9-dihydro-2,4,7,9-tetraaza-fluorene-1,3-dione::CAS_44457473::NSC_44457473",0,0
+CID4449,"1-(3-(4-(m-Chlorophenyl)-1-piperazinyl)propyl)-3-ethyl-4-(2-phenoxyethyl)-delta2-1,2,4-triazolin-5-one::2-{3-[4-(3-chlorophenyl)piperazin-1-yl]propyl}-5-ethyl-4-(2-phenoxyethyl)-2,4-dihydro-3H-1,2,4-triazol-3-one::CHEMBL623::NEFAZODONE::US9138393, Nefazodone HCl::US9144538, Nefazodone HCl",0,0
+CID44568340,"(2S,3S,4S)-2-CARBOXY-4-[(1Z,3E,5R)-5-CARBOXY-1-METHYL-1,3-HEXADIENYL]-3-PYRROLIDINEACETIC ACID::CHEMBL482097::domoic acid::domoric acid",0,0
+CID446220,"Cocaine::Cocaine (-)::methyl (1R,2R,3S,5S)-3-(benzoyloxy)-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate::methyl (1R,2R,3S,5S)-8-methyl-3-[(phenylcarbonyl)oxy]-8-azabicyclo[3.2.1]octane-2-carboxylate",0,0
+CID448222,"(2S,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide::Adenosine analog, 3::Adenosine, N6-Ethyl-carboxamido::Adenosine-5-(N-ethylcarboxamide)::CHEMBL464859::N-Ethylcarboxamidoadenosine::NECA",0,0
+CID4488326,"CAS_100929-53-1::DAMGO::NSC_104742::US10836728, Compound DAMGO",0,0
+CID45089168,"(1S,3S)-1-AMINO-1-CARBOXYCYCLOPENTANE-3-ACETIC ACID::(1S,3S)-HOMO-ACPD::1S, 3S-ACPD",0,0
+CID4528,"(+)-2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine::(+/-)-2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine::(-)-2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine::(Nomifensine) 2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine::2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine::2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine (Nomifensine)::2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine(Nomifensine)::2-methyl-4-phenyl-1,2,3,4-tetrahydroisoquinolin-8-amine::CHEMBL273575::NOMIFENSINE::NOMIFENSINE2-Methyl-4-phenyl-1,2,3,4-tetrahydro-isoquinolin-8-ylamine",0,0
+CID4543,"NORTRIPTYLINE::US8629135, SW-02",0,0
+CID4585,"CAS_132539-06-1::NSC_4585::OLANZAPINE::USRE49340, Rank 2",0,0
+CID4601,"CHEMBL900::Dimethyl-[2-(phenyl-o-tolyl-methoxy)-ethyl]-amine::Disipal::Invagesic::N,N-dimethyl-2-(phenyl(o-tolyl)methoxy)ethanamine::Norflex::Norgesic::ORPHENADRINE::Orphengesic",0,0
+CID461776,(S)-2-[(S)-2-(2-{2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid::([Leu]-enkephalin)2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid::(enkephalin)2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid::2-[(S)-2-(2-{2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-1-oxo-3-phenyl-propylamino]-4-methyl-pentanoic acid::2-[(S)-2-(2-{2-[(S)-2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid::2-[1-[1-amino-2-(4-hydroxyphenyl)-(1S)-ethylcarboxamidomethylcarboxamidomethylcarboxamido]-2-phenyl-(1S)-ethylcarboxamido]-4-methyl-(2S)-pentanoic acid::2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid::2-[2-(2-{2-[2-Amino-3-(4-hydroxy-phenyl)-propionylamino]-acetylamino}-acetylamino)-3-phenyl-propionylamino]-4-methyl-pentanoic acid(Enkephalin)::2-{1-[1-amino-2-(4-hydroxyphenyl)ethylcarboxamidomethylcarboxamidomethylcarboxamido]-2-phenylethylcarboxamido}-4-methylpentanoic acid::CHEMBL8234::ENKEPHALIN::Leu-ENKEPHALIN::Leu5-Enkephalin::Tyr-Gly-Gly-Phe-Leu-OH,0,0
+CID4621779,"CAS_4621779::N-butyl-5-(3,5-dimethylpiperidin-1-ylsulfonyl)-3-methylbenzofuran-2-carboxamide::NSC_4621779",0,0
+CID4636,"6-tert-butyl-3-(2-imidazolin-2-ylmethyl)-2,4-dimethyl-phenol;hydrochloride::6-tert-butyl-3-(4,5-dihydro-1H-imidazol-2-ylmethyl)-2,4-dimethyl-phenol;hydrochloride::6-tert-butyl-3-(4,5-dihydro-1H-imidazol-2-ylmethyl)-2,4-dimethylphenol;hydrochloride::MLS000038040::Oxymetazoline::SMR000059324::cid_66259",0,0
+CID4748,2-(4-[3-(2-chloro-10H-phenothiazin-10-yl)propyl]-1-piperazinyl)ethanol::2-chloro-10-(3-(4-(2-hydroxyethyl)piperazin-1-yl)propyl)phenothiazine::2-{4-[3-(2-chloro-10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethanol::4-[3-(2-chloro-10H-phenothiazin-10-yl)propyl]-1-piperazineethanol::4-[3-(2-chlorophenothiazin-10-yl)propyl]-1-piperazineethanol::CHEMBL567::Chlorpiprazine::PERPHENAZINE::Perfenazine::Perphenazin::Trilafon::gamma-(4-(beta-hydroxyethyl)piperazin-1-yl)propyl-2-chlorophenothiazine,0,0
+CID47811,"9-Methylsulfanylmethyl-7-propyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinoline; compound with methanesulfonic acid::CHEMBL1275::LY-127809::PERGOLIDE MESYLATE::Pergolide::Permax",0,0
+CID4786,"(+)2-Amino-1-phenyl-propan-1-ol::(1R, 2R)-2-Amino-1-phenyl-propan-1-ol::(1R, 2S)-2-Amino-1-phenyl-propan-1-ol::(1S, 2R)-2-Amino-1-phenyl-propan-1-ol::(1S, 2S)-2-Amino-1-phenyl-propan-1-ol::2-Amino-1-phenyl-propan-1-ol::Biphetap::Bromanate::Bromatapp::CHEMBL136560::Codamine::Contac::Demazin::Dimetane-DC::Dimetapp::Drize::Hycomine::Norephedrine, (+)::Norephedrine, (-)::Ornade::PHENYLPROPANOLAMINE::Pseudonorephedrine, (+) [cathine, (+)]::Pseudonorephedrine, (-) [cathine, (-)]::Tavist-D::Triaminic-12",0,0
+CID4828,"1-(1H-Indol-4-yloxy)-3-isopropylamino-propan-2-ol::1-(1H-Indol-4-yloxy)-3-isopropylamino-propan-2-ol((-)-Pindolol)::1-(1H-Indol-4-yloxy)-3-isopropylamino-propan-2-ol(pindolol)::1-(1H-indol-4-yloxy)-3-(isopropylamino)propan-2-ol::LB-46::PINDOLOL::PINDOLOL,(-)::PRINODOLOL::VISKAZIDE::VISKEN",0,0
+CID4830,CAS_1893-33-0::NSC_4830::PIPAMPERONE,0,0
+CID4838,CHEMBL34155::P4S::Piperidine-4-sulfonic acid::Piperidine-4-sulfonic acid (P4S),0,0
+CID4847,"3-{2-[4-(4-Fluoro-benzoyl)-piperidin-1-yl]-ethyl}-2-methyl-pyrido[1,2-a]pyrimidin-4-one::3-{2-[4-(4-Fluoro-benzoyl)-piperidin-1-yl]-ethyl}-2-methyl-pyrido[1,2-a]pyrimidin-4-one(Pirenperone)::CHEMBL18331::PIRENPERONE",0,0
+CID4848,"11-[(4-methylpiperazin-1-yl)acetyl]-5,11-dihydro-6H-pyrido[2,3-b][1,4]benzodiazepin-6-one::11-[2-(4-methyl-1-piperazinyl)-1-oxoethyl]-5H-pyrido[2,3-b][1,4]benzodiazepin-6-one;hydrochloride::11-[2-(4-methylpiperazin-1-yl)acetyl]-5H-pyrido[2,3-b][1,4]benzodiazepin-6-one;hydrochloride::11-[2-(4-methylpiperazin-1-yl)ethanoyl]-5H-pyrido[2,3-b][1,4]benzodiazepin-6-one;hydrochloride::11-[2-(4-methylpiperazino)acetyl]-5H-pyrido[2,3-b][1,4]benzodiazepin-6-one;hydrochloride::CHEMBL9967::MLS000069702::PIRENZEPINE::PIRENZEPINE DIHYDROCHLORIDE::SMR000058502::cid_185248",0,0
+CID4850,CAS_3605-01-4::NSC_4850::Piribedil,0,0
+CID4885,"CHEMBL76399::N*6*-Propyl-4,5,6,7-tetrahydro-benzothiazole-2,6-diamine::N*6*-Propyl-4,5,6,7-tetrahydro-benzothiazole-2,6-diamine (Pramipexole, PPX)::Pramipexole",0,0
+CID4893,CHEMBL2::PRAZOSIN::PRAZOSIN HYDROCHLORIDE::[3H]-Furazosin::[3H]-Minipress::[3H]-Pratsiol::[3H]-Prazosin,0,0
+CID4913274,(trans) 2-{4-[3-(4-Fluoro-phenyl)-6-trifluoromethyl-indan-1-yl]-piperazin-1-yl}-ethanol::2-{4-[3-(4-Fluoro-phenyl)-6-trifluoromethyl-indan-1-yl]-piperazin-1-yl}-ethanol::CHEMBL1204138::CHEMBL12628::tefludazine,0,0
+CID4917,"2-chloranyl-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine;ethane-1,2-disulfonic acid::2-chloro-10-[3-(4-methyl-1-piperazinyl)propyl]phenothiazine;ethane-1,2-disulfonic acid::2-chloro-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine;ethane-1,2-disulfonic acid::2-chloro-10-[3-(4-methylpiperazino)propyl]phenothiazine;ethane-1,2-disulfonic acid::Compazine::Compro::MLS001148133::PROCHLORPERAZINE::SMR000653454::cid_91499",0,0
+CID4919,1-Cyclohexyl-1-phenyl-3-pyrrolidin-1-yl-propan-1-ol::CHEMBL86715::KEMADRIN::PROCYCLIDINE,0,0
+CID4926,"N,N-dimethyl-3-(10-phenothiazinyl)-1-propanamine;hydrochloride::N,N-dimethyl-3-phenothiazin-10-yl-propan-1-amine;hydrochloride::N,N-dimethyl-3-phenothiazin-10-ylpropan-1-amine;hydrochloride::PROMAZINE::SR-01000000228-4::US9504692, Promazine::cid_5887::dimethyl(3-phenothiazin-10-ylpropyl)amine;hydrochloride",0,0
+CID49381,"3-Fluoro-6-(4-methyl-piperazin-1-yl)-11H-dibenzo[b,e]azepine::3-Fluoro-6-(4-methyl-piperazin-1-yl)-11H-dibenzo[b,e]azepine(fluperlapine)::CHEMBL63756::Fluperlapine",0,0
+CID4946,"Anapriline::Avlocardyl::CHEMBL27::PROPANOLOL(-)::PROPRANOLOL, d::PROPRANOLOL, l-::PROPRANOLOL,(+)::PROPRANOLOL,(-)::Propanolol::Propanolol,(+/-)::Propranolol::[2-hydroxy-3-(naphthalen-1-yloxy)propyl](propan-2-yl)amine",0,0
+CID4962,CAS_454217::NSC_454217::Prostratin,0,0
+CID4976,"3-(5H-dibenzo[a,d][7]annulen-5-yl)-N-methylpropan-1-amine::3-(5H-dibenzo[a,d]cyclohepten-5-yl)-N-methyl-1-propanamine::5-(3-methylaminopropyl)-5H-dibenzo[a,d]cycloheptene::7-(3-methylaminopropyl)-1,2:5,6-dibenzocycloheptatriene::CHEMBL668::N-methyl-5H-dibenzo[a,d]cycloheptene-5-propanamine::N-methyl-5H-dibenzo[a,d]cycloheptene-5-propylamine::PROTRIPTYLINE::amimetilina",0,0
+CID4979942,"(3S,4R)-1-(4-fluorophenyl)-3-(3-(4-fluorophenyl)-3-hydroxypropyl)-4-(4-hydroxyphenyl)azetidin-2-one::CAS_44450418::NSC_44450418",0,0
+CID4992,"3H]pyrilamine::CHEMBL511::Dorantamin::Mepyramine::N-(4-methoxybenzyl)-N ,N -dimethyl-N-pyridin-2-ylethane-1,2-diamine::N-[2-(dimethylamino)ethyl]-N-[(4-methoxyphenyl)methyl]pyridin-2-amine::PYRILAMINE::Pyranisamine::[3H]mepyramine::[3H]pyrilamine",0,0
+CID5002,"2-[2-(4-Dibenzo[b,f][1,4]thiazepin-11-yl-1-piperazinyl)ethoxy]ethanol::2-[2-(4-dibenzo[b,f][1,4]thiazepin-11-ylpiperazin-1-yl)ethoxy]ethanol::CHEMBL716::QUETIAPINE",0,0
+CID5005498,"14-nitro-8,18-diazatetracyclo[9.7.0.0^{2,7}.0^{12,17}]octadeca-1(11),2,4,6,12(17),13,15-heptaen-9-one::9-Nitropaullone::BDBM84528::CHEMBL50894::NSC 705701::Paullone Analog 1::alsterpaullone",0,0
+CID5011,2-(piperazin-1-yl)quinoline::2-Piperazin-1-yl-quinoline::2-Piperazin-1-yl-quinoline (Quipazine)::2-Piperazin-1-yl-quinoline(Quipazine)::CHEMBL18772::QUIPAZINE,0,0
+CID5022,"(R)-2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::(R-PIa) 2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::(S)-2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::2-(hydroxymethyl)-5-{6-[(1-phenylpropan-2-yl)amino]-9H-purin-9-yl}oxolane-3,4-diol::2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::CHEMBL274022::ChEMBL_20163::D-2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::L-2-Hydroxymethyl-5-[6-(1-methyl-2-phenyl-ethylamino)-purin-9-yl]-tetrahydro-furan-3,4-diol::R-N6-(2-phenylisopropyl) adenosine::R-PIA::S-PIA",0,0
+CID5032,"CAS_24221-86-1::CAS_5032::Ephedrine,(+)::Ephedrine,(-)::NSC_5032::Pseudoephedrine, (-)",0,0
+CID5073,"(risperidone)3-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-2-methyl-6,7,8,9-tetrahydro-pyrido[1,2-a]pyrimidin-4-one::1-(2-Allyl-phenoxy)-3-isopropylamino-propan-2-ol::2-(2-(4-(benzo[d]isoxazol-3-yl)piperidin-1-yl)ethyl)-7,8,9,9a-tetrahydro-1H-pyrido[1,2-a]pyrimidin-4(6H)-one::2-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-6,7,8,8a-tetrahydro-5H-naphthalen-1-one::3-(2-(4-(6-fluorobenzo[d]isoxazol-3-yl)piperidin-1-yl)ethyl)-2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one::3-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-2-methyl-6,7,8,9-tetrahydro-pyrido[1,2-a]pyrimidin-4-one::3-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-2-methyl-6,7,8,9-tetrahydro-pyrido[1,2-a]pyrimidin-4-one (Resperidone)::3-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-2-methyl-6,7,8,9-tetrahydro-pyrido[1,2-a]pyrimidin-4-one (risperidone)::3-{2-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-ethyl}-2-methyl-6,7,8,9-tetrahydro-pyrido[1,2-a]pyrimidin-4-one(risperidone)::5-[2-(4-Benzo[d]isothiazol-3-yl-piperazin-1-yl)-ethyl]-6-methyl-1,3-dihydro-indol-2-one(Norastemizole)::CHEMBL85::R 64 766::RISPERDAL::RISPERIDONE::US10167256, Risperidone::US10174011, risperidone::US10259786, Risperidone::US10501452, Compound risperidone::US8802672, Risperidone::WO2023288027, Cmpd Risperidone",0,0
+CID5074,"(ritanserin)6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-2,3-dihydro-1H-indolizin-5-one::(ritanserin)6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-thiazolo[3,2-a]pyrimidin-5-one::6-(2-(4-(bis(4-fluorophenyl)methylene)piperidin-1-yl)ethyl)-7-methyl-5H-thiazolo[3,2-a]pyrimidin-5-one::6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-8,8a-dihydro-thiazolo[3,2-a]pyrimidin-5-one::6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-thiazolo[3,2-a]pyrimidin-5-one::6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-thiazolo[3,2-a]pyrimidin-5-one (Ritanserin)::6-(2-{4-[Bis-(4-fluoro-phenyl)-methylene]-piperidin-1-yl}-ethyl)-7-methyl-thiazolo[3,2-a]pyrimidin-5-one(Ritanserin)::CHEMBL267777::RITANSERIN::Ritanserine::cid_5074",0,0
+CID5079497,(S)-N-{(S)-1-[(S)-1-({[(S)-1-((S)-1-Carbamoyl-3-methylsulfanyl-propylcarbamoyl)-3-methyl-butylcarbamoyl]-methyl}-carbamoyl)-2-phenyl-ethylcarbamoyl]-2-phenyl-ethyl}-3-(3-carboxy-propionylamino)-N-methyl-succinamic acid::CHEMBL26315::N-(1-{[1-({[1-(1-Carbamoyl-3-methylsulfanyl-propylcarbamoyl)-3-methyl-butylcarbamoyl]-methyl}-carbamoyl)-2-phenyl-ethyl]-methyl-carbamoyl}-2-phenyl-ethyl)-3-(3-carboxy-propionylamino)-succinamic acid::N-(1-{[1-({[1-(1-Carbamoyl-3-methylsulfanyl-propylcarbamoyl)-3-methyl-butylcarbamoyl]-methyl}-carbamoyl)-2-phenyl-ethyl]-methyl-carbamoyl}-2-phenyl-ethyl)-3-(3-carboxy-propionylamino)-succinamic acid; compound with methane::SENKTIDE,0,0
+CID5081,"RO-154513::Ro15-4513::[3H]Ro15-4513::ethyl 12-azido-8-methyl-9-oxo-2,4,8-triazatricyclo[8.4.0.0^{2,6}]tetradeca-1(10),3,5,11,13-pentaene-5-carboxylate",0,0
+CID5090,"4-(4-methanesulfonylphenyl)-3-phenyl-2,5-dihydrofuran-2-one::CHEMBL122::MK 0966::Rofecoxib::US11478464, Compound Rofecoxib",0,0
+CID5095,"4-[2-(dipropylamino)ethyl]-1,3-dihydro-2H-indol-2-one::CHEMBL589::ROPINIROLE",0,0
+CID5097908,(-)-Octylindolactam V::CAS_159320::NSC_159320,0,0
+CID5128032,2-aminopentanedioateglutamate::L-Glutamate::glutamate(2-)::glutamic acid dianion,0,0
+CID5145950,CAS_167710-87-4::RS 39604,0,0
+CID5152,1-hydroxy-2-naphthoic acid;4-[1-hydroxy-2-[6-(4-phenylbutoxy)hexylamino]ethyl]-2-methylol-phenol::4-(1-hydroxy-2-{[6-(4-phenylbutoxy)hexyl]amino}ethyl)-2-(hydroxymethyl)phenol::Aeromax::Salmeterol::Serevent::salmeterol xinafoate,0,0
+CID5163,"5-Methyl-3,5-dihydro-2H-pyrrolo[2,3-f]indole-1-carboxylic acid pyridin-3-ylamide::CHEMBL297784::SB 206553::SB-206553",0,0
+CID5170952,"8-M-PDOT::CHEMBL99377::N-(8-Methoxy-1,2,3,4-tetrahydro-naphthalen-2-yl)-propionamide",0,0
+CID5184,"(hyoscine)3-Hydroxy-2-phenyl-propionic acid 9-methyl-3-oxa-9-aza-tricyclo[3.3.1.0*2,4*]non-7-yl ester::3-hydroxy-2-phenyl-propionic acid 9-methyl-3-oxa-9-aza-tricyclo[3.3.1.0*2,4*]non-7-yl ester::9-methyl-3-oxa-9-azatricyclo[3.3.1.02,4]non-7-yl 3-hydroxy-2-phenylpropanoate::Benzotropine3-Hydroxy-2-phenyl-propionic acid 9-methyl-3-oxa-9-aza-tricyclo[3.3.1.0*2,4*]non-7-yl ester::CHEMBL13030::ChEMBL_11434::SCOPOLAMINE",0,0
+CID518962,CAS_61677::ETORPHINE - HCI::NSC_61677,0,0
+CID5191289,CAS_3045226::NSC_3045226::Ro 60-0175,0,0
+CID5202,14C-5-hydroxy tryptamine creatinine disulfate::2-imino-1-methylimidazolidin-4-one; 3-(2-aminoethyl)-1H-indol-5-ol; bis(sulfuric acid)::5-HT::5-Hydroxy Tryptamine::5-hydroxy tryptamine creatinine disulfate::CHEMBL535832::Serotonin::[3H]-5-HT,0,0
+CID5203,CAS_79617-96-2::NSC_68617::SERTRALINE,0,0
+CID5265,"8-[4-(4-fluorophenyl)-4-keto-butyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one::8-[4-(4-fluorophenyl)-4-oxidanylidene-butyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one::8-[4-(4-fluorophenyl)-4-oxobutyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one::CHEMBL267930::MLS000028615::SMR000058674::SPIPERONE::Spiroperidol::US9359372, Spiperone::[3H]-Spiroperidol::cid_5265",0,0
+CID5275,2-(3-Carboxy-propyl)-6-(4-methoxy-phenyl)-2H-pyridazin-3-ylidene-ammonium; bromide(gabazine)::4-[6-Amino-3-(4-methoxy-phenyl)-6H-pyridazin-1-yl]-butyric acid : bromide::6-Amino-1-(3-carboxy-propyl)-3-(4-methoxy-phenyl)-pyridazin-1-ium; bromide::CHEMBL303580::SR 95531,0,0
+CID5280343,"2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-4H-chromen-4-one::2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-chromen-4-one::2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-chromone;hydrate::CHEMBL50::Quercetin::Quercetin (10)::Quercetin (21)::Quercetin (Qur)::US11021454, Compound Quercetin::US9180183, Quercetin::med.21724, Compound 4",0,0
+CID5280360,"(15S)-prostaglandin E2::(5Z,11alpha,13E,15S)-11,15-dihydroxy-9-oxoprosta-5,13-dien-1-oic acid::(5Z,13E,15S)-11alpha,15-dihydroxy-9-oxoprosta-5,13-dien-1-oic acid::(E,Z)-(1R,2R,3R)-7-(3-Hydroxy-2-((3S)-(3-hydroxy-1-octenyl))-5-oxocyclopentyl)-5-heptenoic acid::CHEMBL548::DINOPROSTONE::PGE2::[3H]Dinoprostone::[3H]PGE2::[3H]Prostaglandin E2::prostaglandin E2",0,0
+CID5280459,Quercitrin::cid_5280459,0,0
+CID5280745,LTB4-20-hydroxy,0,0
+CID5280805,"2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-4H-chromen-3-yl 6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranoside::3-Rhamnoglucosylquercetin::3-Rutinosyl quercetin::CHEMBL226335::cid_5280805::rutin",0,0
+CID5280878,"(R-(R*,S*-(E,E,Z,Z)))-N-(S-(1-(4-Carboxy-1-hydroxybutyl)-2,4,6,9-pentadecatetraenyl)-L-cysteinyl)glycine::5S-hydroxy-6R-(S-cysteinylglycinyl)-7E,9E,11E,14Z-eicosatetraenoic acid::CHEMBL288943::LTD4::S-{(1R,2E,4E,6Z,9Z)-1-[(1S)-4-carboxy-1-hydroxybutyl]pentadeca-2,4,6,9-tetraen-1-yl}-L-cysteinylglycine::leukotriene D4",0,0
+CID5280879,"(5S,6R,7E,9E,11Z,14Z)-6-(cystein-S-yl)-5-hydroxyicosa-7,9,11,14-tetraenoic acidS-{(1R,2E,4E,6Z,9Z)-1-[(1S)-4-carboxy-1-hydroxybutyl]pentadeca-2,4,6,9-tetraen-1-yl}-L-cysteine::(5S-(5R*,6S*(S*),7E,9E,11Z,14Z))-6-((2-Amino-2-carboxyethyl)thio)-5-hydroxy-7,9,11,14-eicosatetraenoic acid::5S-hydroxy,6R-(S-cysteinyl),7E,9E,11Z,14Z-eicosatetraenoic acid::CHEMBL509456::LTE4::leukotriene E4",0,0
+CID5281600,"2-(3-(5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxo-4H-chromen-8-yl)-4-hydroxyphenyl)-5,7-dihydroxy-4H-chromen-4-one::8-[5-(5,7-Dihydroxy-4-oxo-4H-chromen-2-yl)-2-hydroxy-phenyl]-5,7-dihydroxy-2-(4-hydroxy-phenyl)-chromen-4-one::Amentoflavone::CHEMBL63354::cid_5281600",0,0
+CID5281751,CHEMBL1614664::Hypericin::Pseudohypericin,0,0
+CID5281878,"(cis) 2-{4-[3-(2-Trifluoromethyl-thioxanthen-9-ylidene)-propyl]-piperazin-1-yl}-ethanol(Flupentixol)::(trans-flupenthixol)2-{4-[3-(2-Trifluoromethyl-thioxanthen-9-ylidene)-propyl]-piperazin-1-yl}-ethanol::2-(4-{3-[2-Trifluoromethyl-thioxanthen-(9E)-ylidene]-propyl}-piperazin-1-yl)-ethanol::2-{4-[3-(2-Trifluoromethyl-thioxanthen-9-ylidene)-propyl]-piperazin-1-yl}-ethanol::FLUPENTHIXOL, Alpha::FLUPENTHIXOL2-{4-[3-(2-Trifluoromethyl-thioxanthen-9-ylidene)-propyl]-piperazin-1-yl}-ethanol::Flupenthixol::Flupenthixol, Beta",0,0
+CID5282380,"(E)-7-[(1R,2R,3R,5S)-3,5-Dihydroxy-2-((R)-3-hydroxy-5-phenyl-pentyl)-cyclopentyl]-hept-5-enoic acid isopropyl ester::CHEMBL364375::LATANOPROST (PHXA41)::Latanoprost (Isopropyl Ester)",0,0
+CID5282381,CAS_59122-46-2::MISOPROSTOL (Free Acid),0,0
+CID5282426,CAS_897-15-4::Dothiepin::NSC_3155,0,0
+CID5283128,LTB4-6-trans,0,0
+CID5283159,5-oxo-ETE::CHEMBL18028::ETE-5-Oxo,0,0
+CID5283169,"115-hydroxy-(5Z,8Z,11Z,13E,15R)-5,8,11,13-icosatetraenoic acid(15-HETE)::15-Hydroxy-icosa-5,8,11,13-tetraenoic acid::CHEMBL8705::HETE-15(S)",0,0
+CID5284596,"(morphine)4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::(naloxone) 4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one::(naloxone)4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one::(naloxone)4-allyl-10,17-dihydroxy-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one::4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one::4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one (naloxone)::4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one( Naloxone)::4-allyl-10,17-dihydroxy-(1S,5R,13R,17S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one(Naxolone)::4-allyl-10,17-dihydroxy-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one::4-allyl-10,17-dihydroxy-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10-trien-14-one(naloxone)C2H2O4::Analog of 14-(Arylhydroxyamino)codeinone::NALOXONE::NARCAN::SUBOXONE::[17-(2,3-3H-2-propenyl)]-4, 5a -epoxy-3,14-dihydroxymorphinan-6-one",0,0
+CID5288826,"(-)-(etorphine)::(-)-morphine::(1S,5R,13R,14S)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::(Morphine)::(Morphine)4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::(morphine) 4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::1N-[2-(5-dimethylaminomethyl-2-furylmethylsulfanyl)ethyl]-1N-methyl-2-nitro-(Z)-1-ethene-1,1-diamine::2-[2-{2-[2-(2-Amino-3-phenyl-propionylamino)-acetylamino]-acetylamino}-3-(4-hydroxy-phenyl)-propionylamino]-4-methylsulfanyl-butyric acid::2-{4-[2,4-diamino-6-pteridinylmethyl(methyl)amino]phenylcarboxamido}pentanedioic acid(morphine)::3-(4-Hydroxy-phenyl)-1-propyl-piperidine-3-carboxylic acid ethyl ester::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol ; HydroChloride::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol ;sulphate salt(morphine)::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol((Morphine))::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol(Morphine sulfate)::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol(Morphine)(HCl)::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol(morphine)::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol,sulfate(Morphinesulfate)::4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diolMorphine::4-methyl-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::4-methyl-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol (morphine)::4-methyl-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol(Morphine)::6,11-Dimethyl-3-(3-methyl-but-2-enyl)-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol(Morphine)::6-tert-Butyl-3-methyl-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocine::7,8-Didehydro-4,5-epoxy-17-methylmorphinan-3,6-diol(morphine)::AMBENYL::AVINZA::Analog of 14-(Arylhydroxyamino)codeinone::BDB50000092::BROMANYL::CHEMBL70::CODRIX::DEPODUR::DIMETANE-DC::INFUMORPH::KADIAN::MORPHINE::MYBANIL::Morphine;4-methyl-(1S,5R,13R,14S,17R)-12-oxa-4-azapentacyclo[9.6.1.01,13.05,17.07,18]octadeca-7(18),8,10,15-tetraene-10,14-diol::TRIACIN-C::US9133125, Table D, morphine",0,0
+CID5291,"4-[(4-methylpiperazin-1-yl)methyl]-N-[4-methyl-3-[(4-pyridin-3-ylpyrimidin-2-yl)amino]phenyl]benzamide::CHEMBL941::Gleevec::Imatinib::Imatinib, 21::N-(4-methyl-3-{[4-(pyridin-3-yl)pyrimidin-2-yl]amino}phenyl)-4-[(4-methylpiperazin-1-yl)methyl]benzamide::STI-571::STI571::US10906896, Cpd imatinib::US11649218, Example Imatinib::US9255107, Imatinib::cid_5291::imatinib-CD3::med.21724, Compound 6",0,0
+CID5310957,"(1R,2S)-2-((S)-Amino-carboxy-methyl)-cyclopropanecarboxylic acid::2-(Amino-carboxy-methyl)-cyclopropanecarboxylic acid (D-CGA-D)::CHEMBL285369::L-CCG-I::L-CCG-IV",0,0
+CID5310960,CHEMBL302765::J1.251.181G::MRE 3008F20,0,0
+CID5310969,(S)-3-(azetidin-2-ylmethoxy)pyridine::3-((S)-1-Azetidin-2-ylmethoxy)-pyridine::A-159470::A-85380::CHEMBL59986,0,0
+CID5310979,"(1R,2R)-3-((S)-Amino-carboxy-methyl)-cyclopropane-1,2-dicarboxylic acid::(1R,2R)-3-[(S)-amino(carboxy)methyl]cyclopropane-1,2-dicarboxylic acid::(2S,2'R,3'R)-2-(2',3')-dicarboxycyclopropylglycine::3-(Amino-carboxy-methyl)-cyclopropane-1,2-dicarboxylic acid::CHEMBL284193::DCG-IV",0,0
+CID5310983,"2-MeSATP::ATP, 2-meS::CHEMBL336208",0,0
+CID5311035,(R)-BUTAPROST::Butaprost (Free Acid)::CAS_69648-38-0,0,0
+CID5311053,"(Z)-7-{(1R,2R,3R,5S)-2-[(E)-(R)-4-(3-Chloro-phenoxy)-3-hydroxy-but-1-enyl]-3,5-dihydroxy-cyclopentyl}-hept-5-enoic acid::7-{2-[4-(3-Chloro-phenoxy)-3-hydroxy-but-1-enyl]-3,5-dihydroxy-cyclopentyl}-hept-5-enoic acid::CHEMBL37853::CLOPROSTENOL",0,0
+CID5311096,"CHEMBL85606::N-((1r,4r)-4-(2-(6-cyano-3,4-dihydroisoquinolin-2(1H)-yl)ethyl)cyclohexyl)quinoline-4-carboxamide::N-(-4-(2-(6-cyano-3,4-dihydroisoquinolin-2(1H)-yl)ethyl)cyclohexyl)quinoline-4-carboxamide::Quinoline-4-carboxylic acid {4-[2-(6-cyano-3,4-dihydro-1H-isoquinolin-2-yl)-ethyl]-cyclohexyl}-amide::SB-277011::SB-277011-A::trans-N-[4-[2-(6-cyano-1,2,3,4-tetrahydroisoquinolin-2yl)-ethyl]cyclo-hexyl]-4-quinolinecarboxamide::trans-N-[4-[2-(6-cyano-1,2,3,4-tetrahydroisoquinolin-2yl)ethyl]-cyclohexyl]-4-quinolininecarboxamide",0,0
+CID5311134,CAS_5311134::GR 196429::NSC_5311134,0,0
+CID5311181,"5-[(2E,3aS,4R,5R,6aS)-5-hydroxy-4-[(1E,3S)-3-hydroxy-4-methyloct-1-en-6-yn-1-yl]-octahydropentalen-2-ylidene]pentanoic acid::CHEMBL494::ILOPROST::Ventavis::[3H]-Iloprost",0,0
+CID5311194,"1-((3R,4R)-1-Cyclooctylmethyl-3-hydroxymethyl-piperidin-4-yl)-3-ethyl-1,3-dihydro-benzoimidazol-2-one::1-[(3R,4R)-1-cyclooctylmethyl-3-hydroxymethyl-4-piperidinyl]-3-ethyl-1,3-dihydro-2H-benzimidazol-2-one::1-[(3R,4R)-1-cyclooctylmethyl-3-hydroxymethyl-4-piperidyl]-3-ethyl-1,3-dihydro-2H-benzimidazol-2-one::CHEMBL357076::J-113397",0,0
+CID5311200,"CAS_3853::CHEMBL267014::CHEMBL555670::L 745,870::NSC_3853",0,0
+CID5311221,"LATANOPROST (FREE ACID)::PhXA 41::Xalatan::isopropyl (5Z,9alpha,11alpha,15R)-9,11,15-trihydroxy-17-phenyl-18,19,20-trinorprost-5-en-1-oate::isopropyl (Z)-7-((1R,2R,3R,5S)-3,5-dihydroxy-2-((3R)-3-hydroxy-5-phenylpentyl)cyclopentyl)-5-heptenoate::latanoprost::propan-2-yl (5Z)-7-{(1R,2R,3R,5S)-3,5-dihydroxy-2-[(3R)-3-hydroxy-5-phenylpentyl]cyclopentyl}hept-5-enoate",0,0
+CID5311242,"5-[(3aS,4R,5R,6aS)-5-Hydroxy-4-((S)-3-hydroxy-oct-1-enyl)-hexahydro-pentalen-(2Z)-ylidene]-pentanoic acid::5-[5-Hydroxy-4-(3-hydroxy-oct-1-enyl)-hexahydro-pentalen-2-ylidene]-pentanoic acidCarbacyclin::CARBACYCLIN::CHEMBL148319::PGI2",0,0
+CID5311271,"(2,3-Dimethoxy-phenyl)-{1-[2-(4-fluoro-phenyl)-ethyl]-piperidin-4-yl}-methanol::(2,3-Dimethoxy-phenyl)-{1-[2-(4-fluoro-phenyl)-ethyl]-piperidin-4-yl}-methanol (M 100907)::(2,3-Dimethoxy-phenyl)-{1-[2-(4-fluoro-phenyl)-ethyl]-piperidin-4-yl}-methanol(MDL 100907)::(R)-(1-(4-fluorophenethyl)piperidin-4-yl)(2,3-dimethoxyphenyl)methanol::(R)-(2,3-Dimethoxy-phenyl)-{1-[2-(4-fluoro-phenyl)-ethyl]-piperidin-4-yl}-methanol::(R)-(2,3-Dimethoxyphenyl)-(1-(2-p-fluorophenylethyl)-piperidine-4-yl)-methanol::(R)-(2,3-dimethoxyphenyl)(1-(4-fluorophenethyl)piperidin-4-yl)methanol::CHEMBL74355::MDL 100907::MDL-100907",0,0
+CID5311304,"17-cyclobutylmethyl-4,5alpha-epoxymorphinan-3,6alpha,14-triol::CHEMBL895::N-cyclobutylmethyl-4,5alpha-epoxy-3,6alpha,14-morphinantriol::NALBUPHINE::US10231963, Table B.1::US10512644, Compound Nalbuphine::US11534436, Compound Table B.1::US9233167, Nalbuphine::US9656961, Example 00118::USRE49340, Rank 9",0,0
+CID5311375,"(S)-((S)-2-aminopropyl) 6-amino-2-(2-(2-(naphthalen-2-yl)-1H-benzo[g]indol-3-yl)acetamido)hexanoate::CHEMBL252764::L-817,818",0,0
+CID5311424,(S)-(-)-N-(R-ethylbenzyl)-3-hydroxy-2-phenylquinoline-4-carboxamide::3-Hydroxy-2-phenyl-quinoline-4-carboxylic acid ((S)-1-phenyl-propyl)-amide::3-Hydroxy-2-phenyl-quinoline-4-carboxylic acid (1-phenyl-propyl)-amide::CHEMBL10188::SB 223412::SB-2234::SB-223412::Talnetant,0,0
+CID5311430,"(3S,6S,9S,12R,15S,18S)-9-(4-Amino-butyl)-3-benzyl-15-(4-hydroxy-benzyl)-12-(1H-indol-3-ylmethyl)-6-isopropyl-1,18-dimethyl-1,4,7,10,13,16hexaaza-cyclooctadecane-2,5,8,11,14,17-hexaone::CHEMBL311695::seglitide",0,0
+CID5311452,"1-(2-ETHYLPHENOXY)-3-[[(1S)-1,2,3,4-TETRAHYDRO-1-NAPHTHALENYL]AMINO]-(2S)-2-PROPANOL::CAS_174689-39-5::SR 59230A",0,0
+CID5311481,TIPP-PSI::TIPPpsi,0,0
+CID5311501,"(11R)-2-methyl-11-(morpholin-4-ylmethyl)-3-(naphthalen-1-ylcarbonyl)-9-oxa-1-azatricyclo[6.3.1.0^{4,12}]dodeca-2,4(12),5,7-tetraene::(2,3-dihydro-5-methyl-3-((4-morpholinyl)methyl)pyrrolo-(1,2,3-de)-1,4-benzoxazin-6-yl)(1-naphthalenyl)methanone monomethanesulfonat::CHEMBL188::WIN 55,212-2::WIN 55212-2::WIN-55212::WIN55212-2",0,0
+CID5312148,"3,N-Dimethyl-N-[(R)-1-methyl-3-(4-methyl-piperidin-1-yl)-propyl]-benzenesulfonamide::3,N-Dimethyl-N-[1-methyl-3-(4-methyl-piperidin-1-yl)-propyl]-benzenesulfonamide::3,N-Dimethyl-N-[1-methyl-3-(4-methyl-piperidin-1-yl)-propyl]-benzenesulfonamide (SB-258719)::4-Methyl-1-[(R)-3-methyl-4-(toluene-3-sulfonyl)-pentyl]-piperidine::CHEMBL12264::SB-258719",0,0
+CID5312988,CAS_5283125::LTB5::NSC_5283125,0,0
+CID5321846,"(+)-6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol::(R)-6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol::6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol::CHEMBL10883::THC, delta 9::Tetrahydrocannabinol",0,0
+CID5324346,(1E)-5-methoxy-1-[4-(trifluoromethyl)phenyl]pentan-1-one O-(2-aminoethyl)oxime::CHEMBL814::FLUVOXAMINE,0,0
+CID53317949,"Luzindole,N-butanoyl",0,0
+CID53462972,AP4A::CAS_175692::NSC_175692,0,0
+CID5353264,CAS_104731::NSC_104731::OAG,0,0
+CID5353560,CAS_41598-07-6::NSC_114678::PGD2,0,0
+CID5353607,CAS_73121-56-9::ENPROSTIL::NSC_5282207,0,0
+CID5353626,CAS_40666-16-8::FLUPROSTENOL::NSC_5311100,0,0
+CID5353772,CAS_4179::Mezerein::NSC_4179,0,0
+CID5355,"CHEMBL26::Compound 7::N-[(1-ethylpyrrolidin-2-yl)methyl]-2-methoxy-5-sulfamoylbenzamide::SULPIRIDE,(+)::SULPIRIDE,(-)::Sulpiride::Sulpiride, SLP::Sulpiride-R::US10172837, Sulpiride",0,0
+CID5358,(3-[2-(dimethylamino)ethyl]-1H-indol-5-yl)-N-methylmethanesulfonamide::1-[3-(2-dimethylaminoethyl)-1H-indol-5-yl]-N-methyl-methanesulfonamide::1-{3-[2-(dimethylamino)ethyl]-1H-indol-5-yl}-N-methylmethanesulfonamide::3-(2-(dimethylamino)ethyl)-N-methyl-1H-indole-5-methanesulfonamide::3-[2-(dimethylamino)ethyl]-N-methylindole-5-methanesulfonamide::CHEMBL128::SUMATRIPTAN::Sumatran::Sumax,0,0
+CID5359272,CAS_5985-38-6::LEVORPHANOL-tartarate,0,0
+CID5360515,"(4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-bis(oxidanyl)-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7-one;hydrochloride::(4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-dihydroxy-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7-one;hydrochloride::MLS000069607::NALTREXONE HYDROCHLORIDE::SMR000058767::US10988481, Compound NTX::US9107954, naltrexone::cid_5485201",0,0
+CID5365247,CHEMBL37744::ZIMELIDINE::Zimeldine::[3-(4-Bromo-phenyl)-3-pyridin-3-yl-allyl]-dimethyl-amine::[3-(4-Bromo-phenyl)-3-pyridin-3-yl-allyl]-dimethyl-amine (Zimelidine)::[3-(4-Bromo-phenyl)-3-pyridin-3-yl-allyl]-dimethyl-amine(Zimeldine)::cis -[3-(4-Bromo-phenyl)-3-pyridin-3-yl-allyl]-dimethyl-amine;HCl::trans-[3-(4-Bromo-phenyl)-3-pyridin-3-yl-allyl]-dimethyl-amine;C2H4O4,0,0
+CID5374,B-HT 920::CAS_101626-70-4::CHEMBL279085::NSC_104870::Talipexole::cid_5374,0,0
+CID5378597,CAS_5318390::CAS_97331::Hyperoside::Miquelianin::NSC_5318390::NSC_97331,0,0
+CID53949141,BW245C::CAS_72814-32-5::NSC_3080928,0,0
+CID53974117,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-(benzamido)morphinan::17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-(benzamido)morphinan::CAS_24824637::CAS_24824638::NSC_24824637::NSC_24824638",0,0
+CID5401,"1-(4-Amino-6,7-dimethoxy-2-quinazolinyl)-4-((tetrahydro-2-furanyl)carbonyl)piperazine::6,7-dimethoxy-2-[4-(tetrahydrofuran-2-ylcarbonyl)piperazin-1-yl]quinazolin-4-amine::CHEMBL611::TERAZOSIN::Terazosine",0,0
+CID5403,"5-[2-(tert-butylamino)-1-hydroxyethyl]benzene-1,3-diol::5-[2-(tert-butylamino)-1-hydroxyethyl]benzene-1,3-diol, 5::Brethaire::Brethine::Bricanyl::Terbutaline::Terbutaline,(+/-)",0,0
+CID54069298,CAS_1236::NSC_1236::Niguldipine(+),0,0
+CID542051,"2-(2,5-Dimethoxy-4-propyl-phenyl)-1-methyl-ethylamine::2-(2,5-Dimethoxy-4-propyl-phenyl)-1-methyl-ethylamine(DOPR)::CHEMBL8569::DOPR",0,0
+CID54477,"(R,S)-3-Bromo-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide::(S)-3-Bromo-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide::3-Bromo-N-((R)-1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide::3-Bromo-N-((S)-1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide::3-Bromo-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide::3-Bromo-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide (Remoxipride)::3-Bromo-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2,6-dimethoxy-benzamide(remoxipride)::CHEMBL22242::REMOXIPRIDE",0,0
+CID5448,CAS_5448::NSC_5448::Thiomuscimol,0,0
+CID5452,"(Thioridazine)10-[2-(1-Methyl-piperidin-2-yl)-ethyl]-2-methylsulfanyl-10H-phenothiazine::10-(2-(1-methylpiperidin-2-yl)ethyl)-2-(methylthio)-10H-phenothiazine::10-[2-(1-Methyl-piperidin-2-yl)-ethyl]-2-methylsulfanyl-10H-phenothiazine::10-[2-(1-Methyl-piperidin-2-yl)-ethyl]-2-methylsulfanyl-10H-phenothiazine (thioridazine)::CHEMBL479::MELLARIL::MELLARIL-S::THIORIDAZINE::TP-21::US9504692, Thioridazine",0,0
+CID54562,"CAS_85760-74-3::CHEMBL240773::NSC_54562::QUINPIROLE::Quinpirole,(-)::US9359372, Quinpirole",0,0
+CID54592327,CAS_5311190::NSC_5311190::UH232::UH232(+),0,0
+CID54592346,CAS_5311091::NSC_5311091::p-F-HHSiD,0,0
+CID5462471,"(2S)-2-{2-[(2R)-2-[(2S)-2-amino-3-(4-hydroxyphenyl)propanamido]propanamido]-N-methylacetamido}-N-(2-hydroxyethyl)-3-phenylpropanamide::2-Ala-4-MePhe-5-Gly-Enkephalin::CHEMBL38874::D-Ala2-MePhe4-Met(0)5-enkephalin-ol::DAMGO::RX 783006::US11492374, ID 2::[3H]DAMGO::[tyrosyl-3,5-3H(N)]-D-Ala2-Mephe4-glyol5-enkephalin",0,0
+CID5467,CAS_51012-32-9::NSC_5467::Tiapride,0,0
+CID5476508,CAS_6437389::NSC_6437389::Thymeleatoxin::Thymeleatoxin (low PS),0,0
+CID5478935,CAS_149017-66-3::CHEMBL69234::NSC_6093163::PPADS,0,0
+CID5480230,C18130::CAS_105618-26-6::NOR-BNI (HCI)2::NORBNI,0,0
+CID5486684,CAS_6438382::NSC_6438382::SR 46349B,0,0
+CID5486827,CAS_111555-58-9::NTB::naltrindolebenzofuran,0,0
+CID5490755,DYNORPHIN(1-11)-OH,0,0
+CID5530,"(+/-)-Tranylcypromine::2-PCPA::2-Phenyl-cyclopropylamine::2-phenylcyclopropanamine::CHEMBL313833::TRANYLCYPROMINE::Tranylcypromine,(+)::Tranylcypromine,(-)::US8609708, 6 Tranyl- cypromine::US8609708, 6 Tranylcypromine",0,0
+CID5533,"2-{3-[4-(3-chlorophenyl)piperazin-1-yl]propyl}[1,2,4]triazolo[4,3-a]pyridin-3(2H)-one::CHEMBL621::TRAZODONE",0,0
+CID55445,"(R)-3-(1-Propyl-piperidin-3-yl)-phenol::3PPP(+/-)::CAS_85976-54-1::CHEMBL276500::NSC_202477::PPP, R(+)-3::PPP, S(-)-3",0,0
+CID5556,"8-chloro-6-(2-chlorophenyl)-1-methyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine::CHEMBL646::Halcion::TRIAZOLAM",0,0
+CID55582,CAS_55582::NKA::NSC_55582::Neurokinin alpha::Substance K,0,0
+CID55583,CAS_86933-75-7::NKB::NSC_5311312::neuromedin K,0,0
+CID55652,"2-(3,4-dichlorophenyl)-N-methyl-N-[(5R,7S,8S)-7-(1-pyrrolidinyl)-1-oxaspiro[4.5]decan-8-yl]acetamide;methanesulfonic acid::2-(3,4-dichlorophenyl)-N-methyl-N-[(5R,7S,8S)-7-pyrrolidin-1-yl-1-oxaspiro[4.5]decan-8-yl]acetamide;methanesulfonic acid::2-(3,4-dichlorophenyl)-N-methyl-N-[(5R,7S,8S)-7-pyrrolidin-1-yl-1-oxaspiro[4.5]decan-8-yl]ethanamide;methanesulfonic acid::2-(3,4-dichlorophenyl)-N-methyl-N-[(5R,7S,8S)-7-pyrrolidino-1-oxaspiro[4.5]decan-8-yl]acetamide;mesylic acid::MLS002153429::SMR000326825::Spiradoline::U-62066::cid_55651",0,0
+CID5566,"10-[3-(4-methyl-1-piperazinyl)propyl]-2-(trifluoromethyl)phenothiazine;hydrochloride::10-[3-(4-methylpiperazin-1-yl)propyl]-2-(trifluoromethyl)phenothiazine;hydrochloride::10-[3-(4-methylpiperazino)propyl]-2-(trifluoromethyl)phenothiazine;hydrochloride::MLS001146870::SMR000059133::TRIFLUOPERAZINE::TRIFLUOPERAZINE DIHYDROCHLORIDE::Trifluperazine::US11542290, Compound Trifluoperazine::cid_2913535::cid_5566",0,0
+CID5572,(R)-Trihexyphenidyl::(S)-Trihexyphenidyl::Benzhexol::CAS_58947-95-8::NSC_5572::TRIHEXYPHENIDYL HYDROCHLORIDE::Trihexyphenidyl,0,0
+CID55752,"8-[4-(4-Benzo[d]isothiazol-3-yl-piperazin-1-yl)-butyl]-8-aza-spiro[4.5]decane-7,9-dione::CHEMBL1204189::CHEMBL35057::TIOSPERONE",0,0
+CID5581,"1-(3,4,5-Trimethoxy-benzyl)-1,2,3,4-tetrahydro-isoquinoline-6,7-diol::1-(3,4,5-trimethoxybenzyl)-1,2,3,4-tetrahydroisoquinoline-6,7-diol::CHEMBL299175::R(+)-TMQ::TMQ, Racemic::Tretoquinol",0,0
+CID5584,"10,11-dihydro-N,N,beta-trimethyl-5H-dibenz[b,f]azepine-5-propanamine::3-(10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)-N,N,2-trimethylpropan-1-amine::5-(gamma-dimethylamino-beta-methylpropyl)-10,11-dihydro-5H-dibenzo[b,f]azepine::5-[3-(dimethylamino)-2-methylpropyl]-10,11-dihydro-5H-dibenz[b,f]azepine::CHEMBL644::RP-7162::Sapilent::TRIMIPRAMINE::Trimeprimine::beta-methylimipramine::trimeproprimine",0,0
+CID5595,CHEMBL8197::ICS 205-930::TROPISETRON,0,0
+CID563605,"N-Acetyltryptamine,5-Benzyloxy",0,0
+CID5656,CAS_93413-69-5::CAS_99300-78-4::NSC_62923::VENLAFAXINE::Venlafaxine hydrochloride::WY-45030::WY-45655,0,0
+CID5666,2-(2-Ethoxy-phenoxymethyl)-morpholine::2-(2-Ethoxy-phenoxymethyl)-morpholine (viloxazine)::2-(2-Ethoxy-phenoxymethyl)-morpholine(viloxazine)::CHEMBL306700::VILOXAZINE,0,0
+CID5684,"CAS_146714-97-8::CHEMBL31354::CHEMBL514874::CHEMBL537403::NSC_104911::WAY 100,635",0,0
+CID5697,"CHEMBL273094::N-(2-Amino-ethyl)-2-[4-(2,6-dioxo-1,3-dipropyl-2,3,6,7-tetrahydro-1H-purin-8-yl)-phenoxy]-acetamide::N-(2-Amino-ethyl)-2-[4-(2,6-dioxo-1,3-dipropyl-2,3,6,7-tetrahydro-1H-purin-8-yl)-phenoxy]-acetamide (xanthine amine congenere, XAC)::N-(2-Amino-ethyl)-2-[4-(2,6-dioxo-1,3-dipropyl-2,3,6,7-tetrahydro-1H-purin-8-yl)-phenoxy]-acetamide(XAC)::N-(2-Amino-ethyl)-2-[4-(2,6-dioxo-1,3-dipropyl-2,3,6,9-tetrahydro-1H-purin-8-yl)-phenoxy]-acetamide::N-(2-aminoethyl)-2-(4-(2,6-dioxo-1,3-dipropyl-2,3,6,7-tetrahydro-1H-purin-8-yl)phenoxy)acetamide::XAC",0,0
+CID5717,4-(5-cyclopentyloxycarbonylamino-1-methyl-1H-indol-3-ylmethyl)-3-methoxy-N-o-tolylsulfonylbenzamide::CHEMBL603::ZAFIRLUKAST::cyclopentyl 3-(2-methoxy-4-((o-tolylsulfonyl)carbamoyl)benzyl)-1-methylindole-5-carbamate::cyclopentyl 3-[2-methoxy-4-(2-methylphenylsulfonylcarbamoyl)benzyl]-1-methyl-1H-indol-5-ylcarbamate,0,0
+CID57242,"(5aR,9aR)-6-Propyl-5,5a,6,7,8,9,9a,10-octahydro-pyrido[2,3-g]quinazolin-2-ylamine::(5aR,9aR)-6-propyl-5,5a,6,7,8,9,9a,10-octahydropyrido[2,3-g]quinazolin-2-amine::6-Propyl-5,5a,6,7,8,9,9a,10-octahydro-pyrido[2,3-g]quinazolin-2-ylamine(Quinelorane)::CHEMBL155731::Quinelorane::Quinerolane",0,0
+CID57267,"(S)-3-chloro-5-ethyl-N-((1-ethylpyrrolidin-2-yl)methyl)-6-hydroxy-2-methoxybenzamide::3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::3-Chloro-5-ethyl-N-((S)-1-ethyl-pyrrolidin-2-ylmethyl)-6-hydroxy-2-methoxy-benzamide::3-Chloro-5-ethyl-N-(1-ethyl-pyrrolidin-2-ylmethyl)-6-hydroxy-2-methoxy-benzamide::3-Chloro-5-ethyl-N-(1-ethyl-pyrrolidin-2-ylmethyl)-6-hydroxy-2-methoxy-benzamide (etichlopride)::3-Chloro-5-ethyl-N-(1-ethyl-pyrrolidin-2-ylmethyl)-6-hydroxy-2-methoxy-benzamide(Eticlopride)::3-chloro-5-ethyl-N-{[(2S)-1-ethylpyrrolidin-2-yl]methyl}-6-hydroxy-2-methoxybenzamide::CHEMBL8946::ETICLOPRIDE::ETICLOPRIDE,S(-)::Eticlopride;3-Chloro-5-ethyl-N-(1-ethyl-pyrrolidin-2-ylmethyl)-6-hydroxy-2-methoxy-benzamide",0,0
+CID5732,"Ambien::CHEMBL911::Dalparan::N,N-dimethyl-2-[6-methyl-2-(4-methylphenyl)imidazo[1,2-a]pyridin-3-yl]acetamide::ZPM::Zolpidem::Zolpidem tartrate",0,0
+CID57339550,D-Phe-Cys-Tyr-D-Trp-Lys-Abu-Cys-Nal-NH::NC8-12,0,0
+CID57339553,"L31,P34-NPY,human::NPY Leu31, Pro34, human, rat::NPY [Leu31, Pro34], human::NPY, LP, porcine::NPY,[Leu31,Pro34]::NPY,[leu31,Pro34], porcine",0,0
+CID57339554,"NPY2-36, human::NPY2-36, rat, human",0,0
+CID57339557,"NPY, free acid, human",0,0
+CID57339565,"CAS_118997-30-1::PYY, human",0,0
+CID57339667,BIM 23030::CAS_117580-24-2,0,0
+CID57339671,BIM 23059::D-Nal-c[Cys-Tyr-D-Trp-Lys-Thr-Cys]-Thr-NH2,0,0
+CID57339675,c[Aha-Phe-D-Trp-Lys-Thr(Bzl)]::cycloantagonist SA,0,0
+CID57339688,BETA-FUNALTREXAMINE::CAS_72786-10-8::b-FNA-HCl,0,0
+CID57339786,DC23-60,0,0
+CID57339788,NC4-28B,0,0
+CID57339789,BIM 23068,0,0
+CID57339791,BIM 23034,0,0
+CID57339792,BIM 23067,0,0
+CID57339793,EC5-21,0,0
+CID57339795,BIM 23060,0,0
+CID57339796,"CAS_57533::NSC_57533::PHNO,(-)",0,0
+CID57339798,"AI-OH-DP,(-)",0,0
+CID57339948,Isoquercitrin,0,0
+CID57339949,RC 160II,0,0
+CID57339953,"NPY D-Trp32::NPY D-Trp32, human, rat::NPY D-Trp32, porcine",0,0
+CID57339954,LY 063518,0,0
+CID57339955,LY 320951,0,0
+CID57339965,"CAS_73-31-4::Melatonin,6,7 di-cl-2-Me",0,0
+CID57339966,8-M-CADOT,0,0
+CID57339967,4-P-CADOT,0,0
+CID57339968,"CAS_73-31-4::Melatonin,6-Cl-2-Me",0,0
+CID57339969,"Melatonin,6-Cl",0,0
+CID57339975,NKB [MePhe7],0,0
+CID57340017,"Galanin (1-19), rat::Galanin rat",0,0
+CID57340028,5-MeOT-N-hexanyl,0,0
+CID57340029,5-MeOT-N-butanyl,0,0
+CID57340030,5-MeOT-N-propionyl,0,0
+CID57340031,5-MeOT-N-pentanyl,0,0
+CID57340094,"LTT-SRIF28::SRIF28-Leu8,D-Trp22,Tyr25",0,0
+CID57340103,"Luzindole,5-MeOT-N-hexanyl",0,0
+CID57340104,"Luzindole,N-hexanoyl",0,0
+CID57340154,"CAS_5311372::L-779,976::NSC_5311372",0,0
+CID57340155,"6S, (S)-PHPNECA",0,0
+CID57340156,"2-substituted NECA derivatives, 8",0,0
+CID57340158,ORG-37684,0,0
+CID57340159,"5,6-difluoroindol-methylethylamine",0,0
+CID57340177,CST14-Tyr10,0,0
+CID57340192,"AH-23848::AH-23848,(-)::CAS_54751::NSC_54751",0,0
+CID57340195,(R)-4-Methyl-1-(2-(1-(naphthalene-1-sulfonyl)-piperidin-2-yl)-ethyl)-piperidine(5),0,0
+CID57340196,(RS)-4-Methyl-1-(2-(1-(naphthalene-1-sulfonyl)-piperidin-2-yl)-ethyl)-piperidine(5),0,0
+CID57340248,LTE3,0,0
+CID57340249,LTC5,0,0
+CID57340251,LTB4-20-carboxy,0,0
+CID57340264,"des-AA 1,2,4,5,12,13[D-Cys3,Tyr7, D-Agl8(Me,2-naphthoyl)]-SS::des-AA 1,2,4,5,12,13[Tyr7, D-Agl8(Me,2-naphthoyl)]-SS",0,0
+CID57340265,"des-AA 1,2,4,5,12,13[DAgl8(Me,2-naphthoyl)]-SS",0,0
+CID57340266,"Carbamoyl-des-AA 1,2,4,5,12,13[D-Cys3,Tyr7, D-Agl8(Me,2-naphthoyl)]-SS(sst3-ODN-8)",0,0
+CID57340267,"des-AA 1,2,4,5,12,13[D-Cys3, D-Agl8(Me,2-naphthoyl)]-SS",0,0
+CID57340268,"des-AA 1,2,4,5,12,13[D-2Nal8]-SS (ODN-8)::des-AA 1,2,4,5,12,13[DAgl8(2-naphthoyl)]-SS",0,0
+CID57340272,III-BTD::NOCICEPTIN RECEPTOR ANTAGONIST PEPTIDE III-BTD,0,0
+CID57340289,Compound A,0,0
+CID57340298,"Des-AA11-18[Cys7,21,D-Lys9 (Ac)]-NPY",0,0
+CID57340299,"[D-Arg25, D-His26]-NPY",0,0
+CID57340300,[D-His26]-NPY,0,0
+CID57340301,"Des-AA10-17[Cys7,21, Pro34]-NPY",0,0
+CID57340302,"Des-AA11-18[Cys7,21,D-Lys9 (Ac), D-His26, Pro34]-NPY",0,0
+CID57340303,"Des-AA11-18[Cys7,21,D-Lys9 (Ac), Pro34]-NPY",0,0
+CID57340304,"Des-AA11-18[Cys7,21,D-Lys9 (Ac), D-His26]-NPY",0,0
+CID57340305,[D-Arg25]-NPY,0,0
+CID57340315,S33526,0,0
+CID57340373,"des(Ac-Arg6),Ava14,15::desArg6,Ava14,15",0,0
+CID57340374,"D-Arg6,Ava9,10,Ava14,15",0,0
+CID57340375,"Gva6,Ava14,15::Gva6,betaAla14,15",0,0
+CID57340376,"Gva6,Ava9,10",0,0
+CID57340377,"Gva6,D-Cys7,Ava14,15",0,0
+CID57340378,"D-Cys7,Ava14,15",0,0
+CID57340379,hAc-MCH(6-16)-NH2,0,0
+CID57340380,"Ava9,10,Ava14,15",0,0
+CID57340381,"D-Arg6,Ava9,10",0,0
+CID57340382,"Ava14,15",0,0
+CID57340383,"D-Arg6,Ava14,15",0,0
+CID57340384,N-Me-Arg11,0,0
+CID57340385,N-Me-Arg14,0,0
+CID57340387,"Gva6,cisAcx14,15",0,0
+CID57340388,N-Me-Leu9,0,0
+CID57340389,N-Me-Gly10,0,0
+CID57340390,"Gva6,Nle8,Ava14,15",0,0
+CID57340391,"Gva6,Ava9,10,Ava14,15",0,0
+CID57340392,"Ava9,10",0,0
+CID57340393,"Gva6,Gly14,15",0,0
+CID57340394,"Gva6,alphaAbu8,Ava14,15",0,0
+CID57340395,"Gva6,Ava14,15, OH",0,0
+CID57340397,"Gva6,Ala12,Ava14,15",0,0
+CID57340398,"Gva6,desLeu9,Ava14,15",0,0
+CID57340399,"Gpr6,Ava14,15",0,0
+CID57340400,"Gva6,Ala8,Ava14,15",0,0
+CID57340401,"Gbu6,Ava14,15",0,0
+CID57340402,N-Me-Nle8,0,0
+CID57340403,"Gva6,gammaAbu14,15",0,0
+CID57340439,DR4004,0,0
+CID57340525,3-[4-(2-Methyl-3-(4-bromobenzyl)-1H-imidazolium-1-yl)-2-butynyl]oxyisoxazole bromide::CAS_0::NSC_0,0,0
+CID57340526,"3-[4-(2,3-Dimethyl-1H-imidazolium-1-yl)-2-butynyl]oxy-delta2-isoxazoline iodide::CAS_0::NSC_0",0,0
+CID57340587,B8-DL-B8::B8-DL-B8 (low PS),0,0
+CID57340588,3-hydroxy-2-[4-methyl-3-(methylethyl)pentanoyloxy]propyl 4-methyl-3-(methylethyl)pentanoate::97D76,0,0
+CID57340615,AP3A::CAS_3035419::NSC_3035419,0,0
+CID57340618,"CAS_0::NSC_0::[D-Tyr6,(S)-Apa11-3Cl,Phe13,Nle14]Bn(6-14)",0,0
+CID57340619,"CAS_0::NSC_0::[D-Tyr6,Beta-Ala11,Phe13,Beta-Dap(Pr)14]Bn(6-14)",0,0
+CID57340620,"CAS_0::NSC_0::[D-Tyr6,(R)-Apa11-3Cl,Phe13,Nle14]Bn(6-14)",0,0
+CID57340621,"CAS_0::NSC_0::[D-Tyr6,Beta-Ala11,Phe13,Nle14]Bn(6-14)",0,0
+CID57340622,"CAS_0::NSC_0::[D-Tyr6,Beta-Dap11,Phe13,Nle14]Bn(6-14)",0,0
+CID57340623,"CAS_0::NSC_0::[D-Tyr6,(R)-Apa11-2Cl,Phe13,Nle14]Bn(6-14)",0,0
+CID57340624,"CAS_0::NSC_0::[D-Tyr6,(R)-Apa11-4Cl,Phe13,Nle14]Bn(6-14)",0,0
+CID57340634,"PhAR, Di-hydro",0,0
+CID57340635,Rinvanil,0,0
+CID57340636,"PhAR, epoxy",0,0
+CID57340637,"Rinvanil, Benzoil",0,0
+CID57340638,"PhAR, 6-I",0,0
+CID57340639,PhAR,0,0
+CID57340640,"PhAR, Cycloproyl",0,0
+CID57340641,"PhAR, ent",0,0
+CID57340643,"Rinvanil, Acetyl",0,0
+CID57340709,K604,0,0
+CID57340712,Rec 27/0224,0,0
+CID57340713,MCL-101,0,0
+CID57340714,LY 294486::LY-294486,0,0
+CID57340715,LY 467711::LY-467711,0,0
+CID57340749,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;-methoxy)phenylacetamido]morphinan::CAS_24822300::NSC_24822300",0,0
+CID57340750,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-carboxy)benzamido]morphinan::CAS_24822801::NSC_24822801",0,0
+CID57340751,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-[(3&#39;-dimethylamino)benzamido]morphinan::CAS_44456833::NSC_44456833",0,0
+CID57340752,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-[(3&#39;, 5&#39;-dimethoxy)benzamido]morphinan::17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;,5&#39;-dimethoxy)benzamido]morphinan::CAS_24822296::CAS_24822633::NSC_24822296::NSC_24822633",0,0
+CID57340753,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-[(2&#39;,3&#39;,4&#39;,6&#39;-tetra-O-benzyl-D-glucopyranosyl)acetamido]morphinan::CAS_24822460::NSC_24822460",0,0
+CID57340754,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-(hydroxycinnamoylacetamido)morphinan::CAS_24822802::NSC_24822802",0,0
+CID57340755,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-[(3&#39;-methoxy)benzamido]morphinan::17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;-methoxy)benzamido]morphinan::CAS_24822631::CAS_24822799::NSC_24822631::NSC_24822799",0,0
+CID57340756,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-[(D-glucopyranosyl)acetamido]morphinan::17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-(D-glucopyranosyl)acetamido]morphinan::CAS_24822461::CAS_24824634::NSC_24822461::NSC_24824634",0,0
+CID57340757,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;-hydroxy)benzamido]morphinan::CAS_24824636::NSC_24824636",0,0
+CID57340758,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-alpha-[(thiophen-2&#39;-yl)acetamido]morphinan::17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(thiophen-2&#39;-yl)acetamido]morphinan::CAS_24822459::CAS_24822965::NSC_24822459::NSC_24822965",0,0
+CID57340759,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-(benzylacetamido)morphinan::CAS_24822964::NSC_24822964",0,0
+CID57340760,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-chloro)benzamido]morphinan::CAS_24824635::NSC_24824635",0,0
+CID57340761,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-(cinnamoylacetamido)morphinan::CAS_44456785::NSC_44456785",0,0
+CID57340762,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-amino)benzamido]morphinan::CAS_24822297::NSC_24822297",0,0
+CID57340763,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-tert-butoxycarbonylamino)benzamido]morphinan::CAS_24822298::NSC_24822298",0,0
+CID57340764,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;,4&#39;-dichloro)benzamido]morphinan::CAS_24822630::NSC_24822630",0,0
+CID57340765,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-methoxy)benzylacetamido]morphinan (::CAS_24822458::NSC_24822458",0,0
+CID57340766,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(2&#39;-pyridyl)acetamido]morphinan::CAS_24822798::NSC_24822798",0,0
+CID57340767,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(4&#39;-carbomethoxy)benzamido]morphinan::CAS_24822634::NSC_24822634",0,0
+CID57340768,"17-cyclopropylmethyl-3,14-beta-dihydroxy-4,5-alpha-epoxy-6-beta-[(3&#39;-nitro)benzamido]morphinan::CAS_24822632::NSC_24822632",0,0
+CID57340769,"7,8-dihydro-3-desoxyheterocodeine::CAS_24828463::NSC_24828463",0,0
+CID57340770,"(S)-3-cyclohexyl-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)propanoic acid::CAS_44453924::NSC_44453924",0,0
+CID57340771,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)-N-methylpropanamido)-3-phenylpropanoic acid::CAS_44453900::NSC_44453900",0,0
+CID57340772,"(S)-2-(biphenyl-4-ylmethyl-{3-[(3R,4R)-4-(3-hydroxy-phenyl)-3,4-dimethyl-piperidin-1-yl]-propionyl}-amino)-3-phenyl-propionic acid::CAS_44453825::NSC_44453825",0,0
+CID57340773,"(S)-2-{(S)-2-benzyl-3-[(3R,4R)-4-(3-hydroxy-phenyl)-3,4-dimethyl-piperidin-1-yl]-propionylamino}-3-biphenyl-4-yl-propionic acid::CAS_44453779::NSC_44453779",0,0
+CID57340774,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)succinic acid::CAS_44453699::NSC_44453699",0,0
+CID57340775,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)-4-phenylbutanoic acid::CAS_44453700::NSC_44453700",0,0
+CID57340776,"(S)-5-amino-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)pentanoic acid::CAS_11511362::NSC_11511362",0,0
+CID57340777,"(S)-2-(N-(cyclopropylmethyl)-3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-3-phenylpropanoic acid::CAS_44453881::NSC_44453881",0,0
+CID57340778,"(S)-3-biphenyl-4-yl-2-{3-[(3R,4R)-4-(3-hydroxy-phenyl)-3,4-dimethyl-piperidin-1-yl]-propionylamino}-propionic acid::CAS_44453925::NSC_44453925",0,0
+CID57340779,"(S)-6-amino-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)hexanoic acid::CAS_11352435::NSC_11352435",0,0
+CID57340780,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)-N-phenylpropanamido)-3-phenylpropanoic acid::CAS_44453879::NSC_44453879",0,0
+CID57340781,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)-N-isobutylpropanamido)-3-phenylpropanoic acid::CAS_44453880::NSC_44453880",0,0
+CID57340782,"(S)-2-(N-(3-chlorobenzyl)-3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-3-phenylpropanoic acid::CAS_44453824::NSC_44453824",0,0
+CID57340783,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)-N-phenethylpropanamido)-3-phenylpropanoic acid::CAS_44453848::NSC_44453848",0,0
+CID57340784,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)-3-(naphthalen-2-yl)propanoic acid::CAS_44453728::NSC_44453728",0,0
+CID57340785,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)pentanedioic acid::CAS_44453675::NSC_44453675",0,0
+CID57340786,"(S)-2-(N-ethyl-3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-3-phenylpropanoic acid::CAS_11641014::NSC_11641014",0,0
+CID57340787,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)-3-(naphthalen-1-yl)propanoic acid::CAS_44453750::NSC_44453750",0,0
+CID57340788,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-3-phenylpropanoic acid::CAS_11510112::NSC_11510112",0,0
+CID57340789,"(S)-2-(N-benzyl-3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-3-phenylpropanoic acid::CAS_44453849::NSC_44453849",0,0
+CID57340790,"(S)-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)-3-phenylpropanoic acid::CAS_11455086::NSC_11455086",0,0
+CID57340791,"(S)-2-(3-((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)propanamido)-4-phenylbutanoic acid::CAS_44453901::NSC_44453901",0,0
+CID57340792,"(S)-3-cyclohexyl-2-((S)-2-(((3R,4R)-4-(3-hydroxyphenyl)-3,4-dimethylpiperidin-1-yl)methyl)-3-phenylpropanamido)propanoic acid::CAS_44453726::NSC_44453726",0,0
+CID57340795,"CAS_44450408::NSC_44450408::S-(R)-1-((2S,3R)-1-(4-fluorophenyl)-2-(4-hydroxyphenyl)-4-oxoazetidin-3-yl)-3-phenylpropyl ethanethioate",0,0
+CID57340797,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(o-tolyl)methyl)morpholine::CAS_44450090::NSC_44450090,0,0
+CID57340798,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(p-tolyl)methyl)morpholine::CAS_44450088::NSC_44450088,0,0
+CID57340799,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(2-fluorophenyl)methyl)morpholine::CAS_44450118::NSC_44450118,0,0
+CID57340800,(R)-2-((R)-(4-fluoro-2-methylphenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(4-fluoro-2-methylphenoxy)(phenyl)methyl)morpholine::CAS_44450184::CAS_44450213::NSC_44450184::NSC_44450213,0,0
+CID57340801,"(R)-2-((R)-(2,3-dihydrobenzofuran-7-yloxy)(phenyl)methyl)morpholine::(S)-2-((S)-(2,3-dihydrobenzofuran-7-yloxy)(phenyl)methyl)morpholine::CAS_44450154::CAS_44450182::NSC_44450154::NSC_44450182",0,0
+CID57340802,"(R)-2-((R)-(2,3-difluorophenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(2,3-difluorophenoxy)(phenyl)methyl)morpholine::CAS_44450181::CAS_44450185::NSC_44450181::NSC_44450185",0,0
+CID57340803,(S)-2-((S)-(4-bromo-2-methoxyphenoxy)(phenyl)methyl)morpholine::CAS_44450153::NSC_44450153,0,0
+CID57340804,"(S)-2-((S)-(2,3-dichlorophenoxy)(phenyl)methyl)morpholine::CAS_44450155::NSC_44450155",0,0
+CID57340805,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(4-fluorophenyl)methyl)morpholine::CAS_44450089::NSC_44450089,0,0
+CID57340806,(R)-2-((R)-(2-chloro-4-fluorophenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(2-chloro-4-fluorophenoxy)(phenyl)methyl)morpholine::CAS_44450211::CAS_44450212::NSC_44450211::NSC_44450212,0,0
+CID57340807,3-methoxy-4-((S)-((S)-morpholin-2-yl)(phenyl)methoxy)benzonitrile::CAS_44450152::NSC_44450152,0,0
+CID57340808,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(3-fluorophenyl)methyl)morpholine::CAS_44450119::NSC_44450119,0,0
+CID57340809,(S)-2-((S)-(4-chloro-2-methoxyphenoxy)(m-tolyl)methyl)morpholine::CAS_44450087::NSC_44450087,0,0
+CID57340810,(S)-2-((S)-(2-methoxy-4-(trifluoromethyl)phenoxy)(phenyl)methyl)morpholine::CAS_44450120::NSC_44450120,0,0
+CID57340811,(R)-2-((R)-(4-fluoro-2-methoxyphenoxy)(phenyl)methyl)morpholine::(S)-2-((S)-(4-fluoro-2-methoxyphenoxy)(phenyl)methyl)morpholine::CAS_44449768::CAS_44449792::NSC_44449768::NSC_44449792,0,0
+CID57340812,(S)-2-((S)-(2-chloro-4-methoxyphenoxy)(phenyl)methyl)morpholine::CAS_44450121::NSC_44450121,0,0
+CID5736,"2-Chlor-11-(2-dimethylaminoaethoxy)-dibenzo(b,f)-thiepin::2-Chloro-11-(2-(dimethylamino)ethoxy)dibenzo(b,f)thiepin::2-[(8-chlorodibenzo[b,f]thiepin-10-yl)oxy]-N,N-dimethylethanamine::CHEMBL285802::Nipolept::Zoleptil::zotepine",0,0
+CID57533,"(4aR,10bR)-4-propyl-3,4,4a,5,6,10b-hexahydro-2H-naphtho[1,2-b][1,4]oxazin-9-ol::3,5-Dichloro-N-(1-ethyl-pyrrolidin-2-ylmethyl)-2-hydroxy-6-methoxy-benzamide::4-Propyl-3,4,4a,5,6,10b-hexahydro-2H-naphtho[1,2-b][1,4]oxazin-9-ol::CHEMBL69271::NAXAGOLIDE HYDROCHLORIDE::PHNO::PHNO,(+)",0,0
+CID5761,"(4R,7R)-N,N-diethyl-6-methyl-6,11-diazatetracyclo[7.6.1.0^{2,7}.0^{12,16}]hexadeca-1(16),2,9,12,14-pentaene-4-carboxamide::CHEMBL263881::LSD::LSD 25::LSD,(+)::LSD,l-::Lysergic Acid Diethylamide::Lysergic Acid Diethylamide Tartrate::[3H]-LSD::d-Isolysergic acid amide",0,0
+CID5770,"(-)-reserpine::(3beta,16beta,17alpha,18beta,20alpha)-11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]yohimban-16-carboxylic acid methyl ester::3,4,5-trimethoxybenzoyl methyl reserpate::Apoplon::CHEMBL772::NCGC00091250::RESERPINE::Reserpin::Serpalan::cid_5770::methyl (3beta,16beta,17alpha,18beta,20alpha)-11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]yohimban-16-carboxylate",0,0
+CID5775,"3-[4,5-dihydro-1H-imidazol-2-ylmethyl-(4-methylphenyl)amino]phenol;methanesulfonic acid::3-[N-(2-imidazolin-2-ylmethyl)-4-methyl-anilino]phenol;hydrochloride::3-[N-(2-imidazolin-2-ylmethyl)-4-methyl-anilino]phenol;mesylic acid::3-[N-(4,5-dihydro-1H-imidazol-2-ylmethyl)-4-methylanilino]phenol;methanesulfonic acid::MLS000069487::PHENTOLAMINE::PHENTOLAMINE MESYLATE::SMR000059054::cid_5775::cid_91430",0,0
+CID5780607,LTD3,0,0
+CID5808649,CAS_58493-49-5::NSC_42760::Olvanil,0,0
+CID594,CAS_5862::L-cysteine::NSC_5862,0,0
+CID595,CAS_595::CAS_67678::D-cystine::L-cystine::NSC_595::NSC_67678,0,0
+CID5957,"({[({[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid::ATP::Brimonidine ATP::CHEMBL14249",0,0
+CID6003773,CAS_126534::LTA4-ME::NSC_126534,0,0
+CID6005,"(-)6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol(APO)::(Apomorphine) 6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol::(R)-6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol ((R)-apomorphine)::(R)-6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol (apomorphine)::(R)-6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol(apomorphine)::(apomorphine)6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol::6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol::6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol ((R)-apomorphine)::6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol((R)-apomorphine)::APOKYN::APOMORPHINE::APOMORPHINE HYDROCHLORIDE::APOMORPHINE6-Methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol::CHEMBL53",0,0
+CID60149,1-(2-{4-[5-chloro-1-(4-fluorophenyl)-1H-indol-3-yl]piperidin-1-yl}ethyl)imidazolidin-2-one::1-[2-[4-[5-chloro-1-(4-fluorophenyl)-indol-3-yl]-1-piperidyl]ethyl]imidazolidin-2-one::CHEMBL12713::Sertindole,0,0
+CID6022,ADP::Adenosine Diphosphate (ADP)::CHEMBL14830,0,0
+CID6030697,CAS_59122-46-2::MISOPROSTOL::MISOPROSTOL (Methyl Ester)::NSC_5282381,0,0
+CID60612,"(R)-5-(1-(2,3-dimethylphenyl)ethyl)-1H-imidazole::4-[(R)-1-(2,3-Dimethyl-phenyl)-ethyl]-1H-imidazole::CHEMBL397901::Dexmedetomidine",0,0
+CID60795,"7-{4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy}-3,4-dihydroquinolin-2(1H)-one::ARIPIPRAZOLE::CHEMBL1112::US10174011, aripiprazole::US10752588, Compound Aripiprazole::US11498896, Compound Aripiprazole::US9018213, aripprazole::US9156822, Aripiprazole",0,0
+CID60809,"5-(4-Hexyloxy-[1,2,5]thiadiazol-3-yl)-1-methyl-1,2,3,6-tetrahydro-pyridine; oxalic acid::5-[4-(hexyloxy)-1,2,5-thiadiazol-3-yl]-1-methyl-1,2,3,6-tetrahydropyridine::CHEMBL21536::CHEMBL73149::LY 246708::Xanomeline",0,0
+CID60835,"CAS_136434-34-9::DULOXETINE::LY-248686::LY248686::USRE49340, Rank 5",0,0
+CID60854,"5-(2-(4-(benzo[d]isothiazol-3-yl)piperazin-1-yl)ethyl)-6-chloroindolin-2-one::5-[2-(4-Benzo[d]isothiazol-3-yl-piperazin-1-yl)-ethyl]-6-chloro-1,3-dihydro-indol-2-one::5-[2-(4-Benzo[d]isothiazol-3-yl-piperazin-1-yl)-ethyl]-6-chloro-1,3-dihydro-indol-2-one (Ziprasidone)::5-[2-(4-Benzo[d]isothiazol-3-yl-piperazin-1-yl)-ethyl]-6-chloro-1,3-dihydro-indol-2-one(Norastemizole)::CHEMBL708::GEODON::ZIPRASIDONE::ZIPRASIDONE HYDROCHLORIDE",0,0
+CID60858,"(1-(4-fluorophenethyl)piperidin-4-yl)(2,3-dimethoxyphenyl)methanol::(2,3-Dimethoxyphenyl)-(1-(2-p-fluorophenylethyl)-piperidine-4-yl)-methanol::CHEMBL257283::MDL 100907::MDL-100907",0,0
+CID6087757,LTA3-ME,0,0
+CID6101829,R-citalopram,0,0
+CID6166,"(1S,2R,10S,11S,14S,15S)-14-(2-hydroxyacetyl)-2,15-dimethyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadec-6-en-5-one::11-deoxycorticosterone::21-hydroxypregn-4-ene-3,20-dione::DOC::[4-14C]-11-deoxycorticosterone::deoxycorticosterone",0,0
+CID620379,"7,8-dihydro-3,6-didesoxymorphine::CAS_22816300::NSC_22816300",0,0
+CID62065,"(+)-2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::(+)2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::(+/-)2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::(-)-2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::(-)2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::1-(4-bromo-2,5-dimethoxyphenyl)propan-2-amine::2-(2-Methoxy-phenyl)-1-methyl-ethylamine::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine((-)-DOB)::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine((R)-(-)-DOB)::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine((S)-(+)-DOB)::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine(DOB)::2-(4-Bromo-2,5-dimethoxy-phenyl)-1-methyl-ethylamine[R(-)DOB]::2-(5-Bromo-2,4-dimethoxy-phenyl)-1-methyl-ethylamine::Brolamfetamine::CHEMBL6607::DOB::Racemic DOB",0,0
+CID623129,"7,8-dihydro-3-desoxymorphine::CAS_16039356::NSC_16039356",0,0
+CID62787,"(+/-)2-(2,5-Dimethoxy-phenyl)-1-methyl-ethylamine::1-(2,5-dimethoxyphenyl)propan-2-amine::2,5-dimethoxy-4-bromoamphetamine::2-(2,5-Dimethoxy-phenyl)-1-methyl-ethylamine::2-(2,5-Dimethoxy-phenyl)-1-methyl-ethylamine(2,5-DMA)::CHEMBL8642::DMA",0,0
+CID628577,CAS_5492619::NSC_5492619::codeine-6-methyl ether,0,0
+CID62865,CAS_62865::Cyamemazine::NSC_62865,0,0
+CID6303773,LTC3,0,0
+CID6307779,CAS_5283124::LTF4::NSC_5283124,0,0
+CID6394998,CAS_4424::NSC_4424::Naloxonazine,0,0
+CID6422124,4-[3-(4-cyclopropanecarbonylphenoxy)propyl]-1H-imidazole::CHEMBL14638::CHEMBL1795025::Ciproxifan,0,0
+CID6437864,CAS_6437864::FK 224::NSC_6437864,0,0
+CID6439089,BW-A1433::BWA1433::CAS_129447::NSC_129447,0,0
+CID644241,"4-methyl-N-[3-(4-methyl-1H-imidazol-1-yl)-5-(trifluoromethyl)phenyl]-3-[(4-pyridin-3-ylpyrimidin-2-yl)amino]benzamide::AMN 107::AMN107::CHEMBL255863::NILOTINIB::US11649218, Example Nilotinib",0,0
+CID6446980,CAS_79781-95-6::NSC_3052780::RILAPINE,0,0
+CID6449849,CAS_5311503::NSC_5311503::ZK110841,0,0
+CID6450823,"4-[(1R,2R)-2-(5,5-Dimethyl-hex-1-ynyl)-cyclopropyl]-1H-imidazole::CHEMBL278462::Cipralisant",0,0
+CID6510284,CAS_82650-83-7::NSC_3086153::TENILAPINE,0,0
+CID65304,"2',3'-Dideoxyadenosine Triphosphate (Ddatp)::2',3'-dideoxyadenosine triphosphate::ATP,2&#39;,3&#39;-dideoxy::CHEMBL1383::[[[5-(6-amino-9H-purin-9-yl)tetrahydrofuran-2-yl]methoxy-hydroxy-phosphoryl]oxy-hydroxy-phosphoryl]oxyphosphonic acid::ddA-TP::ddATP",0,0
+CID65562,"ATP,3&#39;-deoxy::CAS_0::NSC_0",0,0
+CID656723,"(3S,4aR,6S,8aR)-6-(4-Carboxy-benzyl)-decahydro-isoquinoline-3-carboxylic acid::6-(4-Carboxy-benzyl)-decahydro-isoquinoline-3-carboxylic acid::CHEMBL274226::LY 382884",0,0
+CID657378,"(2R,3R,4S,5R)-2-[6-(cyclopentylamino)-9H-purin-9-yl]-5-(hydroxymethyl)oxolane-3,4-diol::CHEMBL68738::CPA::N6-CyclopentylAdo::N6-cyclopentyladenosine (CPA)::cid_657378",0,0
+CID65750,CAS_84-01-5::NSC_65750::chlorproethazine,0,0
+CID65772,"CAS_65772::NSC_65772::TMQ, S-(-)",0,0
+CID65801,CAS_37577-24-5::NSC_65801::l-Fenfluramine,0,0
+CID65833,CAS_92623-85-3::Milnacipran::NSC_0,0,0
+CID65856,"(S,S)-reboxetine::Reboxetine::Vestra",0,0
+CID65914,"Abecarnil::CHEMBL454095::isopropyl 6-(benzyloxy)-4-(methoxymethyl)-9H-pyrido[3,4-b]indole-3-carboxylate",0,0
+CID6603759,"(2S,6S,11S)-3-Cyclopropylmethyl-6,11-dimethyl-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::(SSS)-12-Cyclopropylmethyl-13-methyl-12-aza-tricyclo[9.1.1.0*3,8*]trideca-3(8),4,6-trien-6-ol(cyclazocine)::3-Cyclopropylmethyl-6,11-dimethyl-1,2,3,4,5,6-hexahydro-2,6-methano-benzo[d]azocin-8-ol::CHEMBL293349::CYCLAZOCINE (-)::Cyclazocine::Cyclazocine (+)",0,0
+CID6604042,"(S)-2-(6-Bromo-2,3-dihydro-indol-1-yl)-1-methyl-ethylamine::CHEMBL309760::VER-3323",0,0
+CID6604704,"(+/-)-trans-ACPD::(1S,3S)-1-Amino-cyclopentane-1,3-dicarboxylic acid::(1S,3S)-1-aminocyclopentane-1,3-dicarboxylic acid::1-Amino-cyclopentane-1,3-dicarboxylic acid (APCD)::1-Amino-cyclopentane-1,3-dicarboxylic acid(cis-(1S,3S)-ACPD)::1R,3R-ACPD::1R,3S-ACPD::1S, 3R-ACPD::CHEMBL29726",0,0
+CID6604889,(R)-3-(2-(2-(4-methylpiperidin-1-yl)ethyl)pyrrolidin-1-ylsulfonyl)phenol::(R)-3-(2-(2-(4-methylpiperidin-1-yl)ethyl)pyrrolidine-1-sulfonyl)phenol::3-{(R)-2-[2-(4-Methyl-piperidin-1-yl)-ethyl]-pyrrolidine-1-sulfonyl}-phenol::3-{(S)-2-[2-(4-Methyl-piperidin-1-yl)-ethyl]-pyrrolidine-1-sulfonyl}-phenol::3-{2-[2-(4-Methyl-piperidin-1-yl)-ethyl]-pyrrolidine-1-sulfonyl}-phenol::3-{2-[2-(4-Methyl-piperidin-1-yl)-ethyl]-pyrrolidine-1-sulfonyl}-phenol (SB-269970)::CHEMBL282199::SB-269970,0,0
+CID6604928,"CAS_345-78-8::CAS_39069-52-8::GS 39783::N,N&#39;-Dicyclopentyl-2-methylsulfanyl-5-nitro-pyrimidine-4,6-diamine::NSC_5032::Pseudoephedrine,(+)",0,0
+CID66265,CAS_3239-45-0::NSC_65801::d-Fenfluramine,0,0
+CID667466,"(3E)-3-(2-chloro-9H-thioxanthen-9-ylidene)-N,N-dimethylpropan-1-amine::(E)-chlorprothixene::CHEMBL90125::CHLORPROTHIXENE::Chlorprothixene (cis)",0,0
+CID667468,"(3E)-3-dibenzo[b,e]oxepin-11(6H)-ylidene-N,N-dimethylpropan-1-amine(3Z)-3-dibenzo[b,e]oxepin-11(6H)-ylidene-N,N-dimethylpropan-1-amine::CHEMBL101740::DOXEPIN::cis-doxepin",0,0
+CID681,"3-HYDROXYTYRAMINE HYDROCHLORIDE::4-(2-aminoethyl)benzene-1,2-diol;hydrochloride::4-(2-aminoethyl)pyrocatechol;hydrochloride::4-(2-azanylethyl)benzene-1,2-diol;hydrochloride::Dopamine::MLS000069419::SMR000059081::cid_65340",0,0
+CID68186,AMI-193::CAS_77445::CHEMBL79834::NSC_77445,0,0
+CID6850813,(R)-N-methyl-3-phenyl-3-(o-tolyloxy)propan-1-amine::ATOMOXETINE::CHEMBL641::Methyl-((R)-3-phenyl-3-o-tolyloxy-propyl)-amine::Methyl-(3-phenyl-3-o-tolyloxy-propyl)-amine::Methyl-(3-phenyl-3-o-tolyloxy-propyl)-amine(tomoxetine)::Strattera::Tomoxetine,0,0
+CID6852392,"(5R)-6-[6-[(1E,3S,5Z)-3-hydroxyundeca-1,5-dienyl]-2-pyridinyl]hexane-1,5-diol::(5R)-6-[6-[(1E,3S,5Z)-3-hydroxyundeca-1,5-dienyl]-2-pyridyl]hexane-1,5-diol::(5R)-6-[6-[(1E,3S,5Z)-3-hydroxyundeca-1,5-dienyl]pyridin-2-yl]hexane-1,5-diol::(5R)-6-[6-[(1E,3S,5Z)-3-oxidanylundeca-1,5-dienyl]pyridin-2-yl]hexane-1,5-diol::MLS000028864::SMR000058935::U-75302::cid_6852392",0,0
+CID68616,"2-(3,4-Dichloro-phenyl)-N-methyl-N-(2-pyrrolidin-1-yl-cyclohexyl)-acetamide; compound with methanesulfonic acid::CHEMBL360943::U-50488H::U50,488H",0,0
+CID688272,"CAS_15676-16-1::SULPIRIDE,(+)::Sulpiride-S::Sulpiride-l",0,0
+CID68841,(2S)-2-amino-3-(phosphonooxy)propanoic acid::CHEMBL284377::L-SOP::L-serine O-phosphate,0,0
+CID68848,"1H-imidazo[4,5-c]pyridine derivative::2N-[4,7-dimethyl-(6aR,9S,10aR)-4,6,6a,7,8,9,10,10a-octahydroindolo[4,3-fg]quinolin-9-yl]-2-dimethylaminosulfonamide::4,7-dimethyl-(6aR,9S,10aR)-4,6,6a,7,8,9,10,10a-octahydroindolo[4,3-fg]quinolin-9-amino-N,N-dimethyl sulfonamide::4,7-dimethyl-4,6,6a,7,8,9,10,10a-octahydroindolo[4,3-fg]quinolin-9-amine-sulfonamide::9-N,N-dimethylsulfamide-4,7-dimethyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinoline::CHEMBL12314::ChEMBL_10959::MESULERGINE::N'-4,7-Dimethyl-4,6,6a,7,8,9,10,10a-octahydro-indolo[4,3-fg]quinolin-9-yl)-N'-,N'-dimethyl-sulphonediamine",0,0
+CID6912713,"ADP, Beta S::CAS_123848::NSC_123848",0,0
+CID6917707,"(2R)-2-[(2S)-2-{2-[(2R)-2-[(2S)-2-amino-3-(4-hydroxyphenyl)propanamido]propanamido]acetamido}-3-phenylpropanamido]-4-methylpentanoic acid::(D-Ala2,D-Leu5)-Enkephalin::BW-180C::CHEMBL340032::DADLE::DADLE-OH::H-Tyr-D-Ala-Gly-Phe-D-Leu-OH::[D-Ala2-D-Leu5]enkephalin",0,0
+CID6918011,3-(2-Naphtyl)-D-Ala-L-Cys(1)-L-Tyr-D-Trp-L-Lys-L-Val-L-Cys(1)-L-Thr-NH2::BIM 23014::BIM-23014::LANREOTIDE,0,0
+CID699129,"CHEMBL284158::N-Acetyltryptamine,5-Methyl::N-[2-(5-Methyl-1H-indol-3-yl)-ethyl]-acetamide",0,0
+CID70547,CHEMBL33171::N-Acetyltryptamine::N-[2-(1H-Indol-3-yl)-ethyl]-acetamide,0,0
+CID7057932,D-homocysteine thiolactone,0,0
+CID71149,Broxaterol::CAS_76596-57-1::NSC_71149,0,0
+CID71306,CAS_71306::NSC_71306::RC 160::Vapreotide,0,0
+CID71351,CAS_129029-23-8::NSC_71351::Ocaperidone,0,0
+CID71360,1-(4-{3-[4-(6-Fluoro-benzo[d]isoxazol-3-yl)-piperidin-1-yl]-propoxy}-3-methoxy-phenyl)-ethanone::CHEMBL14376::ILOPERIDONE,0,0
+CID71781,"(1-Phenethyl-piperidin-4-yl)-phenyl-methanol::CHEMBL18972::Glemanserin::MDL 11,939::MDL-11939",0,0
+CID736083,"(6aS)-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol;hydrochloride::(S)-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol::Apomorphine,(+)::CHEMBL416288::MLS000028867::S(+)-10,11-DIHYDROXYAPORPHINE HYDROCHLORIDE::SMR000058671::US10864248, Compound 1::cid_6852389",0,0
+CID75896,L-homocysteine sulfinic acid,0,0
+CID76516274,SS-22,0,0
+CID77158,2-(5-bromo-1H-indol-3-yl)ethanamine::5-Br-T::CHEMBL1288717,0,0
+CID774,2-(1H-imidazol-4-yl)ethan-1-amine::CHEMBL544208::CHEMBL90::Ceplene::Ergotidine::HISTAMINE DIHYDROCHLORIDE::Histamine::L-histamine::Peremin::[3H]histamine,0,0
+CID77590,2-Methoxyethoxymethyl chloride::CAS_3970-21-6::MEM,0,0
+CID778,CAS_778::DL-homocysteine::NSC_778,0,0
+CID82148,"Agomelatine::CHEMBL10878::N-[2-(7-Methoxy-naphthalen-1-yl)-ethyl]-acetamide::N-[2-(7-Methoxy-naphthalen-1-yl)-ethyl]-acetamide(Agomelatine)::S 20098::US10781182, Compound IA2-76::US11091445, Compound code IA2-76",0,0
+CID8223,"(5'alpha)-12'-hydroxy-2'-methyl-5'-(phenylmethyl)ergotoman-3',6',18-trione::(5'alpha)-5'-benzyl-12'-hydroxy-2'-methyl-3',6',18-trioxoergotaman::12'-hydroxy-2'-methyl-5'alpha-(phenylmethyl)ergotaman-3',6',18-trione::ERGOTAMINE::Ergotamin",0,0
+CID8226,CHEMBL1201356::METHYLERGONOVINE::Methylergometrine,0,0
+CID836,"2-amino-3-(3,4-dihydroxyphenyl)propanoic acid::DOPA::L-DOPA",0,0
+CID838,"4-[1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol::4-[1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol, 1::4-[1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol;hydrochloride::4-[1-hydroxy-2-(methylamino)ethyl]pyrocatechol;hydrochloride::4-[2-(methylamino)-1-oxidanyl-ethyl]benzene-1,2-diol;hydrochloride::DL-ADRENALINE HYDROCHLORIDE::EPINEPHRINE::EPINEPHRINE,(+)::MLS001333244::SMR000058236::cid_5924",0,0
+CID854031,"MDMA, R(-)",0,0
+CID8594,"CAS_132-66-1::NPA::NPA,(+)::NPA,(-)::NSC_8594",0,0
+CID876,CAS_6137::CAS_84815::D-methionine::L-methionine::NSC_6137::NSC_84815,0,0
+CID896,CHEMBL45::Melatonin::N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide,0,0
+CID8969,"(+)-yohimbine::(16alpha,17alpha)-17-hydroxyyohimban-16-carboxylic acid methyl ester::17alpha-hydroxyyohimban-16alpha-carboxylic acid methyl ester::CHEMBL15245::CORYNANTHINE::Johimbin::Quebrachin::RAUWOLSCINE::YOHIMBINE CHLORIDE::Yohimbin::Yohimbine::aphrodine::cid_8969::corynine::methyl 17alpha-hydroxyyohimban-16alpha-carboxylate::quebrachine::yohimbic acid methyl ester",0,0
+CID903,"CHEMBL33103::JOH-MSK-a63bdd1d-4::N-ACETYL SEROTONIN::N-Acetyl-5-hydroxytryptamine::N-Acetyltryptamine,5-Hydroxy::N-acetylserotonin::Normelatonin::Serotonin,N-acetyl",0,0
+CID912,N(alpha)-Methylhistamine::N-alpha-methylhistamine::N-methylhistamine::NAMH::[2-(1H-imidazol-5-yl)ethyl](methyl)amine::[3H]N-alpha-methyl histamine,0,0
+CID91530809,"3-[(2Z,3E)-3-(hydroxyimino)-2,3-dihydro-1H-indol-2-ylidene]-2,3-dihydro-1H-indol-2-one::CHEMBL397695::Indirubin-3 -monoxime::Indirubin-3-monoxime::Indirubin-3monoxime::indirubin deriv. 7h",0,0
+CID91532,"({[({[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}methyl)phosphonic acid::AMPPCP::ATP,Beta Gamma-me::CHEMBL133463::adenylylmethylenediphosphonate",0,0
+CID91663443,"PYY3-36, human",0,0
+CID91663444,"PYY Pro34, Human",0,0
+CID91663465,Tyr10-cortistatin,0,0
+CID91663466,PYY 3-36,0,0
+CID91867458,BIM 23049::D-Nal-Ala-Tyr-D-Trp-Lys-Val-Ala-Thr-NH2,0,0
+CID91898402,"NPY22-36, porcine::NPY22-36, rat, human",0,0
+CID91898403,"NPY13-36::NPY13-36, porcine",0,0
+CID91898404,"NPY16-36, porcine",0,0
+CID91898405,"NPY 18-36::NPY18-36::NPY18-36, porcine",0,0
+CID91898406,"CAS_59763-91-6::PP, human::PP,SALMON",0,0
+CID91898408,"NPY2-36::NPY2-36, human::NPY2-36, porcine",0,0
+CID91898409,"I31,G34-PP,human",0,0
+CID91898411,"PYY 3-36, rat::PYY13-36, porcine",0,0
+CID91898412,"NPY20-36, porcine::NPY26-36, porcine",0,0
+CID91898413,"PP2-36, HUMAN",0,0
+CID91898415,"PP [Ile31,Gln34], human",0,0
+CID91898417,"CAS_59763-91-6::PP, BOVINE",0,0
+CID91898419,"CAS_59763-91-6::PP,FROG",0,0
+CID91898421,"CAS_59763-91-6::NSC_41735::PP, rat",0,0
+CID91898423,"PP13-36, HUMAN",0,0
+CID91898444,"NPY, C2::NPY, C2, porcine::PYY 3-36, porcine",0,0
+CID91898460,L-Ser-L-Ala-L-Asn-L-Ser-L-Asn-L-Pro-L-Ala-L-Met-L-Ala-L-Pro-L-Arg-L-Glu-L-Arg-L-Lys-L-Ala-Gly-L-Cys(1)-L-Lys-L-Asn-L-Phe-L-Phe-L-Trp-L-Lys-L-Thr-L-Phe-L-Thr-L-Ser-L-Cys(1)-OH::somatostatin-28,0,0
+CID91898461,2-Deamino-L-Abu(1)-L-Lys-L-Asp(NH2)-L-Phe-L-Phe-L-Trp-L-Lys-L-Thr-L-Tyr-L-Thr-L-Ser-L-Abu(1)-OH::CGP 23996::CGP-23996,0,0
+CID91898902,"Leu8, D-Trp22, Tyr25 SST-28",0,0
+CID91898903,BIM 23056,0,0
+CID91898909,SS-25,0,0
+CID91898913,Gal(1-13)-Std I,0,0
+CID91898914,"Galanin (2-29), rat::Galanin Porcine 2-29",0,0
+CID91898915,"Galanin, Porcine",0,0
+CID91898917,"Galanin, Human",0,0
+CID91898918,CH-275::CH275::L-Cys(1)-L-Lys-L-Phe-L-Phe-D-Trp-4-[(Isopropylamino)methyl]-L-Phe-L-Thr-L-Phe-L-Thr-L-Ser-L-Cys(1)-OH,0,0
+CID91898925,M32,0,0
+CID91898926,"Galanin (1-29), porcine::Galanin [D-Trp2], porcine",0,0
+CID91898927,"Galanin (3-29), porcine",0,0
+CID91898934,CST17::Cortistatin::Cortistatin-17::L-Asp-L-Arg-L-Met-L-Pro-L-Cys(1)-L-Arg-L-Asn-L-Phe-L-Phe-L-Trp-L-Lys-L-Thr-L-Phe-L-Ser-L-Ser-L-Cys(1)-L-Lys-OH,0,0
+CID91898967,Bombesin,0,0
+CID91898979,"NPY [hPP(1-17), Ala31,Aib32], human",0,0
+CID91898981,"NPY [Ala31, Aib32], porcine",0,0
+CID91898983,"CAS_59763-91-6::PP, human",0,0
+CID91898985,"PP [cPP(1-7), NPY(19-23), Ala31, Aib32, Gln34], human",0,0
+CID91898987,"LTB4-14,15-dehydro",0,0
+CID91898991,MCH::hMCH,0,0
+CID91898992,"[Phe13,Tyr19]MCH",0,0
+CID91899088,"(-)-trans-3,4,4a,5,6,10b-hexahydro-9-carbamoyl- 4-propyl-2H-naphth[1,2-b]-1,4-oxazine::S32601 (-)",0,0
+CID91899091,OFQ/N UFP-102,0,0
+CID91899095,MCL-145,0,0
+CID91928728,"CHEMBL267633::D-Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::H-YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY-NH2::NEUROPEPTIDE-Y::NPY, porcine::Nucleopeptide Y(NPY)(YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY)::Tyr-D-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-D-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-D-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-D-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-D-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-D-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-D-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-D-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-D-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2(NPY)::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-D-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-D-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-D-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Met-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2 (NPY)::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-Asp-D-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-Pro-Gly-Glu-D-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-[D-pro]-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-[D-Tyr]-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-[D-Arg]-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-[D-Gln]-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-[D-Arg]-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-[D-Thr]-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-[D-Ile]-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-[D-Leu]-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-[D-Asn]-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-[D-Ile]-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-[D-Tyr]-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-[D-His]-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-[D-Arg]-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-[D-Leu]-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-[D-Ala]-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-[D-Ser]-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-[D-Tyr]-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-[D-Tyr]-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-[D-Ala]-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-[D-Leu]-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-[D-Asp]-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-[D-Glu]-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-[D-Ala]-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-[D-Pro]-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-[D-Ala]-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-[D-Asp]-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-[D-Glu]-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-Asp-[D-Asn]-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-D-Asp-Asn-Pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-Pro-[D-Asp]-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-Lys-[D-Pro]-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-Ser-[D-Lys]-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-Pro-[D-Ser]-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::Tyr-{D-Pro]-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::YPSKPDNPGEDAPAEDLARYYSALRHYINLITRQRY-NH2::[D-Tyr]-Pro-Ser-Lys-Pro-Asp-Asn-pro-Gly-Glu-Asp-Ala-Pro-Ala-Glu-Asp-Leu-Ala-Arg-Tyr-Tyr-Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr-NH2::human Neuropeptide Y::neuropeptide Y::tyr-pro-ser-lys-pro-asp-asn-pro-gly-glu-asp-ala-glu-asp-leu-ala-arg-tyr-tyr-ser-ala-leu-arg-his-tyr-ile-asn-leu-ile-thr-arg-gln-arg-tyr-NH2",0,0
+CID91928823,CHEMBL411557::DYNORPHIN(1-17)-OH::Dynorphin A (1-17)::H-Tyr-Gly-Gly-Phe-Leu-Arg-Arg-Ile-Arg-Pro-Lys-Leu-Lys-Trp-Asp-Asn-Gln-OH::Tyr-Gly-Gly-Phe-Leu-Arg-Arg-Ile-Arg-Pro-Lys-Leu-Lys-Trp-Asp-Asn-Gln::dynorphin A,0,0
+CID91934871,CHEMBL503473::GWTLNSAGYLLGPPPGFSPFR-CONH2::Galanin (1-13)-bradikinin(2-9)::Galanin-(1-13)-bradykinin-(2-9)-amide::M35,0,0
+CID91935559,CHEMBL516641::HYPERFORIN,0,0
+CID91935900,somatostatin-28,0,0
+CID92117,2-amino-4-sulfobutanoic acid::CHEMBL191727::DL-homocysteic acid,0,0
+CID92199,"ADP, alpha beta-me::AMPCPP::[({[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)methyl]phosphonic acid::alpha, beta-methyleneadenosine 5 -diphosphate::cid_92199",0,0
+CID941650,CAS_22189-31-7::NSC_5454::THIOTHIXENE,0,0
+CID941651,"CIS-THIOTHIXENE::MLS000028463::SMR000058396::THIOTHIXENE::cid_941651::med.21724, Compound Thiothixene",0,0
+CID942,"(+-)-nicotine::(R,S)-nicotine::(RS)-nicotine::3-(1-methylpyrrolidin-2-yl)pyridine::CHEMBL440464::Nicotin::Nicotine-(+)::Nikotin::US11667638, Example Nicotine::US8609708, 54 Nicotine::US9284322, Nicotine::US9993465, Nicotine::nicotine",0,0
+CID951,"DL-[7-3H]norepinephrine::NOREPINEPHRINE::Noradrenaline,(+)::[3H]NE",0,0
+CID9681,"(6aR,9R)-4,6a,7-Trimethyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid (1-hydroxymethyl-propyl)-amide::(6aR,9R)-4,7-Dimethyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid ((S)-1-hydroxymethyl-propyl)-amide::(6aR,9R)-4-Methyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid (1-hydroxymethyl-propyl)-amide::(6aR,9R)-5,7-Dimethyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid diethylamide::(methylsergide)4,7-Dimethyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid (1-hydroxymethyl-propyl)-amide::4,7-Dimethyl-4,6,6a,7,8,9-hexahydro-indolo[4,3-fg]quinoline-9-carboxylic acid (1-hydroxymethyl-propyl)-amide::CHEMBL1065::METHYSERGIDE::Sansert",0,0
+CID9794656,ORG-37684,0,0
+CID9796408,2-Chloro-3-(trifluoromethyl)-6-(1-piperazinyl)pyridine::ORG-12962,0,0
+CID9804174,Triazoledione,0,0
+CID9805719,SL65.0155::SL650155,0,0
+CID9808948,"CHEMBL299377::N-(1-{3-[1-Benzoyl-3-(3,4-dichloro-phenyl)-piperidin-3-yl]-propyl}-4-phenyl-piperidin-4-yl)-N-methyl-acetamide::SR 142801::SR 142806::SR-142801",0,0
+CID9809562,[Dmt1]DALDA,0,0
+CID9811785,"2-[3-cyclopropylmethyl-11-hydroxy-15-methoxy-(14R)-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7,9,11-trien-16-yl]-3,3-dimethyl-2-butanol::2-[3-cyclopropylmethyl-11-hydroxy-15-methoxy-(15S)-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7,9,11-trien-16-yl]-3,3-dimethyl-2-butanol(Buprenorphine)::BUPRENORPHINE::Buprenorphine(+)::Buprenorphine(-)::Buprenorphine2-(3-cyclopropylmethyl-11-hydroxy-15-methoxy-13-oxa-3-azahexacyclo[13.2.2.12,8.01,6.06,14.07,12]icosa-7,9,11-trien-16-yl)-3,3-dimethyl-2-butanol(::CHEMBL560511",0,0
+CID9815618,Nor-d-fenfluramine::Nor-dexfenfluramine::Norfenfluramine::Norfenfluramine (+)::Norfenfluramine (-)::d-Norfenfluramine,0,0
+CID9816527,N&#39;-(3-Chloro-4-morpholinophenyl)-N-hydroxyformamidine::TS-011,0,0
+CID9818903,(R)-4-(2-(2-(2-methylpyrrolidin-1-yl)ethyl)benzofuran-5-yl)benzonitrile::4-{2-[2-((R)-2-Methyl-pyrrolidin-1-yl)-ethyl]-benzofuran-5-yl}-benzonitrile::ABT-239::CHEMBL351231,0,0
+CID9823370,"8-Bromo-7-oxo-3b,4,5,6-tetrahydro-7H-2,6a,11b-triaza-benzo[g]cyclopenta[e]azulene-3-carboxylic acid tert-butyl ester::Bretazenil::CHEMBL444045::Ro-16-6028",0,0
+CID9839975,CAS_0::CHEMBL14812::GT 2016::NSC_0,0,0
+CID9848149,"DiPOA::[8-(3,3-Diphenyl-propyl)-4-oxo-1-phenyl-1,3,8-triazaspiro[4.5]dec-3-yl]-acetic Acid",0,0
+CID9849616,"5-(4-Bromo-phenyl)-1-(2,4-dichloro-phenyl)-4-ethyl-1H-pyrazole-3-carboxylic acid piperidin-1-ylamide::CHEMBL189676::SR 147778",0,0
+CID9850582,"CHEMBL56835::N-[4-(4-Acetylamino-4-phenyl-piperidin-1-yl)-2-(3,4-dichloro-phenyl)-butyl]-N-methyl-benzamide::SR 48968",0,0
+CID9863250,(R)-4-Methyl-1-(2-(1-toluene-3-sulfonyl)-pyrrolidin-2-yl)-ethyl)-piperidine (Oxalate salt)::4-Methyl-1-{2-[(R)-1-(toluene-3-sulfonyl)-pyrrolidin-2-yl]-ethyl}-piperidine::4-Methyl-1-{2-[(S)-1-(toluene-3-sulfonyl)-pyrrolidin-2-yl]-ethyl}-piperidine::4-Methyl-1-{2-[1-(toluene-3-sulfonyl)-pyrrolidin-2-yl]-ethyl}-piperidine::CHEMBL12624::SB-258741,0,0
+CID9868452,S33084,0,0
+CID9882979,"CHEMBL284994::CP-52003::SERTRALINE::[4-(3,4-Dichloro-phenyl)-1,2,3,4-tetrahydro-naphthalen-1-yl]-methyl-amine",0,0
+CID9884746,(R)-4'-(3-(3-(dimethylamino)pyrrolidin-1-yl)propoxy)biphenyl-4-carbonitrile::4'-[3-((R)-3-Dimethylamino-pyrrolidin-1-yl)-propoxy]-biphenyl-4-carbonitrile::A-331440::CHEMBL319000,0,0
+CID9903970,CAS_163091::NSC_163091::ORG-5222,0,0
+CID9917944,SSR240600,0,0
+CID9918828,"(5S,8S,11S,14R,17S,19aS)-11-(4-Amino-butyl)-5,17-dibenzyl-8-((R)-1-hydroxy-ethyl)-14-(1H-indol-3-ylmethyl)-tetradecahydro-3a,6,9,12,15,18-hexaaza-cyclopentacyclooctadecene-4,7,10,13,16,19-hexaone::CHEMBL421362::L-361,301::L-363,301::L-363301",0,0
+CID9921157,CAS_3045225::NSC_3045225::YM348,0,0
+CID9925530,S32504,0,0
+CID9925999,S33005,0,0
+CID9933831,CAS_146032-79-3::SC-51322,0,0
+CID9954017,"(4'-(3-((2R,5R)-2,5-dimethylpyrrolidin-1-yl)propoxy)biphenyl-4-yl)(morpholino)methanone::A-349821::CHEMBL179702::{4''-[3-((2R,5R)-2,5-Dimethyl-pyrrolidin-1-yl)-propoxy]-biphenyl-4-yl}-morpholin-4-yl-methanone::{4'-[3-((2R,5R)-2,5-Dimethyl-pyrrolidin-1-yl)-propoxy]-biphenyl-4-yl}-morpholin-4-yl-methanone",0,0
+CID9963480,BIM 23052::CAS_133073-82-2,0,0
+CID9985526,NNC 11-1607,0,0
