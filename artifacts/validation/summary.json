@@ -1,0 +1,21 @@
+{
+  "version": "v1-placeholder",
+  "timestamp": "2025-08-17T00:00:00Z",
+  "class_balance": 0.30,
+  "confusion": {
+    "TP": 50,
+    "TN": 120,
+    "FP": 30,
+    "FN": 20
+  },
+  "links": {
+    "metrics_json": "artifacts/metrics.json",
+    "calibration_bins_file": "artifacts/validation/calibration.csv",
+    "prediction_hist_file": "artifacts/validation/pred_dist.png"
+  },
+  "notes": [
+    "Placeholder summary.json to unblock the UI.",
+    "Run scripts/make_artifacts_from_real.py to regenerate with real values.",
+    "A–H validation bundle: class balance, calibration bins, prediction histogram; extend with CIs/ablations next."
+  ]
+}
